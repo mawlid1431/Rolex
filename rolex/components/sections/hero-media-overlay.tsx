@@ -1,10 +1,12 @@
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from "react"
-import { motion, useMotionValue, useReducedMotion, useTransform } from "framer-motion"
+import { motion, useScroll, useMotionValueEvent, useTransform } from "framer-motion"
 import Link from "next/link"
 import { resolveHref } from "@/lib/site"
 import { cn } from "@/lib/utils"
+import { usePreferences } from "@/components/providers/preferences"
+import { createVideoScrubber } from "@/lib/animations/video-scrub"
 
 /**
  * Sticky track length in viewport heights.
@@ -44,12 +46,6 @@ export type HeroMediaOverlayProps = {
   items: HeroRollerItem[]
 }
 
-function readHeroProgress(root: HTMLElement) {
-  const total = Math.max(1, root.offsetHeight - window.innerHeight)
-  const scrolled = Math.min(total, Math.max(0, -root.getBoundingClientRect().top))
-  return scrolled / total
-}
-
 /**
  * Homepage hero.
  * Sticky film scrubbed by scroll → title fades → dark overlay → featured roller cards.
@@ -69,10 +65,9 @@ export function HeroMediaOverlay({
 }: HeroMediaOverlayProps) {
   const rootRef = useRef<HTMLDivElement>(null)
   const videoRef = useRef<HTMLVideoElement>(null)
-  const reducedMotion = useReducedMotion()
-  const [ready, setReady] = useState(false)
+  const { reducedMotion } = usePreferences()
   const [installationVisible, setInstallationVisible] = useState(false)
-  const progress = useMotionValue(0)
+  const { scrollYProgress: progress } = useScroll({ target: rootRef, offset: ["start start", "end end"] })
 
   const overlayOpacity = useTransform(
     progress,
@@ -85,72 +80,20 @@ export function HeroMediaOverlay({
     [1, 1, 0, 0],
   )
 
-  useEffect(() => {
-    const root = rootRef.current
-    if (!root || reducedMotion) {
-      setInstallationVisible(false)
-      return
-    }
-
-    let raf = 0
-    const tick = () => {
-      const p = readHeroProgress(root)
-      progress.set(p)
-
-      setInstallationVisible((prev) => {
-        if (!prev && p >= PHASE.cardsEnter) return true
-        if (prev && p <= PHASE.cardsReset) return false
-        return prev
-      })
-
-      const video = videoRef.current
-      if (video) {
-        const duration = video.duration
-        if (Number.isFinite(duration) && duration > 0) {
-          const scrub = Math.min(1, Math.max(0, p / PHASE.scrubEnd))
-          const next = scrub * duration
-          if (Math.abs(video.currentTime - next) > 0.033) {
-            try {
-              video.currentTime = next
-            } catch {
-              /* ignore seek before metadata */
-            }
-          }
-          if (!video.paused) video.pause()
-        }
-      }
-    }
-
-    const onScroll = () => {
-      cancelAnimationFrame(raf)
-      raf = requestAnimationFrame(tick)
-    }
-
-    tick()
-    window.addEventListener("scroll", onScroll, { passive: true })
-    window.addEventListener("resize", onScroll, { passive: true })
-    return () => {
-      cancelAnimationFrame(raf)
-      window.removeEventListener("scroll", onScroll)
-      window.removeEventListener("resize", onScroll)
-    }
-  }, [progress, reducedMotion])
-
-  useEffect(() => {
-    const t = window.setTimeout(() => setReady(true), 80)
-    return () => window.clearTimeout(t)
-  }, [])
+  useMotionValueEvent(progress, "change", (p) => {
+    if (!installationVisible && p >= PHASE.cardsEnter) setInstallationVisible(true)
+    else if (installationVisible && p <= PHASE.cardsReset) setInstallationVisible(false)
+  })
 
   useEffect(() => {
     const video = videoRef.current
-    if (!video) return
-    const lock = () => {
-      video.pause()
-    }
-    video.addEventListener("play", lock)
-    lock()
-    return () => video.removeEventListener("play", lock)
-  }, [ready])
+    if (!video || reducedMotion) return
+    const scrubber = createVideoScrubber(video)
+    const update = (p: number) => scrubber.seek(p / PHASE.scrubEnd)
+    update(progress.get())
+    const unsubscribe = progress.on("change", update)
+    return () => { unsubscribe(); scrubber.dispose() }
+  }, [progress, reducedMotion])
 
   const cta = resolveHref(ctaHref)
   const showInstall = reducedMotion ? false : installationVisible
@@ -169,14 +112,14 @@ export function HeroMediaOverlay({
         "hero-media-overlay relative dark-theme full-grid -mt-[calc(var(--nav-bar-height,3.5rem)-1px)]",
         className,
       )}
-      style={{ height: `${HERO_SCROLL_VH}vh` }}
+      style={{ height: reducedMotion ? "100svh" : `${HERO_SCROLL_VH}svh` }}
     >
-      {ready && (
+      {(
         <div
           className="sticky top-0 col-[doc] row-start-1 h-[100svh] w-full overflow-hidden"
           onClick={onMediaClick}
         >
-          <video
+          {!reducedMotion && <video
             ref={videoRef}
             className="absolute inset-0 size-full object-cover"
             muted
@@ -189,17 +132,16 @@ export function HeroMediaOverlay({
               <source media="(max-width: 767px)" src={videoPortraitSrc} type="video/mp4" />
             )}
             <source src={videoSrc} type="video/mp4" />
-          </video>
-          <picture className="pointer-events-none absolute inset-0 -z-[1]">
+          </video>}
+          <picture className={cn("pointer-events-none absolute inset-0", !reducedMotion && "-z-[1]")}>
             {posterPortraitSrc && (
               <source media="(max-width: 767px)" srcSet={posterPortraitSrc} />
             )}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={posterSrc} alt="" className="size-full object-cover" />
+            <img src={posterSrc} alt="" fetchPriority="high" className="size-full object-cover" />
           </picture>
 
           <motion.div
-            className="pointer-events-none absolute inset-0 z-[1] bg-black/80 backdrop-blur-[5px]"
+            className="pointer-events-none absolute inset-0 z-[1] bg-black/80"
             style={{ opacity: reducedMotion ? 0 : overlayOpacity }}
             aria-hidden
           />
@@ -247,6 +189,7 @@ export function HeroMediaOverlay({
         className="pointer-events-none sticky top-0 z-[3] col-[doc] row-start-1 flex h-[100svh] items-center overflow-hidden"
         style={{ pointerEvents: showInstall ? "auto" : "none" }}
         aria-hidden={!showInstall}
+        inert={!showInstall}
       >
         <nav
           id="featured"

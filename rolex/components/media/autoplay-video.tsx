@@ -62,29 +62,26 @@ export const AutoplayVideo = forwardRef<AutoplayVideoHandle, AutoplayVideoProps>
       return
     }
 
-    const tryPlay = () => {
-      if (!userPaused && !reducedMotion) node.play().catch(() => {})
+    let visible = false
+    const syncPlayback = () => {
+      if (visible && !document.hidden) node.play().catch(() => {})
+      else node.pause()
     }
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // Prefer isIntersecting — ratio-only checks miss mid-scroll callbacks in some browsers.
-        if (entry.isIntersecting && entry.intersectionRatio >= Math.min(threshold, 0.05)) tryPlay()
-        else if (!entry.isIntersecting) node.pause()
+        visible = entry.isIntersecting && entry.intersectionRatio >= threshold
+        syncPlayback()
       },
-      { threshold: [0, 0.05, 0.2, 0.5, 1], rootMargin: "0px 0px -10% 0px" },
+      { threshold: [0, threshold], rootMargin: "0px" },
     )
     observer.observe(node)
-    node.addEventListener("loadeddata", tryPlay)
-    requestAnimationFrame(() => {
-      const rect = node.getBoundingClientRect()
-      const visible = rect.bottom > 0 && rect.top < window.innerHeight
-      if (visible) tryPlay()
-    })
+    document.addEventListener("visibilitychange", syncPlayback)
 
     return () => {
       observer.disconnect()
-      node.removeEventListener("loadeddata", tryPlay)
+      document.removeEventListener("visibilitychange", syncPlayback)
+      node.pause()
     }
   }, [manual, reducedMotion, threshold, userPaused])
 
@@ -93,7 +90,6 @@ export const AutoplayVideo = forwardRef<AutoplayVideoHandle, AutoplayVideoProps>
     return (
       <picture className={className}>
         {portraitPoster !== posterSrc && <source media="(max-width: 767px)" srcSet={portraitPoster} />}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={posterSrc} alt={alt} className={cn("block size-full object-cover", videoClassName)} loading={priority ? "eager" : "lazy"} />
       </picture>
     )
@@ -109,7 +105,7 @@ export const AutoplayVideo = forwardRef<AutoplayVideoHandle, AutoplayVideoProps>
         muted
         loop={loop}
         playsInline
-        preload={priority ? "auto" : "metadata"}
+        preload={reducedMotion ? "none" : priority ? "auto" : "none"}
         aria-label={alt || undefined}
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}

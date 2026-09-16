@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { Footer } from "@/components/layout/footer"
 import { HomePage } from "@/components/pages/home-page"
 
 export const metadata: Metadata = {
@@ -13,7 +12,6 @@ export default function RootPage() {
   return (
     <>
       <HomePage />
-      <Footer breadcrumb={[{ title: "Home", href: "/" }]} />
     </>
   )
 }

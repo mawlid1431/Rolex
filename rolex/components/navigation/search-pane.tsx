@@ -12,7 +12,7 @@ const HISTORY_KEY = "searchList"
 function readHistory(): string[] {
   try {
     const parsed = JSON.parse(localStorage.getItem(HISTORY_KEY) ?? "[]")
-    return Array.isArray(parsed) ? parsed.slice(0, 5) : []
+    return Array.isArray(parsed) ? parsed.filter((item): item is string => typeof item === "string").slice(0, 5) : []
   } catch {
     return []
   }
@@ -28,8 +28,10 @@ export function SearchPane() {
 
   useEffect(() => {
     if (!open) return
-    setHistory(readHistory())
-    const id = setTimeout(() => input.current?.focus({ preventScroll: true }), 150)
+    const id = setTimeout(() => {
+      setHistory(readHistory())
+      input.current?.focus({ preventScroll: true })
+    }, 150)
     return () => clearTimeout(id)
   }, [open])
 
@@ -51,7 +53,7 @@ export function SearchPane() {
           role="dialog"
           aria-modal="true"
           aria-label="Search"
-          className="fixed inset-x-0 top-0 z-[9994] bg-white pt-[var(--nav-main-bar-height)] pb-12 m:pb-16"
+          className="fixed inset-x-0 top-0 z-[9997] max-h-[100svh] overflow-y-auto bg-white pt-[var(--nav-main-bar-height)] pb-12 m:pb-16"
           initial={{ y: "-100%" }}
           animate={{ y: 0 }}
           exit={{ y: "-100%" }}
@@ -104,7 +106,7 @@ export function SearchPane() {
                         type="button"
                         className="flex items-center gap-1.5 bg-transparent text-xs font-normal text-black"
                         onClick={() => {
-                          localStorage.removeItem(HISTORY_KEY)
+                          try { localStorage.removeItem(HISTORY_KEY) } catch {}
                           setHistory([])
                         }}
                       >

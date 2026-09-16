@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { Footer, type BreadcrumbItem } from "@/components/layout/footer"
 import { SubNavigation } from "@/components/navigation/sub-navigation"
 import { RenderBlocks } from "@/components/cms/render-blocks"
 import { parseModularBlock } from "@/lib/cms/parse"
@@ -22,7 +21,6 @@ export function cmsMetadata(page: CmsPageData): Metadata {
 export function CmsPage({ page }: { page: CmsPageData }) {
   const blocks = parseModularBlock(page.components)
   const subNav = toSubNavigation(page.sub_navigation as Parameters<typeof toSubNavigation>[0])
-  const breadcrumb = (page.breadcrumb ?? []) as BreadcrumbItem[]
 
   return (
     <>
@@ -30,7 +28,6 @@ export function CmsPage({ page }: { page: CmsPageData }) {
       <main id="main">
         <RenderBlocks blocks={blocks} />
       </main>
-      {!page.nofooter && <Footer breadcrumb={breadcrumb} />}
     </>
   )
 }

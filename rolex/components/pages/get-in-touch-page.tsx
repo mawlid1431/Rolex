@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Footer } from "@/components/layout/footer"
 import { localPath, ROUTES } from "@/lib/site"
 
 export function GetInTouchPage() {
@@ -23,7 +22,7 @@ export function GetInTouchPage() {
               <div className="rounded-sm border border-green/30 bg-white p-8">
                 <h2 className="headline50 mb-2 text-[1.5rem]">Thank you</h2>
                 <p className="body100 mb-6 font-light text-dark-grey">
-                  Your message has been recorded locally for this demo. An Official Rolex Retailer can help you continue.
+                  This is a demo confirmation. Your message has not been sent or saved. Contact a retailer directly to continue.
                 </p>
                 <Link href={localPath(ROUTES.cart)} className="btn btn-filled inline-flex min-h-11 items-center rounded-full px-6 text-sm">
                   Back to cart
@@ -73,12 +72,6 @@ export function GetInTouchPage() {
           </div>
         </section>
       </main>
-      <Footer
-        breadcrumb={[
-          { title: "Home", href: "/" },
-          { title: "Get in touch", href: "/get-in-touch" },
-        ]}
-      />
     </>
   )
 }

@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link"
-import { Footer } from "@/components/layout/footer"
 import { useCart } from "@/lib/cart"
 import { localPath } from "@/lib/site"
 import { getWatch, WATCH_COLLECTIONS, watchPath } from "@/lib/watches"
@@ -81,7 +80,6 @@ export function CartPage() {
           )}
         </div>
       </main>
-      <Footer breadcrumb={[{ title: "Home", href: "/" }, { title: "Cart", href: "/cart" }]} />
     </>
   )
 }

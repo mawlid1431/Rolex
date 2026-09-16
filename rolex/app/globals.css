@@ -65,6 +65,7 @@
   --alternate-grey: 216 216 216;
   --another-light-grey: 236 236 236;
   --light-grey: 248 248 248;
+  --light-beige: 247 246 242;
   --pure-white: 255 255 255;
   --gradient-green-from: 16 99 61;
   --gradient-green-to: 26 145 90;
@@ -612,6 +613,9 @@ html.prefers-reduced-motion *,
 html.prefers-reduced-motion *::before,
 html.prefers-reduced-motion *::after {
   scroll-behavior: auto !important;
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
 }
 
 html.prefers-contrast .text-gradient {
@@ -624,4 +628,81 @@ html.prefers-contrast .btn[class*="btn-opaque"] {
   --container: white;
   --text: black;
   border: 2px solid black;
+}
+
+/* Footer: liquid-glass card with a gentle one-time reveal. */
+.footer-glass-shell {
+  background: linear-gradient(180deg, #fff 0%, #c9c9c9 12%, #a1a1a1 45%, #8a8a8a 100%);
+  box-shadow: none;
+  transition:
+    opacity 800ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.footer-glass-panel {
+  background: linear-gradient(150deg, #d0d0d0 0%, #e8e8e8 50%, #c8c8c8 100%);
+  box-shadow:
+    inset 0 1px 1.5px rgba(0, 0, 0, 0.07),
+    inset 0 -1px 1.5px rgba(0, 0, 0, 0.07);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:not(.prefers-reduced-motion) .footer-reveal:not([data-revealed]) {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+
+.footer-glass-pill {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 8px 20px -6px rgba(148, 160, 181, 0), -4px -4px 12px rgba(255, 255, 255, 0);
+}
+
+.footer-glass-chip {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.footer-glass-pill:hover,
+.footer-glass-pill[aria-current="page"] {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    0 8px 20px -6px rgba(148, 160, 181, 0.45),
+    -4px -4px 12px rgba(255, 255, 255, 0.5);
+}
+
+.footer-glass-cta {
+  background: linear-gradient(180deg, rgb(26 145 90) 0%, rgb(11 62 39) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -1px 1px rgba(0, 0, 0, 0.5),
+    0 7px 16px -6px rgba(11, 62, 39, 0.5);
+  transition: box-shadow 300ms ease-out, transform 300ms ease-out;
+}
+
+.footer-glass-cta:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    inset 0 -1px 1px rgba(0, 0, 0, 0.5),
+    0 12px 24px -6px rgba(11, 62, 39, 0.6);
+}
+
+.footer-glass-cta:focus-visible {
+  outline: 2px solid rgb(18 119 73);
+  outline-offset: 3px;
+}
+
+.footer-glass-shine {
+  position: absolute;
+  inset: -50% -30%;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.45) 50%, transparent 100%);
+  opacity: 0;
+  transform: translateX(-60%) rotate(20deg);
+  transition: opacity 300ms ease-out, transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.footer-glass-cta:hover .footer-glass-shine {
+  opacity: 1;
+  transform: translateX(60%) rotate(20deg);
 }

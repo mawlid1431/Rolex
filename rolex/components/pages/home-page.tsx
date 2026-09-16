@@ -81,6 +81,8 @@ export function HomePage() {
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
+            loading="lazy"
+            decoding="async"
             src="/images/homepage/welcome-back-push.avif"
             alt=""
             className="w-full max-w-xl justify-self-center object-cover"
@@ -94,6 +96,8 @@ export function HomePage() {
             <article key={item.id} id={item.id} className="scroll-mt-28">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
+                loading="lazy"
+                decoding="async"
                 src={item.image}
                 alt={item.imageAlt}
                 className="mb-4 aspect-[4/5] w-full object-cover m:aspect-[3/4]"
@@ -131,6 +135,8 @@ export function HomePage() {
                       <Link href={localPath(watchPath(item.slug))} className="group block">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
+                          loading="lazy"
+                          decoding="async"
                           src={item.image}
                           alt=""
                           className="mb-3 aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
@@ -148,6 +154,7 @@ export function HomePage() {
             </section>
           )}
           <WatchScrollHero
+            priority={false}
             kicker={watch.kicker}
             title={watch.name}
             subtitle={watch.tagline}

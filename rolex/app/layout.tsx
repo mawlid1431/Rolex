@@ -5,6 +5,7 @@ import { NavProvider } from "@/components/navigation/nav-context"
 import { SiteHeader } from "@/components/navigation/site-header"
 import { PreferencesProvider, preferencesScript } from "@/components/providers/preferences"
 import { cn } from "@/lib/utils"
+import { Footer } from "@/components/layout/footer"
 import "./globals.css"
 
 const helveticaNow = localFont({
@@ -26,7 +27,7 @@ const rolexFont = localFont({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000")),
   title: {
     default: "Rolex (SG)",
     template: "%s (SG)",
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HomeScrollReset />
             <SiteHeader />
             {children}
+            <Footer />
           </NavProvider>
         </PreferencesProvider>
       </body>

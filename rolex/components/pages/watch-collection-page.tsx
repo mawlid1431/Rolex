@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link"
-import { Footer } from "@/components/layout/footer"
 import { WatchScrollHero } from "@/components/sections/watch-scroll-hero"
 import { useCart } from "@/lib/cart"
 import { useFavourites } from "@/lib/favourites"
@@ -105,13 +104,6 @@ export function WatchCollectionPage({ watch }: Props) {
           </section>
         )}
       </main>
-      <Footer
-        breadcrumb={[
-          { title: "Home", href: "/" },
-          { title: "Watches", href: "/watches" },
-          { title: watch.name, href: watchPath(watch.slug) },
-        ]}
-      />
     </>
   )
 }

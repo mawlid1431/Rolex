@@ -35,6 +35,7 @@ export function NavProvider({ children }: { children: React.ReactNode }) {
   const [pinned, setPinned] = useState(true)
   const [footerVisible, setFooterVisible] = useState(false)
   const pathname = usePathname()
+  const [previousPathname, setPreviousPathname] = useState(pathname)
   const lastFocus = useRef<HTMLElement | null>(null)
 
   const open = useCallback(
@@ -57,10 +58,11 @@ export function NavProvider({ children }: { children: React.ReactNode }) {
   const toggle = useCallback((next: Exclude<Pane, null>) => (pane === next ? close() : open(next)), [pane, open, close])
 
   // Close panes on route change.
-  useEffect(() => {
+  if (previousPathname !== pathname) {
+    setPreviousPathname(pathname)
     setPane(null)
     setSection(null)
-  }, [pathname])
+  }
 
   // Scroll lock while a pane is open.
   useEffect(() => {
@@ -83,11 +85,13 @@ export function NavProvider({ children }: { children: React.ReactNode }) {
     let previous = window.scrollY
     let distance = 0
     let state = true
-    const barHeight = () => document.querySelector<HTMLElement>("[data-main-bar]")?.offsetHeight ?? 80
+    const bar = document.querySelector<HTMLElement>("[data-main-bar]")
+    let safe = bar?.offsetHeight ?? 80
+    const observer = new ResizeObserver(() => { safe = bar?.offsetHeight ?? 80 })
+    if (bar) observer.observe(bar)
     const onScroll = () => {
       const latest = window.scrollY
       const delta = latest - previous
-      const safe = barHeight()
       if (latest <= safe) {
         distance = 0
         if (!state) setPinned((state = true))
@@ -107,7 +111,7 @@ export function NavProvider({ children }: { children: React.ReactNode }) {
       previous = latest
     }
     window.addEventListener("scroll", onScroll, { passive: true })
-    return () => window.removeEventListener("scroll", onScroll)
+    return () => { window.removeEventListener("scroll", onScroll); observer.disconnect() }
   }, [])
 
   const value = useMemo(

@@ -23,7 +23,6 @@ export function Picture({ media, alt = "", className, imgClassName, priority, si
   return (
     <picture className={className} style={style}>
       {portrait && portrait !== src && <source media="(max-width: 767px)" srcSet={portrait} />}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={src}
         alt={alt}
