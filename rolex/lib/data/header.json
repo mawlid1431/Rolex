@@ -1,0 +1,1122 @@
+{
+ "uid": "blt758a79e5b52e3075",
+ "menu": [
+  {
+   "section": {
+    "label": "Featured",
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "blt368da9b98b8ee22a",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xyza"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "New watches 2026",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - New watches 2026",
+            "href": "/watches/new-watches",
+            "assets": {
+             "alt": "New watches 2026",
+             "media": {
+              "src": "/images/new-watches-2026-perpetual-padellone-navigation_m53505-0003_2608stj_0005.avif",
+              "portraitSrc": "/images/new-watches-2026-perpetual-padellone-navigation_m53505-0003_2608stj_0005-portrait.avif",
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/049e3b0b345c/navigation/new-watches-2026-perpetual-padellone-navigation_m53505-0003_2608stj_0005"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Rolex Switzerland Sail Grand Prix Geneva",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Rolex Switzerland Sail Grand Prix Geneva",
+            "href": "/rolex-event/yachting/rolex-switzerland-sail-grand-prix-geneva",
+            "assets": {
+             "alt": "Rolex Switzerland Sail Grand Prix Geneva",
+             "media": {
+              "src": "/images/homepage-navigation-sailgp-geneva-square.avif",
+              "portraitSrc": "/images/homepage-navigation-sailgp-geneva-square.avif",
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/049e3b0b345c/navigation/2026/featured/homepage-navigation-sailgp-geneva-square"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Tom Slingsby",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Tom Slingsby",
+            "href": "/rolex-family/yachting/tom-slingsby",
+            "assets": {
+             "alt": "Tom Slingsby",
+             "media": {
+              "src": "/images/homepage-navigation-tom-slingsby_jb-5867-square.avif",
+              "portraitSrc": "/images/homepage-navigation-tom-slingsby_jb-5867-square.avif",
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/049e3b0b345c/navigation/2026/featured/homepage-navigation-tom-slingsby_jb-5867-square"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "One-of-a-kind auction",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - One-of-a-kind auction",
+            "href": "/auctions/one-of-a-kind-auction",
+            "assets": {
+             "alt": "The Four Seasons",
+             "media": {
+              "src": "/images/rolex-four-seasons-navigation-featured.avif",
+              "portraitSrc": "/images/rolex-four-seasons-navigation-featured.avif",
+              "width": 3840,
+              "height": 3060,
+              "portraitWidth": 3840,
+              "portraitHeight": 3060,
+              "id": "rolexcom/navigation/2026/featured/four-seasons/rolex-four-seasons-navigation-featured"
+             }
+            }
+           }
+          }
+         ],
+         "title": "navigation:featured:bento"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "section": {
+    "label": "Rolex watches and accessories",
+    "child_page_patterns": [
+     "/watches{/*pages}",
+     "/accessories{/*pages}"
+    ],
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "bltc636092fb41ea3f7",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xyxz"
+           }
+          },
+          {
+           "grid": {
+            "label": "2",
+            "pattern": "xyzy"
+           }
+          },
+          {
+           "grid": {
+            "label": "3",
+            "pattern": "xyxz"
+           }
+          },
+          {
+           "grid": {
+            "label": "4",
+            "pattern": "xyza"
+           }
+          },
+          {
+           "grid": {
+            "label": "5",
+            "pattern": "xyxz"
+           }
+          },
+          {
+           "grid": {
+            "label": "6",
+            "pattern": "xyzz"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "New watches 2026",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - New watches 2026",
+            "href": "/watches/new-watches",
+            "assets": {
+             "alt": "New watches 2026",
+             "media": {
+              "src": "/images/new-watches-2026-perpetual-padellone-navigation_m53505-0003_2608stj_0005.avif",
+              "portraitSrc": "/images/new-watches-2026-perpetual-padellone-navigation_m53505-0003_2608stj_0005-portrait.avif",
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/049e3b0b345c/navigation/new-watches-2026-perpetual-padellone-navigation_m53505-0003_2608stj_0005"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Land-Dweller",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Land-Dweller",
+            "href": "/watches/land-dweller",
+            "assets": {
+             "alt": "Land-Dweller",
+             "media": {
+              "src": "/images/classic-watches-land-dweller-naviguation-square.avif",
+              "portraitSrc": "/images/classic-watches-land-dweller-naviguation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/classic-watches-land-dweller-naviguation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Day-Date",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Day-Date",
+            "href": "/watches/day-date",
+            "assets": {
+             "alt": "Day-Date",
+             "media": {
+              "src": "/images/classic-watches-day-date-naviguation-square.avif",
+              "portraitSrc": "/images/classic-watches-day-date-naviguation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/classic-watches-day-date-naviguation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Sky-Dweller",
+            "aria_label": "Discover more - Sky-Dweller",
+            "href": "/watches/sky-dweller",
+            "assets": {
+             "alt": "Sky-Dweller",
+             "media": {
+              "src": "/images/classic-watches-sky-dweller-navigation-square.avif",
+              "portraitSrc": "/images/classic-watches-sky-dweller-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/classic-watches-sky-dweller-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Lady-Datejust",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Lady-Datejust",
+            "href": "/watches/lady-datejust",
+            "assets": {
+             "alt": "Lady-Datejust",
+             "media": {
+              "src": "/images/classic-watches-lady-datejust-navigation-square.avif",
+              "portraitSrc": "/images/classic-watches-lady-datejust-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/classic-watches-lady-datejust-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Datejust",
+            "aria_label": "Discover more - Datejust",
+            "href": "/watches/datejust",
+            "assets": {
+             "alt": "Datejust",
+             "media": {
+              "src": "/images/classic-watches-datejust-navigation-portrait.avif",
+              "portraitSrc": "/images/classic-watches-datejust-navigation-portrait.avif",
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/classic-watches-datejust-navigation-square"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Oyster Perpetual",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Oyster Perpetual",
+            "href": "/watches/oyster-perpetual",
+            "assets": {
+             "alt": "Oyster Perpetual",
+             "media": {
+              "src": "/images/classic-watches-oyster-perpetual-naviguation-portrait.avif",
+              "portraitSrc": "/images/classic-watches-oyster-perpetual-naviguation-portrait.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/classic-watches-oyster-perpetual-naviguation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Cosmograph Daytona",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Cosmograph Daytona",
+            "href": "/watches/cosmograph-daytona",
+            "assets": {
+             "alt": "Cosmograph Daytona",
+             "media": {
+              "src": "/images/professional-watches-cosmograph-daytona-naviguation-square.avif",
+              "portraitSrc": "/images/professional-watches-cosmograph-daytona-naviguation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-cosmograph-daytona-naviguation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Submariner",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Submariner",
+            "href": "/watches/submariner",
+            "assets": {
+             "alt": "Submariner",
+             "media": {
+              "src": "/images/professional-watches-submariner-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-submariner-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-submariner-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Sea-Dweller",
+            "aria_label": "Discover more - Sea-Dweller",
+            "href": "/watches/sea-dweller",
+            "assets": {
+             "alt": "Sea-Dweller",
+             "media": {
+              "src": "/images/professional-watches-sea-dweller-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-sea-dweller-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-sea-dweller-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Deepsea",
+            "aria_label": "Discover more - Deepsea",
+            "href": "/watches/deepsea",
+            "assets": {
+             "alt": "Deepsea",
+             "media": {
+              "src": "/images/professional-watches-deepsea-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-deepsea-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-deepsea-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "GMT-Master II",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - GMT-Master II",
+            "href": "/watches/gmt-master-ii",
+            "assets": {
+             "alt": "GMT-Master II",
+             "media": {
+              "src": "/images/professional-watches-gmt-master-ii-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-gmt-master-ii-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-gmt-master-ii-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Yacht-Master",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Yacht-Master",
+            "href": "/watches/yacht-master",
+            "assets": {
+             "alt": "Yacht-Master",
+             "media": {
+              "src": "/images/professional-watches-yacht-master-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-yacht-master-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-yacht-master-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Yacht-Master II",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Yacht-Master II",
+            "href": "/watches/yacht-master-ii",
+            "assets": {
+             "alt": "Yacht-Master II",
+             "media": {
+              "src": "/images/professional-watches-yacht-master-ii-navigation-portrait.avif",
+              "portraitSrc": "/images/professional-watches-yacht-master-ii-navigation-portrait.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-yacht-master-ii-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Explorer",
+            "aria_label": "Discover more - Explorer",
+            "href": "/watches/explorer",
+            "assets": {
+             "alt": "Explorer",
+             "media": {
+              "src": "/images/professional-watches-explorer-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-explorer-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-explorer-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Explorer II",
+            "aria_label": "Discover more - Explorer II",
+            "href": "/watches/explorer-ii",
+            "assets": {
+             "alt": "Explorer II",
+             "media": {
+              "src": "/images/professional-watches-explorer-ii-navigation-square.avif",
+              "portraitSrc": "/images/professional-watches-explorer-ii-navigation-square.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-explorer-ii-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Air-King",
+            "aria_label": "Discover more - Air-King",
+            "href": "/watches/air-king",
+            "assets": {
+             "alt": "Air-King",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/094398bf1f99/navigation/professional-watches-air-king-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "1908",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - 1908",
+            "href": "/watches/1908",
+            "assets": {
+             "alt": "1908",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/watches-and-accessories/classic-watches-1908-m52508-0008-navigation-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Rolex accessories",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Rolex accessories",
+            "href": "/accessories",
+            "assets": {
+             "alt": "Rolex accessories",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/watches-and-accessories/rolex-main-navigation-watches-and-accessories-accessories-square-navigation_rolexcufflinks_2312jva_002_rvb-landscape"
+             }
+            }
+           }
+          }
+         ],
+         "title": "navigation:watches-and-accessories:bento"
+        }
+       ]
+      }
+     },
+     {
+      "action": {
+       "label": "View all watches",
+       "aria_label": "view all watches",
+       "href": "/watches/find-rolex"
+      }
+     },
+     {
+      "action": {
+       "label": "Configure your Rolex",
+       "aria_label": "configure your rolex",
+       "href": "/watches/configure"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "section": {
+    "label": "Watchmaking",
+    "child_page_patterns": [
+     "/watchmaking{/*pages}"
+    ],
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "blte71d4388abc9a601",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xyxy"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "A unique approach",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - A unique approach",
+            "href": "/watchmaking/a-unique-approach",
+            "assets": {
+             "alt": "At the core of excellence",
+             "media": {
+              "src": "/images/rolex-watchmaking-our-values-navigation-wmfinalassembly_2201fl_003_v2-portrait.avif",
+              "portraitSrc": "/images/rolex-watchmaking-our-values-navigation-wmfinalassembly_2201fl_003_v2-portrait.avif",
+              "width": 605,
+              "height": 237,
+              "portraitWidth": 297,
+              "portraitHeight": 482,
+              "id": "rolexcom/watchmaking/navigation/rolex-watchmaking-our-values-navigation-wmfinalassembly_2201fl_003_v2-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Anatomy of a Rolex",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Anatomy of a Rolex",
+            "href": "/watchmaking/features",
+            "assets": {
+             "alt": "The anatomy of a Rolex",
+             "media": {
+              "src": "/images/rolex-watchmaking-anatomy-of-a-rolex-navigation_spiral_2301_004e_rvb-portrait.avif",
+              "portraitSrc": "/images/rolex-watchmaking-anatomy-of-a-rolex-navigation_spiral_2301_004e_rvb-portrait.avif",
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/watchmaking/navigation/rolex-watchmaking-anatomy-of-a-rolex-navigation_spiral_2301_004e_rvb-landscape"
+             }
+            }
+           }
+          }
+         ],
+         "title": "navigation:watchmaking:bento"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "section": {
+    "label": "Oyster Story",
+    "child_page_patterns": [
+     "/oyster-story{/*pages}"
+    ],
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "bltacfbd0d9786ad437",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xxyy"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "Oyster Story",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Oyster Story",
+            "href": "/oyster-story",
+            "assets": {
+             "alt": "Oyster Story",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 711,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/oyster-story/rolex-main-navigation-oyster-story-bento-landscape-m126233-0015_first_oyster_octagonal_1926_2604_0001_ecirgb"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "The film",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - The film",
+            "href": "/oyster-story/oyster-film",
+            "assets": {
+             "alt": "Oyster Story - The Film",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 711,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/oyster-story/rolex-main-navigation-oyster-story-the-film-navigation-bento-landscape-951713288_cmyk"
+             }
+            }
+           }
+          }
+         ],
+         "title": "rolex:navigation:main:oyster-story:bento"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "section": {
+    "label": "About Rolex",
+    "child_page_patterns": [
+     "/about-rolex{/*pages}"
+    ],
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "blt37ad0ad336b40d9e",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xyxz"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "Sustainability",
+            "aria_label": "Discover more - Sustainability",
+            "href": "/about-rolex/sustainable-development",
+            "assets": {
+             "alt": "Sustainability",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/about-rolex/rolex-main-navigation-about-rolex-sustainability-navigation_v4_gettyimages-85758322-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Behind the crown",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Behind the crown",
+            "href": "/about-rolex/behind-the-crown",
+            "assets": {
+             "alt": "Behind the crown",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/about-rolex/rolex-main-navigation-about-rolex-the-man-behind-the-crown-navigation_a_stroke_of_genius-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "History",
+            "aria_label": "Discover more - History",
+            "href": "/about-rolex/history/1905-1919",
+            "assets": {
+             "alt": "History",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/about-rolex/rolex-main-navigation-about-rolex-history-of-rolex-navigation_1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002_r-landscape"
+             }
+            }
+           }
+          }
+         ],
+         "title": "navigation:about-rolex:bento"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "section": {
+    "label": "Sports, Arts and Planet",
+    "child_page_patterns": [
+     "/rolex-family{/*pages}",
+     "/rolex-and-sports{/*pages}",
+     "/perpetual-initiatives{/*pages}"
+    ],
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "blt85b495b87ce32399",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xxyz"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "Rolex and sports",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Rolex and sports",
+            "href": "/rolex-and-sports",
+            "assets": {
+             "alt": "Rolex and sports",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/sports-and-planet/rolex-main-navigation-sports-and-planet-rolex-and-sports-navigation-wim22jj_06392_r2-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Perpetual Arts",
+            "aria_label": "Discover more - Perpetual Arts",
+            "href": "/perpetual-initiatives/perpetual-arts",
+            "assets": {
+             "alt": "Perpetual Arts",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/sports-and-planet/rolex-main-navigation-sports-and-planet-perpetual-arts-navigation_perp_music_paris_20at_0059_r-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Perpetual Planet",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Perpetual Planet",
+            "href": "/perpetual-initiatives/perpetual-planet",
+            "assets": {
+             "alt": "Perpetual Planet",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/sports-and-planet/rolex-main-navigation-sports-and-planet-perpetual-planet-navigation_dji_0270-panorama-landscape"
+             }
+            }
+           }
+          }
+         ],
+         "title": "navigation:sports-arts-planet:bento"
+        }
+       ]
+      }
+     },
+     {
+      "action": {
+       "label": "Discover the Rolex family",
+       "aria_label": "Discover the Rolex family",
+       "href": "/rolex-family"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "section": {
+    "label": "Buying and servicing",
+    "child_page_patterns": [
+     "/buying-a-rolex{/*pages}",
+     "/watch-care-and-service{/*pages}"
+    ],
+    "items": [
+     {
+      "bento": {
+       "reference": [
+        {
+         "_content_type_uid": "navigation_bento",
+         "uid": "blt4f08121724d571f7",
+         "grids": [
+          {
+           "grid": {
+            "label": "1",
+            "pattern": "xyza"
+           }
+          }
+         ],
+         "items": [
+          {
+           "item": {
+            "label": "Buying a Rolex",
+            "aria_label": "Discover more - Buying a Rolex",
+            "href": "/buying-a-rolex/experiencing-a-rolex",
+            "assets": {
+             "alt": "Buying a Rolex",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/rolex-retailers/buying-and-servicing-navigation-elmt_2603fg_041-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Rolex Certified Pre‑Owned",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Rolex Certified Pre‑Owned",
+            "href": "/buying-a-rolex/rolex-certified-pre-owned",
+            "assets": {
+             "alt": "Rolex Certified Pre‑Owned",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 708,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/navigation/2026/rolex-retailers/rolex-main-navigation-rolex-retailers-rolex-certified-pre-owned-navigation_m16628_2403ac_003-landscape"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Servicing your Rolex",
+            "theme": {
+             "theme": "dark-theme"
+            },
+            "aria_label": "Discover more - Servicing a Rolex",
+            "href": "/watch-care-and-service/our-servicing-philosophy",
+            "assets": {
+             "alt": "Servicing a Rolex",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/rolex-retailers/navigation/servicing-a-rolex/care-and-servicing-servicing-your-rolex-navigation_2301_rolex_sav_retailers_175_controle-final_fermoir_v2-square"
+             }
+            }
+           }
+          },
+          {
+           "item": {
+            "label": "Caring for your Rolex",
+            "theme": {
+             "theme": "light-theme"
+            },
+            "aria_label": "Discover more - Caring for your Rolex",
+            "href": "/watch-care-and-service/caring-for-your-rolex",
+            "assets": {
+             "alt": "Servicing a Rolex",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1815,
+              "height": 1446,
+              "portraitWidth": 891,
+              "portraitHeight": 1446,
+              "id": "rolexcom/rolex-retailers/navigation/caring-for-your-rolex/care-and-servicing-your-rolex-caring-for-your-rolex-how-to-use-your-rolex-navigation_manippos_2002pd_001-square"
+             }
+            }
+           }
+          }
+         ],
+         "title": "navigation:buying-and-servicing:bento"
+        }
+       ]
+      }
+     },
+     {
+      "action": {
+       "label": "Find a retailer",
+       "aria_label": "Find a retailer",
+       "href": "/store-locator"
+      }
+     },
+     {
+      "action": {
+       "label": "Find a service centre",
+       "aria_label": "Find a service centre",
+       "href": "/watch-care-and-service/service-locator"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "shortcut": {
+    "label": "Configure your Rolex",
+    "aria_label": "Configure your Rolex",
+    "href": "/watches/configure"
+   }
+  },
+  {
+   "shortcut": {
+    "label": "Store locator",
+    "aria_label": "Store locator",
+    "href": "/store-locator"
+   }
+  }
+ ],
+ "title": "rolex:navigation:main",
+ "tools": [
+  {
+   "action": {
+    "label": "Find your Rolex",
+    "aria_label": "Find your Rolex",
+    "href": "/watches/find-rolex"
+   }
+  },
+  {
+   "action": {
+    "label": "Configure Rolex watches",
+    "aria_label": "Configure Rolex watches",
+    "href": "/watches/configure"
+   }
+  },
+  {
+   "action": {
+    "label": "Frequently Asked Questions",
+    "aria_label": "Frequently Asked Questions",
+    "href": "/watch-care-and-service/faq"
+   }
+  },
+  {
+   "shortcut": {
+    "label": "Find your rolex",
+    "aria_label": "Find your rolex",
+    "href": "/watches/find-rolex"
+   }
+  },
+  {
+   "shortcut": {
+    "label": "Find a retailer",
+    "aria_label": "Find a retailer",
+    "href": "/store-locator"
+   }
+  }
+ ],
+ "_content_type_uid": "navigation_main"
+}

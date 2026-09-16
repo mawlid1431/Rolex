@@ -1,0 +1,1062 @@
+{
+ "uid": "bltc27f1f59573a4a0a",
+ "url": "/watchmaking/a-unique-approach",
+ "back": false,
+ "breadcrumb": [
+  {
+   "title": "Watchmaking ",
+   "href": "/watchmaking/excellence-in-the-making"
+  }
+ ],
+ "components": [
+  {
+   "covers": {
+    "component": [
+     {
+      "uid": "blt73e64f399631ce8b",
+      "_content_type_uid": "cover_video",
+      "heading": {
+       "kicker": "Watchmaking",
+       "title": "A unique approach"
+      },
+      "theme": {
+       "theme": "dark-theme"
+      },
+      "title": "watchmaking:hub:cover-video",
+      "video_cld": {
+       "fallback": {
+        "alt": "Excellence in the making",
+        "media": {
+         "src": "/images/watchmaking-hub-excellence-in-the-making-cover-autoplay-posterframe.avif",
+         "portraitSrc": "/images/watchmaking-hub-excellence-in-the-making-cover-autoplay-posterframe.avif",
+         "width": 1920,
+         "height": 1080,
+         "portraitWidth": 780,
+         "portraitHeight": 1300,
+         "id": "rolexcom/watchmaking/excellence-in-the-making/cover/2026/watchmaking-hub-excellence-in-the-making-cover-autoplay-posterframe"
+        }
+       },
+       "has_audio": false,
+       "loop": true,
+       "poster": {
+        "alt": "Excellence in the making",
+        "media": {
+         "src": "/images/watchmaking-hub-excellence-in-the-making-cover-autoplay-posterframe.avif",
+         "portraitSrc": "/images/watchmaking-hub-excellence-in-the-making-cover-autoplay-posterframe.avif",
+         "width": 1920,
+         "height": 1080,
+         "portraitWidth": 780,
+         "portraitHeight": 1300,
+         "id": "rolexcom/watchmaking/excellence-in-the-making/cover/2026/watchmaking-hub-excellence-in-the-making-cover-autoplay-posterframe"
+        }
+       },
+       "media": {
+        "src": "/videos/watchmaking-hub-excellence-in-the-making-cover-autoplay.webm",
+        "portraitSrc": "/videos/watchmaking-hub-excellence-in-the-making-cover-autoplay.webm",
+        "width": 1920,
+        "height": 1080,
+        "portraitWidth": 780,
+        "portraitHeight": 1300,
+        "id": "rolexcom/watchmaking/excellence-in-the-making/cover/2026/watchmaking-hub-excellence-in-the-making-cover-autoplay"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "blt8814dbf9abd4aa7d",
+      "_content_type_uid": "article-simple",
+      "box_spacing": {
+       "margin_top": "margin-top-l-pos"
+      },
+      "chapo_gradient": {
+       "colors": [
+        {
+         "color": "52 44 00",
+         "opacity": 1
+        },
+        {
+         "color": "83 80 50",
+         "opacity": 1
+        }
+       ]
+      },
+      "horizontal_align": {
+       "align": "center"
+      },
+      "text_justify": "start",
+      "text_width": {
+       "width": "m"
+      },
+      "texts": [
+       {
+        "chapo": {
+         "text": "Superlative. More than a word, it is a vision. A commitment."
+        }
+       },
+       {
+        "paragraph": {
+         "text": "A commitment to designing and manufacturing increasingly reliable, high-performance watches. Inscribed on every dial, this word reflects our founding values."
+        }
+       },
+       {
+        "paragraph": {
+         "text": "This vision of watchmaking is founded upon seven pillars that shape our identity: precision, waterproofness, self-winding mechanism, autonomy, resistance to magnetism, reliability, and sustainability.\n\n"
+        }
+       },
+       {
+        "paragraph": {
+         "text": "Seven pillars that inspire us to exceed standards and push boundaries. Seven pillars that serve every wearer, wherever their journey takes them. Seven pillars, mastered in their entirety, that make Rolex unique in the watchmaking world.\n\n"
+        }
+       }
+      ],
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watchmaking:hub:intro-article-simple"
+     }
+    ]
+   }
+  },
+  {
+   "miscs": {
+    "component": [
+     {
+      "uid": "bltb4f08ae44b39049b",
+      "_content_type_uid": "roller_ref",
+      "cards": [
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "bltf30f0f289ce4cea2",
+        "alt": "Precision",
+        "heading": {
+         "kicker": "01",
+         "title": "Precision"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-01-precision-wmspiral_2212cw_0003_v2",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331670,
+          "url": "http://media.rolex.com/image/upload/v1783331670/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-01-precision-wmspiral_2212cw_0003_v2.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331670/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-01-precision-wmspiral_2212cw_0003_v2.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 119030,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "bf3cfce5eb9667c6fa5c140402c0a764",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "Our watches are guaranteed to be accurate to within -2/+2 seconds per day, surpassing by far the standards of the watchmaking industry.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:precision"
+       },
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "blt1d5a245a3d802c9a",
+        "alt": "Waterproofness",
+        "heading": {
+         "kicker": "02",
+         "title": "Waterproofness"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-02-waterproofness-wmquality_2201fl_006_v2",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331670,
+          "url": "http://media.rolex.com/image/upload/v1783331670/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-02-waterproofness-wmquality_2201fl_006_v2.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331670/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-02-waterproofness-wmquality_2201fl_006_v2.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 164696,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "2c35ef7976541bde183a8b17462ea797",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "Ever since the first waterproof Rolex Oyster case was created in 1926, we have continued to challenge the limits of waterproofness.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:waterproofness"
+       },
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "blt3ac615491feec3df",
+        "alt": "Self-winding mechanism",
+        "heading": {
+         "kicker": "03",
+         "title": "Self-winding mechanism"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-03-seff-winding-wmmvmt_2212jb_0002_a",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331671,
+          "url": "http://media.rolex.com/image/upload/v1783331671/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-03-seff-winding-wmmvmt_2212jb_0002_a.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331671/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-03-seff-winding-wmmvmt_2212jb_0002_a.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 198336,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "b1ac000c4bfceec24fbfa11619d6cc7c",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "The self-winding mechanism in our watches is designed to capture the wearer’s energy, regardless of variations in activity.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:self-winding"
+       },
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "blt3184613ec93978f5",
+        "alt": "Autonomy",
+        "heading": {
+         "kicker": "04",
+         "title": "Autonomy"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-04-autonomy-sav_geneve_19dh_026_xl",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331672,
+          "url": "http://media.rolex.com/image/upload/v1783331672/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-04-autonomy-sav_geneve_19dh_026_xl.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331672/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-04-autonomy-sav_geneve_19dh_026_xl.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 200163,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "c208363ea675bfe574285940b71524c3",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "Every detail of the mechanism in a Rolex watch is designed to maximize its power reserve, ensuring up to 72 hours of autonomy.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:autonomy"
+       },
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "bltcf070de78991c49f",
+        "alt": "Resistance to magnetism",
+        "heading": {
+         "kicker": "05",
+         "title": "Resistance to magnetism"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-05-resistance-to-magnetism-movt7135_2411uf_003",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331673,
+          "url": "http://media.rolex.com/image/upload/v1783331673/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-05-resistance-to-magnetism-movt7135_2411uf_003.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331673/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-05-resistance-to-magnetism-movt7135_2411uf_003.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 393832,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "dddc72d2cd621eb8ad6ba878b693160b",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "Our watches are designed to ensure stable, precise performance when exposed to everyday magnetic forces.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:resistance"
+       },
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "blt29d8d9c911f4b4f3",
+        "alt": "Reliability",
+        "heading": {
+         "kicker": "06",
+         "title": "Reliability"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-06-reliability-elmt_2603fg_023",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331674,
+          "url": "http://media.rolex.com/image/upload/v1783331674/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-06-reliability-elmt_2603fg_023.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331674/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-06-reliability-elmt_2603fg_023.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 244790,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "2c496b2c6eaac5448b1a265281c7df4f",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "We provide a five-year guarantee on all our watches and recommend servicing only every ten years.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:reliability"
+       },
+       {
+        "_content_type_uid": "inert_card",
+        "uid": "bltfb8e612e1133e4cb",
+        "alt": "Durability",
+        "heading": {
+         "kicker": "07",
+         "title": "Durability"
+        },
+        "image": [
+         {
+          "public_id": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-07-durability-elmt_2603fg_054",
+          "resource_type": "image",
+          "type": "upload",
+          "format": "jpg",
+          "version": 1783331675,
+          "url": "http://media.rolex.com/image/upload/v1783331675/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-07-durability-elmt_2603fg_054.jpg",
+          "secure_url": "https://media.rolex.com/image/upload/v1783331675/rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars/rolex-watchmaking-seven-pillars-07-durability-elmt_2603fg_054.jpg",
+          "width": 1560,
+          "height": 1892,
+          "bytes": 394705,
+          "metadata": {
+           "source": "other"
+          },
+          "access_mode": "public",
+          "access_control": [
+           {
+            "access_type": "token"
+           }
+          ],
+          "uploaded_by": {
+           "type": "user",
+           "id": "8590c57fa3506a6cf003a65f2de7d4"
+          },
+          "folder_id": "cf9b6b0c25b2a0a17fcd572fea4c6c49d0",
+          "id": "8d79f306c845d7981dc1cdb44dfea459",
+          "folder": "rolexcom/watchmaking/hub/2026/roller-ref/seven-pillars"
+         }
+        ],
+        "legend": "Our watches are designed to withstand the test of time and be handed down from generation to generation. Each timepiece is the result of an increasingly responsible production process.",
+        "theme": "dark-theme",
+        "title": "watchmaking:hub:roller-ref:seven-pillars:inert-card:durability"
+       }
+      ],
+      "column_width": "m-col-roller",
+      "is_bold": false,
+      "start_column": "first-col",
+      "text_layout": {
+       "width": "s",
+       "horizontal_pos": "start"
+      },
+      "texts": [
+       {
+        "big_heading": {
+         "title": "Seven pillars, one vision"
+        }
+       }
+      ],
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watchmaking:hub:roller-ref:seven-pillars"
+     }
+    ]
+   }
+  },
+  {
+   "miscs": {
+    "component": [
+     {
+      "uid": "bltbf2379dd1ab30058",
+      "_content_type_uid": "fragainer",
+      "background": [
+       {
+        "image_cld": {
+         "alt": "Geneva Headquarters Hub",
+         "media": {
+          "src": "/images/watchmaking-hub-2026-made-in-switzeland-bie_2509cw_056_v03.avif",
+          "portraitSrc": "/images/watchmaking-hub-2026-made-in-switzeland-bie_2509cw_056_v03.avif",
+          "width": 3840,
+          "height": 3068,
+          "portraitWidth": 1560,
+          "portraitHeight": 3794,
+          "id": "rolexcom/watchmaking/hub/2026/watchmaking-hub-2026-made-in-switzeland-bie_2509cw_056_v03"
+         }
+        }
+       }
+      ],
+      "background_position": "center",
+      "components": [
+       {
+        "articles": {
+         "component": [
+          {
+           "_content_type_uid": "article-simple",
+           "uid": "blt4871c91f43155847",
+           "box_spacing": {
+            "padding_top": "padding-top-l-pos"
+           },
+           "chapo_gradient": {
+            "colors": [
+             {
+              "color": "52 44 00",
+              "opacity": 1
+             },
+             {
+              "color": "83 80 50",
+              "opacity": 1
+             }
+            ]
+           },
+           "horizontal_align": {
+            "align": "center"
+           },
+           "text_width": {
+            "width": "s"
+           },
+           "texts": [
+            {
+             "heading": {
+              "kicker": "The production sites",
+              "title": "Made in Switzerland"
+             }
+            },
+            {
+             "paragraph": {
+              "text": "<b>Rolex creates, manufactures, assembles and tests all its watches exclusively in Switzerland, thanks to the know-how and commitment of more than 9,000 employees at the brand’s sites, all at the cutting edge of technological progress.</b>"
+             }
+            },
+            {
+             "paragraph": {
+              "text": "From Acacias, its world headquarters in Geneva, where the watches are developed and assembled, to Bienne, where the movements are manufactured; from Plan-les-Ouates, where the watch cases and bracelets are produced, to Chêne-Bourg, where the dials, Cerachrom bezels and Cerachrom bezel inserts in ceramic are crafted, and where the brand’s gemmology and gem-setting expertise is located, sophisticated high-technology equipment is a reflection of Rolex’s distinction. A fifth site is under construction in Bulle, in the Swiss canton of Fribourg."
+             }
+            },
+            {
+             "paragraph": {
+              "text": "By controlling every stage of its production in-house, Rolex has made a strategic, bold and visionary choice. It has an unparalleled production infrastructure linking high value-added skills with state-of-the-art technologies. Rolex can, independently, express its creativity and innovative spirit according to its own standards of excellence. Each Rolex watch is created according to exceptional production criteria. Each element is developed, produced and checked with constant attention to even the smallest details."
+             }
+            }
+           ],
+           "theme": {
+            "theme": "dark-theme"
+           },
+           "title": "watchmaking:hub:the-four-sites-article-simple"
+          }
+         ]
+        }
+       },
+       {
+        "miscs": {
+         "component": [
+          {
+           "_content_type_uid": "roller_ref",
+           "uid": "blte5b43b696481ce14",
+           "cards": [
+            {
+             "_content_type_uid": "card_link_rftc",
+             "uid": "blt7fc7c4140c9ea6f9",
+             "heading": {
+              "title": "Acacias"
+             },
+             "link": {
+              "href": "/watchmaking/a-unique-approach/acacias",
+              "style": "inline"
+             },
+             "media": [
+              {
+               "image_cld": {
+                "alt": "Acacias",
+                "media": {
+                 "src": "/images/watchmaking-hub-2026-the-four-sites-acacias-roller.avif",
+                 "portraitSrc": "/images/watchmaking-hub-2026-the-four-sites-acacias-roller.avif",
+                 "width": 1560,
+                 "height": 1248,
+                 "portraitWidth": 1560,
+                 "portraitHeight": 1248,
+                 "id": "rolexcom/watchmaking/hub/2026/roller-ref/the-four-sites/watchmaking-hub-2026-the-four-sites-acacias-roller"
+                }
+               }
+              }
+             ],
+             "no_marie_louise": true,
+             "slug": "acacias",
+             "theme": {
+              "theme": "dark-theme"
+             },
+             "title": "about-rolex-hub:made-in-switzerland:roller-ref:acacias-card-link-rftc"
+            },
+            {
+             "_content_type_uid": "card_link_rftc",
+             "uid": "blt7f31ab32b4b23e8d",
+             "heading": {
+              "title": "Plan-les-Ouates"
+             },
+             "link": {
+              "href": "/watchmaking/a-unique-approach/plan-les-ouates",
+              "style": "inline"
+             },
+             "media": [
+              {
+               "image_cld": {
+                "alt": "Plan-les-Ouates",
+                "media": {
+                 "src": "/images/watchmaking-hub-2026-the-four-sites-plan-les-ouates-roller.avif",
+                 "portraitSrc": "/images/watchmaking-hub-2026-the-four-sites-plan-les-ouates-roller.avif",
+                 "width": 1560,
+                 "height": 1248,
+                 "portraitWidth": 1560,
+                 "portraitHeight": 1248,
+                 "id": "rolexcom/watchmaking/hub/2026/roller-ref/the-four-sites/watchmaking-hub-2026-the-four-sites-plan-les-ouates-roller"
+                }
+               }
+              }
+             ],
+             "no_marie_louise": true,
+             "slug": "plan-les-ouates",
+             "theme": {
+              "theme": "dark-theme"
+             },
+             "title": "about-rolex-hub:made-in-switzerland:roller-ref:plan-les-ouates-card-link-rftc"
+            },
+            {
+             "_content_type_uid": "card_link_rftc",
+             "uid": "blte154fbb2aa5cb298",
+             "heading": {
+              "title": "Chêne-Bourg"
+             },
+             "link": {
+              "href": "/watchmaking/a-unique-approach/chene-bourg",
+              "style": "inline"
+             },
+             "media": [
+              {
+               "image_cld": {
+                "alt": "Chêne-Bourg",
+                "media": {
+                 "src": "/images/watchmaking-hub-2026-the-four-sites-chene-bourg-roller.avif",
+                 "portraitSrc": "/images/watchmaking-hub-2026-the-four-sites-chene-bourg-roller.avif",
+                 "width": 1560,
+                 "height": 1248,
+                 "portraitWidth": 1560,
+                 "portraitHeight": 1248,
+                 "id": "rolexcom/watchmaking/hub/2026/roller-ref/the-four-sites/watchmaking-hub-2026-the-four-sites-chene-bourg-roller"
+                }
+               }
+              }
+             ],
+             "no_marie_louise": true,
+             "slug": "chene-bourg",
+             "theme": {
+              "theme": "dark-theme"
+             },
+             "title": "about-rolex-hub:made-in-switzerland:roller-ref:chene-bourg-card-link-rftc"
+            },
+            {
+             "_content_type_uid": "card_link_rftc",
+             "uid": "bltaf2354a3731505b3",
+             "heading": {
+              "title": "Bienne"
+             },
+             "link": {
+              "href": "/watchmaking/a-unique-approach/bienne",
+              "style": "inline"
+             },
+             "media": [
+              {
+               "image_cld": {
+                "alt": "Bienne",
+                "media": {
+                 "src": "/images/watchmaking-hub-2026-the-four-sites-bienne-roller.avif",
+                 "portraitSrc": "/images/watchmaking-hub-2026-the-four-sites-bienne-roller.avif",
+                 "width": 1560,
+                 "height": 1248,
+                 "portraitWidth": 1560,
+                 "portraitHeight": 1248,
+                 "id": "rolexcom/watchmaking/hub/2026/roller-ref/the-four-sites/watchmaking-hub-2026-the-four-sites-bienne-roller"
+                }
+               }
+              }
+             ],
+             "no_marie_louise": true,
+             "slug": "bienne",
+             "theme": {
+              "theme": "dark-theme"
+             },
+             "title": "about-rolex-hub:made-in-switzerland:roller-ref:bienne-card-link-rftc"
+            },
+            {
+             "_content_type_uid": "card_link_rftc",
+             "uid": "blt9531bd0b24e44fdc",
+             "heading": {
+              "title": "Bulle"
+             },
+             "link": {
+              "href": "/watchmaking/a-unique-approach/bulle",
+              "style": "inline"
+             },
+             "media": [
+              {
+               "image_cld": {
+                "alt": "Bulles",
+                "media": {
+                 "src": "/images/watchmaking-hub-2026-the-five-sites-bulle-roller.avif",
+                 "portraitSrc": "/images/watchmaking-hub-2026-the-five-sites-bulle-roller.avif",
+                 "width": 1560,
+                 "height": 1248,
+                 "portraitWidth": 1560,
+                 "portraitHeight": 1248,
+                 "id": "rolexcom/watchmaking/hub/2026/roller-ref/the-four-sites/watchmaking-hub-2026-the-five-sites-bulle-roller"
+                }
+               }
+              }
+             ],
+             "no_marie_louise": true,
+             "slug": "bulle",
+             "theme": {
+              "theme": "dark-theme"
+             },
+             "title": "about-rolex-hub:made-in-switzerland:roller-ref:bulle-card-link-rftc"
+            }
+           ],
+           "column_width": "s-col-roller",
+           "is_bold": false,
+           "start_column": "first-col",
+           "text_layout": {
+            "width": "s",
+            "horizontal_pos": "start"
+           },
+           "theme": {
+            "theme": "light-theme"
+           },
+           "title": "about-rolex-hub:made-in-switzerland-roller-ref"
+          }
+         ]
+        }
+       }
+      ],
+      "title": "watchmaking:hub:made-in-switzerland:fragainer"
+     }
+    ]
+   }
+  },
+  {
+   "hubs": {
+    "component": [
+     {
+      "uid": "bltcf1332b2f22e05b1",
+      "_content_type_uid": "dual_grid",
+      "column": [
+       {
+        "card": [
+         {
+          "_content_type_uid": "dual_grid_card",
+          "uid": 0,
+          "button": {
+           "preload": false
+          },
+          "cta": [
+           {
+            "link": {
+             "label": "Discover more",
+             "aria_label": "Discover more - Anatomy of a Rolex",
+             "href": "/watchmaking/features",
+             "icon": "chevron",
+             "style": "inline"
+            }
+           }
+          ],
+          "heading": {
+           "title": "Anatomy of a Rolex",
+           "text": [
+            "Everything you always wanted to know about Rolex watches"
+           ]
+          },
+          "media": [
+           {
+            "video_cld": {
+             "media": {
+              "src": "/videos/watchmaking-hub-2026-dual-grid-anatomy-autoplay.webm",
+              "portraitSrc": "/videos/watchmaking-hub-2026-dual-grid-anatomy-autoplay.webm",
+              "width": 780,
+              "height": 950,
+              "portraitWidth": 780,
+              "portraitHeight": 950,
+              "id": "rolexcom/watchmaking/hub/2026/dual-grid/watchmaking-hub-2026-dual-grid-anatomy-autoplay"
+             },
+             "poster": {
+              "alt": "Anatomy of a Rolex",
+              "media": {
+               "src": "/images/watchmaking-hub-2026-dual-grid-anatomy-autoplay-posterframe.avif",
+               "portraitSrc": "/images/watchmaking-hub-2026-dual-grid-anatomy-autoplay-posterframe.avif",
+               "width": 780,
+               "height": 950,
+               "portraitWidth": 780,
+               "portraitHeight": 950,
+               "id": "rolexcom/watchmaking/hub/2026/dual-grid/watchmaking-hub-2026-dual-grid-anatomy-autoplay-posterframe"
+              }
+             },
+             "fallback": {
+              "alt": "Anatomy of a Rolex",
+              "media": {
+               "src": "/images/watchmaking-hub-2026-dual-grid-anatomy-autoplay-posterframe.avif",
+               "portraitSrc": "/images/watchmaking-hub-2026-dual-grid-anatomy-autoplay-posterframe.avif",
+               "width": 780,
+               "height": 950,
+               "portraitWidth": 780,
+               "portraitHeight": 950,
+               "id": "rolexcom/watchmaking/hub/2026/dual-grid/watchmaking-hub-2026-dual-grid-anatomy-autoplay-posterframe"
+              }
+             },
+             "loop": true,
+             "has_audio": false
+            }
+           }
+          ],
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "title": "watchmaking:hub:dual-grid:anatomy-card",
+          "index": 0,
+          "waid": "1:1",
+          "videotype": true
+         },
+         {
+          "_content_type_uid": "dual_grid_card",
+          "uid": 2,
+          "button": {
+           "preload": false
+          },
+          "cta": [
+           {
+            "link": {
+             "label": "Discover more",
+             "aria_label": "Discover more - Our vision",
+             "href": "/watchmaking/our-vision",
+             "icon": "chevron",
+             "style": "inline"
+            }
+           }
+          ],
+          "heading": {
+           "title": "Our vision",
+           "text": [
+            "Since its creation in 1905, Rolex has been on a quest which assembles the skills of many and requires arduous work, day after day, year after year."
+           ]
+          },
+          "media": [
+           {
+            "image_cld": {
+             "alt": "Our vision",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1920,
+              "height": 2570,
+              "portraitWidth": 1560,
+              "portraitHeight": 2560,
+              "id": "rolexcom/watchmaking/hub/2026/dual-grid/watchmaking-hub-2026-dual-grid-wmapplique_2212cw_0002_v2"
+             }
+            }
+           }
+          ],
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "title": "watchmaking:hub:dual-grid:our-vision-card",
+          "index": 0,
+          "waid": "1:2",
+          "videotype": false
+         }
+        ]
+       },
+       {
+        "card": [
+         {
+          "_content_type_uid": "dual_grid_card",
+          "uid": 1,
+          "button": {
+           "preload": false
+          },
+          "cta": [
+           {
+            "link": {
+             "label": "Discover more",
+             "aria_label": "Discover more - Green Seal",
+             "href": "/watchmaking/green-seal",
+             "icon": "chevron",
+             "style": "inline"
+            }
+           }
+          ],
+          "heading": {
+           "title": "Green seal",
+           "text": [
+            "The colour of excellence"
+           ]
+          },
+          "media": [
+           {
+            "image_cld": {
+             "alt": "Green seal",
+             "media": {
+              "src": "/images/watchmaking-hub-2026-dual-grid-features-green-seal_ooh_master_rgb.avif",
+              "portraitSrc": "/images/watchmaking-hub-2026-dual-grid-features-green-seal_ooh_master_rgb.avif",
+              "width": 1920,
+              "height": 2770,
+              "portraitWidth": 1560,
+              "portraitHeight": 2560,
+              "id": "rolexcom/watchmaking/hub/2026/dual-grid/watchmaking-hub-2026-dual-grid-features-green-seal_ooh_master_rgb"
+             }
+            }
+           }
+          ],
+          "theme": {
+           "theme": "light-theme"
+          },
+          "title": "watchmaking:hub:dual-grid:green-seal-card",
+          "index": 1,
+          "waid": "2:1",
+          "videotype": false
+         },
+         {
+          "_content_type_uid": "dual_grid_card",
+          "uid": 3,
+          "button": {
+           "preload": false
+          },
+          "cta": [
+           {
+            "link": {
+             "label": "Discover more",
+             "aria_label": "Discover more - Our signature",
+             "href": "/watchmaking/our-signature",
+             "icon": "chevron",
+             "style": "inline"
+            }
+           }
+          ],
+          "heading": {
+           "title": "Our signature",
+           "text": [
+            "Rolex's greatest watchmaking innovations are indelible. They imprint the dial of each watch with new words that, alone, can attest for the unique vision of the brand."
+           ]
+          },
+          "media": [
+           {
+            "image_cld": {
+             "alt": "Our signature",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1920,
+              "height": 1940,
+              "portraitWidth": 1560,
+              "portraitHeight": 1900,
+              "id": "rolexcom/watchmaking/hub/2026/dual-grid/watchmaking-hub-2026-dual-grid-1931_oysterperpetual_2212th_0001"
+             }
+            }
+           }
+          ],
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "title": "watchmaking:hub:dual-grid:our-signature-card",
+          "index": 1,
+          "waid": "2:2",
+          "videotype": false
+         }
+        ]
+       }
+      ],
+      "dual_mobile": true,
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watchmaking:hub:dual-grid",
+      "video_mobile": false
+     }
+    ]
+   }
+  }
+ ],
+ "controlslayout": false,
+ "is_reading_info": false,
+ "meta": {
+  "title": "Watchmaking - A unique approach | Rolex®",
+  "description": "Our vision of watchmaking is founded upon seven pillars: precision, waterproofness, self-winding mechanism, autonomy, resistance to magnetism, reliability, and sustainability. More.",
+  "title_og": "Watchmaking - A unique approach | Rolex®",
+  "description_og": "Our vision of watchmaking is founded upon seven pillars: precision, waterproofness, self-winding mechanism, autonomy, resistance to magnetism, reliability, and sustainability. More.",
+  "search_section": "Watchmaking",
+  "search_title": "Watchmaking - Excellence in the making",
+  "image_og_cld": "/rolexcom/watchmaking/hub/2026/watchmaking-hub-2026-share-wmfinalassembly_2201fl_003_v2.jpg",
+  "searchimage_og_cld": "/rolexcom/watchmaking/hub/2026/watchmaking-hub-2026-search-wmfinalassembly_2201fl_003_v2.jpg",
+  "noindexing": false
+ },
+ "nofooter": false,
+ "page_type": "content page",
+ "title": "page:watchmaking:hub",
+ "preload": [
+  "CoverVideo",
+  "ArticleSimple",
+  "RollerRef",
+  "Fragainer",
+  "DualGrid"
+ ],
+ "sub_navigation": {
+  "uid": "blt4ed0dc658255816a",
+  "module": [
+   {
+    "bento": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "blt3a7e593b6a06d923",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxy"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "A unique approach",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - A unique approach",
+          "href": "/watchmaking/a-unique-approach",
+          "assets": {
+           "alt": "Our values",
+           "media": {
+            "src": "/images/rolex-watchmaking-our-values-navigation-wmfinalassembly_2201fl_003_v2-portrait.avif",
+            "portraitSrc": "/images/rolex-watchmaking-our-values-navigation-wmfinalassembly_2201fl_003_v2-portrait.avif",
+            "width": 605,
+            "height": 237,
+            "portraitWidth": 297,
+            "portraitHeight": 482,
+            "id": "rolexcom/watchmaking/navigation/rolex-watchmaking-our-values-navigation-wmfinalassembly_2201fl_003_v2-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Anatomy of a Rolex",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Anatomy of a Rolex",
+          "href": "/watchmaking/features",
+          "assets": {
+           "alt": "Anatomy of a Rolex",
+           "media": {
+            "src": "/images/rolex-watchmaking-anatomy-of-a-rolex-navigation_spiral_2301_004e_rvb-portrait.avif",
+            "portraitSrc": "/images/rolex-watchmaking-anatomy-of-a-rolex-navigation_spiral_2301_004e_rvb-portrait.avif",
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/watchmaking/navigation/rolex-watchmaking-anatomy-of-a-rolex-navigation_spiral_2301_004e_rvb-landscape"
+           }
+          }
+         }
+        }
+       ],
+       "title": "watchmaking:at-the-core-of-excellence:sub:bento"
+      }
+     ]
+    }
+   }
+  ],
+  "pattern": "/watchmaking{/:page}",
+  "subnav_heading": "Watchmaking",
+  "title": "watchmaking:at-the-core-of-excellence:sub",
+  "_content_type_uid": "navigation_sub"
+ }
+}

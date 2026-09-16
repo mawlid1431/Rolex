@@ -1,0 +1,1583 @@
+{
+ "uid": "bltf61c85f0855366c6",
+ "url": "/watches/new-watches/perpetual-padellone",
+ "back": false,
+ "breadcrumb": [
+  {
+   "title": "Watches",
+   "href": "/watches"
+  },
+  {
+   "title": "New watches 2026",
+   "href": "/watches/new-watches"
+  },
+  {
+   "title": "Perpetual Padellone",
+   "href": "/watches/new-watches/perpetual-padellone"
+  }
+ ],
+ "components": [
+  {
+   "covers": {
+    "component": [
+     {
+      "uid": "bltc9a8d2e8efc64972",
+      "_content_type_uid": "cover_parallax_fullscreen",
+      "heading": {
+       "kicker": "WHEN TIMES ALIGN",
+       "title": "Perpetual Padellone"
+      },
+      "horizontal_align": "end",
+      "media": [
+       {
+        "image_cld": {
+         "alt": "Padellone",
+         "media": {
+          "src": "/images/rolex-new-watches-2026-padellone-m53505-0003_2608stj_0001-cover.avif",
+          "portraitSrc": "/images/rolex-new-watches-2026-padellone-m53505-0003_2608stj_0001-cover.avif",
+          "width": 3840,
+          "height": 3840,
+          "portraitWidth": 1170,
+          "portraitHeight": 2550,
+          "id": "rolexcom/049e3b0b345c/new-watches/padellone/rolex-new-watches-2026-padellone-m53505-0003_2608stj_0001-cover"
+         }
+        }
+       }
+      ],
+      "theme": {
+       "theme": "dark-theme"
+      },
+      "title": "watches:new-watches-2026:padellone:cover-parallax-fullscreen",
+      "vertical_align": "center"
+     }
+    ]
+   }
+  },
+  {
+   "miscs": {
+    "component": [
+     {
+      "uid": "blt0a81d45c62cb462b",
+      "_content_type_uid": "fragainer",
+      "background": [
+       {
+        "image_cld": {
+         "alt": "Perpetual light",
+         "media": {
+          "src": "/images/rolex-new-watches-2026-padellone-m53505-0003-video-player-expand-background.avif",
+          "portraitSrc": "/images/rolex-new-watches-2026-padellone-m53505-0003-video-player-expand-background.avif",
+          "width": 1920,
+          "height": 1767,
+          "portraitWidth": 1560,
+          "portraitHeight": 5232,
+          "id": "rolexcom/049e3b0b345c/new-watches/padellone/video-player-expand/rolex-new-watches-2026-padellone-m53505-0003-video-player-expand-background"
+         }
+        }
+       }
+      ],
+      "background_position": "center",
+      "components": [
+       {
+        "specials": {
+         "component": [
+          {
+           "_content_type_uid": "text_filling",
+           "uid": "blt3690dae006359d07",
+           "box_spacing": {
+            "padding_top": "padding-top-l-pos"
+           },
+           "color_gradient": {
+            "colors": [
+             {
+              "color": "27 39 87",
+              "opacity": 1
+             },
+             {
+              "color": "68 97 188",
+              "opacity": 1
+             }
+            ],
+            "angle": 45
+           },
+           "paragraph": {
+            "block": [
+             {
+              "paragraph": "Refined aesthetics. Ingenious mechanics. With its complete annual calendar and moonphase display, the Perpetual Padellone offers a window onto the night sky.",
+              "is_bold": true
+             }
+            ]
+           },
+           "title": "watches:new-watches-2026:padellon:text-filling"
+          }
+         ]
+        }
+       },
+       {
+        "videos": {
+         "component": [
+          {
+           "_content_type_uid": "video_player_expand",
+           "uid": "bltfd76b6ee9ef5f581",
+           "poster": [
+            {
+             "video_cld": {
+              "media": {
+               "src": "/videos/rolex-new-watches-2026-padellone-m53505-0003-autoplay.webm",
+               "portraitSrc": "/videos/rolex-new-watches-2026-padellone-m53505-0003-autoplay.webm",
+               "width": 1920,
+               "height": 1080,
+               "portraitWidth": 1080,
+               "portraitHeight": 1920,
+               "id": "rolexcom/049e3b0b345c/new-watches/padellone/video-player-expand/autoplay/rolex-new-watches-2026-padellone-m53505-0003-autoplay"
+              },
+              "poster": {
+               "alt": "Perpetual Padellone",
+               "media": {
+                "src": "/images/rolex-new-watches-2026-padellone-m53505-0003-autoplay-posterframe.avif",
+                "portraitSrc": "/images/rolex-new-watches-2026-padellone-m53505-0003-autoplay-posterframe.avif",
+                "width": 1920,
+                "height": 1080,
+                "portraitWidth": 1080,
+                "portraitHeight": 1920,
+                "id": "rolexcom/049e3b0b345c/new-watches/padellone/video-player-expand/autoplay/rolex-new-watches-2026-padellone-m53505-0003-autoplay-posterframe"
+               }
+              },
+              "fallback": {
+               "alt": "Perpetual Padellone",
+               "media": {
+                "src": "/images/rolex-new-watches-2026-padellone-m53505-0003-autoplay-posterframe.avif",
+                "portraitSrc": "/images/rolex-new-watches-2026-padellone-m53505-0003-autoplay-posterframe.avif",
+                "width": 1920,
+                "height": 1080,
+                "portraitWidth": 1080,
+                "portraitHeight": 1920,
+                "id": "rolexcom/049e3b0b345c/new-watches/padellone/video-player-expand/autoplay/rolex-new-watches-2026-padellone-m53505-0003-autoplay-posterframe"
+               }
+              },
+              "loop": true,
+              "has_audio": false,
+              "aria_label": "Presentation of Perpetual Padellone"
+             }
+            }
+           ],
+           "title": "watches:new-watches-2026:padellone:intro:fragainer:video-player-expand",
+           "video_player_cld": {
+            "launcher_label": "Play the video",
+            "aria_label": "Play the video - Presentation of Perpetual Padellone",
+            "style": "filled translucent-dark",
+            "media": {
+             "src": null,
+             "portraitSrc": null,
+             "width": 1920,
+             "height": 1080,
+             "portraitWidth": 1080,
+             "portraitHeight": 1920,
+             "id": "rolexcom/049e3b0b345c/new-watches/padellone/video-player-expand/long-film/rolex-new-watches-2026-padellone-m53505-0003-film"
+            },
+            "no_captions": true,
+            "has_closed_captions": false,
+            "adaptive_bitrate": false,
+            "poster": {
+             "alt": "Perpetual Padellone",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1920,
+              "height": 1080,
+              "portraitWidth": 1080,
+              "portraitHeight": 1920,
+              "id": "rolexcom/049e3b0b345c/new-watches/padellone/video-player-expand/long-film/rolex-new-watches-2026-padellone-m53505-0003-film-posterframe"
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      ],
+      "title": "watches:new-watches-2026:padellon:intro:fragainer"
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "bltee0fba0329fc4a12",
+      "_content_type_uid": "article_image_scrolling",
+      "background_image": {
+       "alt": "Padellone dial parts",
+       "media": {
+        "src": "/images/rolex-new-watches-2026-padellone-dial-parts_2026-np-herbier-aristote-still_ooh_master.avif",
+        "portraitSrc": "/images/rolex-new-watches-2026-padellone-dial-parts_2026-np-herbier-aristote-still_ooh_master.avif",
+        "width": 3840,
+        "height": 2905,
+        "portraitWidth": 1560,
+        "portraitHeight": 6100,
+        "id": "rolexcom/049e3b0b345c/new-watches/padellone/rolex-new-watches-2026-padellone-dial-parts_2026-np-herbier-aristote-still_ooh_master"
+       }
+      },
+      "box_spacing": {
+       "padding_bottom": "padding-bot-m-pos"
+      },
+      "heading": {
+       "title": "A subtle balance of innovation and tradition, this watch illustrates the brandʼs expertise in designing instantaneous-jump calendar mechanisms."
+      },
+      "horizontal_align": "start",
+      "paragraph": {
+       "block": [
+        {
+         "paragraph": "A model imbued with elegance, the Perpetual Padellone reinvents the dialogue between precision and poetry. While its design and functions pay homage to watchmaking tradition, it delivers unparalleled performance thanks to pioneering technical innovations. Its movement, which beats at a frequency of 5 hertz, is the subject of 30 patent applications, two of which are exclusive to the watch.",
+         "is_bold": false
+        }
+       ]
+      },
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watches:new-watches-2026:padellone:balance:article-image-scrolling",
+      "title_gradient": {
+       "colors": [
+        {
+         "color": "27 39 87",
+         "opacity": 1
+        },
+        {
+         "color": "68 97 188",
+         "opacity": 1
+        }
+       ],
+       "angle": 45
+      },
+      "vertical_align": "start",
+      "vertical_align_padding": "s"
+     }
+    ]
+   }
+  },
+  {
+   "specials": {
+    "component": [
+     {
+      "uid": "blt62d5d7e956bbe4c7",
+      "_content_type_uid": "roller_gallery",
+      "background_color": {
+       "colors": [
+        {
+         "color": "255 255 255",
+         "opacity": 1
+        }
+       ]
+      },
+      "cards": [
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/01/rolex-new-watches-2026-padellone-roller-loop-m53505-0003_2608stj_0003-transparent-case-back"
+          },
+          "alt": "Padellone m53505-0003"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0003",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/01/rolex-new-watches-2026-padellone-roller-loop-m53505-0003_2608stj_0003-transparent-case-back"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 1560,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/02/rolex-new-watches-2026-padellone-roller-loop-m53505-0003_2608stj_0004-beauty-shot"
+          },
+          "alt": "Padellone m53505-0003"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0003",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/02/rolex-new-watches-2026-padellone-roller-loop-m53505-0003_2608stj_0004-beauty-shot"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/03/rolex-new-watches-2026-padellone-roller-loop-m53505-0003_2608stj_0005-and-m53505-0003_2608stj_0007"
+          },
+          "alt": "Padellone m53505-0003"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0003",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/03/rolex-new-watches-2026-padellone-roller-loop-m53505-0003_2608stj_0005-and-m53505-0003_2608stj_0007"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 1986,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/04/rolex-new-watches-2026-padellone-roller-loop-m53506-0002_2608stj_0002-beauty-shot"
+          },
+          "alt": "Padellone m53505-0003"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0003",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/04/rolex-new-watches-2026-padellone-roller-loop-m53506-0002_2608stj_0002-beauty-shot"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/05/rolex-new-watches-2026-padellone-roller-loop-m53506-0002_2608stj_0003-and-m53506-0002_2608stj_0004"
+          },
+          "alt": "Padellone m53505-0002"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0002",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/05/rolex-new-watches-2026-padellone-roller-loop-m53506-0002_2608stj_0003-and-m53506-0002_2608stj_0004"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 1986,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/06/rolex-new-watches-2026-padellone-roller-loop-m53505-0002_2608stj_0001-upright-beauty-shot"
+          },
+          "alt": "Padellone m53505-0002"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0002",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/06/rolex-new-watches-2026-padellone-roller-loop-m53505-0002_2608stj_0001-upright-beauty-shot"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/07/rolex-new-watches-2026-padellone-roller-loop-m53505-0002_2608stj_0003-and-m53505-0002_2608stj_0004"
+          },
+          "alt": "Padellone m53505-0002"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0002",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/07/rolex-new-watches-2026-padellone-roller-loop-m53505-0002_2608stj_0003-and-m53505-0002_2608stj_0004"
+          }
+         }
+        }
+       },
+       {
+        "image": {
+         "theme": "dark-theme",
+         "beautyshot": {
+          "icon_style": "translucent-dark",
+          "theme": "dark-theme",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/08/rolex-new-watches-2026-padellone-roller-loop-m53505-0002_2608stj_0001-upright-beauty-shot"
+          },
+          "alt": "Padellone m53505-0002"
+         },
+         "imagecld": {
+          "alt": "Padellone m53505-0002",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 3840,
+           "height": 2160,
+           "portraitWidth": 1560,
+           "portraitHeight": 2600,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/new-roller-loop/08/rolex-new-watches-2026-padellone-roller-loop-m53505-0002_2608stj_0001-upright-beauty-shot"
+          }
+         }
+        }
+       }
+      ],
+      "roller_with_caption": false,
+      "title": "watches:new-watches:padellone:roller-loop"
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "blt783c28bb96bac841",
+      "_content_type_uid": "article_image_scrolling",
+      "background_image": {
+       "alt": "Padellone movement parts",
+       "media": {
+        "src": "/images/rolex-new-watches-2026-padellone-movement-parts_2026-np-herbier-mvmt-aristote-still.avif",
+        "portraitSrc": "/images/rolex-new-watches-2026-padellone-movement-parts_2026-np-herbier-mvmt-aristote-still.avif",
+        "width": 3840,
+        "height": 2905,
+        "portraitWidth": 1560,
+        "portraitHeight": 4139,
+        "id": "rolexcom/049e3b0b345c/new-watches/padellone/rolex-new-watches-2026-padellone-movement-parts_2026-np-herbier-mvmt-aristote-still"
+       }
+      },
+      "box_spacing": {
+       "padding_top": "padding-top-m-pos"
+      },
+      "heading": {
+       "title": "The instantaneous complete annual calendar according to Rolex"
+      },
+      "horizontal_align": "end",
+      "paragraph": {
+       "block": [
+        {
+         "paragraph": "Two technical features of the Perpetual Padellone’s complete calendar stand out. Firstly, it is annual: thanks to the patented Haplos system, the mechanism differentiates between 30-day and 31-day months. This means that it requires only one adjustment a year, when February turns to March. Secondly, it is instantaneous: at midnight, the day, date and month change simultaneously in a fraction of a second, ensuring perfect alignment of the calendar markers – a feature for which a patent application has also been filed. The day and the month, written in English, appear in two apertures at 12 o’clock, while a blue hand with a crescent moon at its tip points to the date set out around the dial circumference.",
+         "is_bold": false
+        }
+       ]
+      },
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watches:new-watches-2026:padellone:movement:article-image-scrolling",
+      "title_gradient": {
+       "colors": [
+        {
+         "color": "27 39 87",
+         "opacity": 1
+        },
+        {
+         "color": "68 97 188",
+         "opacity": 1
+        }
+       ],
+       "angle": 45
+      },
+      "vertical_align": "start",
+      "vertical_align_padding": "s"
+     }
+    ]
+   }
+  },
+  {
+   "videos": {
+    "component": [
+     {
+      "uid": "bltabd78b8daaf92a32",
+      "_content_type_uid": "video_player",
+      "poster": [
+       {
+        "video_cld": {
+         "media": {
+          "src": "/videos/rolex-new-watches-2026-padellone-movement-autoplay.webm",
+          "portraitSrc": "/videos/rolex-new-watches-2026-padellone-movement-autoplay.webm",
+          "width": 1920,
+          "height": 1080,
+          "portraitWidth": 1080,
+          "portraitHeight": 1920,
+          "id": "rolexcom/049e3b0b345c/new-watches/padellone/movement-player-expand/autoplay/rolex-new-watches-2026-padellone-movement-autoplay"
+         },
+         "poster": {
+          "alt": "Padellone movement",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 1920,
+           "height": 1080,
+           "portraitWidth": 1080,
+           "portraitHeight": 1920,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/movement-player-expand/autoplay/rolex-new-watches-2026-padellone-movement-autoplay-posterframe"
+          }
+         },
+         "fallback": {
+          "alt": "Padellone movement",
+          "media": {
+           "src": null,
+           "portraitSrc": null,
+           "width": 1920,
+           "height": 1080,
+           "portraitWidth": 1080,
+           "portraitHeight": 1920,
+           "id": "rolexcom/049e3b0b345c/new-watches/padellone/movement-player-expand/autoplay/rolex-new-watches-2026-padellone-movement-autoplay-posterframe"
+          }
+         },
+         "loop": true,
+         "has_audio": false,
+         "aria_label": "Padellone movement"
+        }
+       }
+      ],
+      "title": "watches:new-watches-2026:padellone:movement:video-player",
+      "video_player_cld": {
+       "launcher_label": "Play the video",
+       "aria_label": "Play the video - Padellone movement",
+       "style": "filled translucent-dark",
+       "media": {
+        "src": null,
+        "portraitSrc": null,
+        "width": 3840,
+        "height": 2160,
+        "portraitWidth": 1080,
+        "portraitHeight": 1920,
+        "id": "rolexcom/049e3b0b345c/new-watches/padellone/movement-player-expand/long-film/rolex-new-watches-2026-padellone-movement-film"
+       },
+       "no_captions": true,
+       "has_closed_captions": false,
+       "adaptive_bitrate": false,
+       "poster": {
+        "alt": "Play the video",
+        "media": {
+         "src": null,
+         "portraitSrc": null,
+         "width": 1920,
+         "height": 1080,
+         "portraitWidth": 1080,
+         "portraitHeight": 1920,
+         "id": "rolexcom/049e3b0b345c/new-watches/padellone/movement-player-expand/long-film/rolex-new-watches-2026-padellone-movement-film-posterframe"
+        }
+       }
+      },
+      "width": "xl"
+     }
+    ]
+   }
+  },
+  {
+   "hubs": {
+    "component": [
+     {
+      "uid": "blt623257ea1931cbad",
+      "_content_type_uid": "card_vertical_carousel",
+      "background_image": {
+       "alt": "Perpetual light",
+       "media": {
+        "src": null,
+        "portraitSrc": null,
+        "width": 1920,
+        "height": 1080,
+        "portraitWidth": 1080,
+        "portraitHeight": 1920,
+        "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/rolex-new-watches-2026-padellone-features-background"
+       }
+      },
+      "card": [
+       {
+        "_content_type_uid": "card_vertical_carousel_card",
+        "uid": "blt693eac959fc9f1a8",
+        "button": {
+         "preload": false
+        },
+        "cta": [
+         {
+          "popin": {
+           "reference": [
+            {
+             "_content_type_uid": "popin_edito",
+             "uid": "blt4c5ff76f1b84c9ec",
+             "background": [
+              {
+               "color": {
+                "colors": [
+                 {
+                  "color": "255 255 255",
+                  "opacity": 1
+                 }
+                ]
+               }
+              }
+             ],
+             "components": [
+              {
+               "articles": {
+                "component": [
+                 {
+                  "uid": "blt361eddbb06b2cc2a",
+                  "_content_type_uid": "article-simple"
+                 }
+                ]
+               }
+              },
+              {
+               "video": {
+                "component": [
+                 {
+                  "uid": "blt9d9f4d71cbe73f85",
+                  "_content_type_uid": "video_autoplay"
+                 }
+                ]
+               }
+              }
+             ],
+             "dark_close_icon": true,
+             "fullscreen": false,
+             "title": "watches:new-watches-2026:padellone:moonphase-disc:popin-edito"
+            }
+           ],
+           "label": "Learn more",
+           "aria_label": "Learn more - Moonphase disc",
+           "style": "filled translucent-dark",
+           "theme": "dark-theme",
+           "preload": true
+          }
+         }
+        ],
+        "embossed_stamp": false,
+        "heading": {
+         "kicker": "Poetry in motion",
+         "title": "Moonphase disc"
+        },
+        "horizontal_align": "start",
+        "horizontal_align_mobile": "start",
+        "media": [
+         {
+          "video_cld": {
+           "media": {
+            "src": "/videos/rolex-new-watches-2026-padellone-moonphase-disc-autoplay.webm",
+            "portraitSrc": "/videos/rolex-new-watches-2026-padellone-moonphase-disc-autoplay.webm",
+            "width": 1920,
+            "height": 1080,
+            "portraitWidth": 1080,
+            "portraitHeight": 1920,
+            "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/moonphase-disc/rolex-new-watches-2026-padellone-moonphase-disc-autoplay"
+           },
+           "poster": {
+            "alt": "Moonphase disc",
+            "media": {
+             "src": null,
+             "portraitSrc": null,
+             "width": 1920,
+             "height": 1080,
+             "portraitWidth": 1080,
+             "portraitHeight": 1920,
+             "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/moonphase-disc/rolex-new-watches-2026-padellone-moonphase-disc-autoplay-posterframe"
+            }
+           },
+           "fallback": {
+            "alt": "Moonphase disc",
+            "media": {
+             "src": null,
+             "portraitSrc": null,
+             "width": 1920,
+             "height": 1080,
+             "portraitWidth": 1080,
+             "portraitHeight": 1920,
+             "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/moonphase-disc/rolex-new-watches-2026-padellone-moonphase-disc-autoplay-posterframe"
+            }
+           },
+           "loop": true,
+           "has_audio": false,
+           "aria_label": "Moonphase disc"
+          }
+         }
+        ],
+        "text_justify": "start",
+        "text_justify_mobile": "start",
+        "text_width": "s",
+        "theme": {
+         "theme": "dark-theme"
+        },
+        "title": "watches:new-watches-2026:padellone:features:card-vertical-carousel:moonphase-disc:card",
+        "vertical_align": "end",
+        "vertical_align_mobile": "end",
+        "video_launcher": {
+         "no_captions": false,
+         "has_closed_captions": false,
+         "adaptive_bitrate": false
+        }
+       },
+       {
+        "_content_type_uid": "card_vertical_carousel_card",
+        "uid": "blt29d6ce78b814c9e9",
+        "button": {
+         "preload": false
+        },
+        "cta": [
+         {
+          "popin": {
+           "reference": [
+            {
+             "_content_type_uid": "popin_edito",
+             "uid": "blt3030cafbf693487c",
+             "background": [
+              {
+               "color": {
+                "colors": [
+                 {
+                  "color": "255 255 255",
+                  "opacity": 1
+                 }
+                ]
+               }
+              }
+             ],
+             "components": [
+              {
+               "articles": {
+                "component": [
+                 {
+                  "uid": "blta835894136a96946",
+                  "_content_type_uid": "text_image_vertical"
+                 }
+                ]
+               }
+              }
+             ],
+             "dark_close_icon": true,
+             "fullscreen": false,
+             "title": "watches:new-watches-2026:padellone:case-aesthetics:popin-edito"
+            }
+           ],
+           "label": "Learn more",
+           "aria_label": "Learn more - Case aesthetics",
+           "style": "filled translucent-dark",
+           "theme": "dark-theme",
+           "preload": true
+          }
+         }
+        ],
+        "embossed_stamp": false,
+        "heading": {
+         "kicker": "Inherited refinement ",
+         "title": "Case aesthetics"
+        },
+        "horizontal_align": "start",
+        "horizontal_align_mobile": "start",
+        "media": [
+         {
+          "image_cld": {
+           "alt": "Case aesthetics",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 3840,
+            "height": 2160,
+            "portraitWidth": 1560,
+            "portraitHeight": 2773,
+            "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/case-aesthetics/rolex-new-watches-2026-padellone-case-aesthetics-m53505-0003"
+           }
+          }
+         }
+        ],
+        "text_justify": "start",
+        "text_justify_mobile": "start",
+        "text_width": "s",
+        "theme": {
+         "theme": "dark-theme"
+        },
+        "title": "watches:new-watches-2026:padellone:features:card-vertical-carousel:case:card",
+        "vertical_align": "end",
+        "vertical_align_mobile": "end",
+        "video_launcher": {
+         "no_captions": false,
+         "has_closed_captions": false,
+         "adaptive_bitrate": false
+        }
+       },
+       {
+        "_content_type_uid": "card_vertical_carousel_card",
+        "uid": "bltc4ca6673c10aeda8",
+        "button": {
+         "preload": false
+        },
+        "cta": [
+         {
+          "popin": {
+           "reference": [
+            {
+             "_content_type_uid": "popin_edito",
+             "uid": "bltcbc5e4f8d384ebd2",
+             "background": [
+              {
+               "color": {
+                "colors": [
+                 {
+                  "color": "255 255 255",
+                  "opacity": 1
+                 }
+                ]
+               }
+              }
+             ],
+             "components": [
+              {
+               "articles": {
+                "component": [
+                 {
+                  "uid": "bltc531a030593909e6",
+                  "_content_type_uid": "article-simple"
+                 }
+                ]
+               }
+              },
+              {
+               "video": {
+                "component": [
+                 {
+                  "uid": "bltd61e1e517b0922e8",
+                  "_content_type_uid": "video_autoplay"
+                 }
+                ]
+               }
+              }
+             ],
+             "dark_close_icon": true,
+             "fullscreen": false,
+             "title": "watches:new-watches-2026:padellone:features:card-vertical-carousel:settimo-bracelet:popin-edito"
+            }
+           ],
+           "label": "Learn more",
+           "aria_label": "Learn more - Settimo bracelet or alligator leather strap",
+           "style": "filled translucent-dark",
+           "theme": "dark-theme",
+           "preload": true
+          }
+         }
+        ],
+        "embossed_stamp": false,
+        "heading": {
+         "kicker": "The choice of excellence",
+         "title": "Settimo bracelet or alligator leather strap"
+        },
+        "horizontal_align": "start",
+        "horizontal_align_mobile": "start",
+        "media": [
+         {
+          "video_cld": {
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1920,
+            "height": 1080,
+            "portraitWidth": 1080,
+            "portraitHeight": 1920,
+            "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/settimo-bracelet/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay"
+           },
+           "poster": {
+            "alt": "Settimo bracelet in alligator leather",
+            "media": {
+             "src": "/images/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay-posterframe.avif",
+             "portraitSrc": "/images/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay-posterframe.avif",
+             "width": 1920,
+             "height": 1080,
+             "portraitWidth": 1080,
+             "portraitHeight": 1920,
+             "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/settimo-bracelet/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay-posterframe"
+            }
+           },
+           "fallback": {
+            "alt": "Settimo bracelet in alligator leather",
+            "media": {
+             "src": "/images/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay-posterframe.avif",
+             "portraitSrc": "/images/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay-posterframe.avif",
+             "width": 1920,
+             "height": 1080,
+             "portraitWidth": 1080,
+             "portraitHeight": 1920,
+             "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/settimo-bracelet/rolex-new-watches-2026-padellone-bracelet-settimo-and-alligator-leather-autoplay-posterframe"
+            }
+           },
+           "loop": true,
+           "has_audio": false,
+           "aria_label": "Settimo bracelet in alligator leather"
+          }
+         }
+        ],
+        "text_justify": "start",
+        "text_justify_mobile": "start",
+        "text_width": "l",
+        "theme": {
+         "theme": "dark-theme"
+        },
+        "title": "watches:new-watches-2026:padellone:features:card-vertical-carousel:settimo-bracelet:card",
+        "vertical_align": "end",
+        "vertical_align_mobile": "end",
+        "video_launcher": {
+         "no_captions": false,
+         "has_closed_captions": false,
+         "adaptive_bitrate": false
+        }
+       },
+       {
+        "_content_type_uid": "card_vertical_carousel_card",
+        "uid": "blt8d09a6cd798c98b5",
+        "button": {
+         "preload": false
+        },
+        "cta": [
+         {
+          "popin": {
+           "reference": [
+            {
+             "_content_type_uid": "popin_edito",
+             "uid": "bltac650aac7da392f6",
+             "background": [
+              {
+               "color": {
+                "colors": [
+                 {
+                  "color": "255 255 255",
+                  "opacity": 1
+                 }
+                ]
+               }
+              }
+             ],
+             "components": [
+              {
+               "articles": {
+                "component": [
+                 {
+                  "uid": "blte237d671e1edf2f8",
+                  "_content_type_uid": "text_image_vertical"
+                 }
+                ]
+               }
+              }
+             ],
+             "dark_close_icon": true,
+             "fullscreen": false,
+             "title": "watches:new-watches-2026:padellone:calibre-7190:popin-edito"
+            }
+           ],
+           "label": "Learn more",
+           "aria_label": "Learn more - Calibre 7190",
+           "style": "filled translucent-dark",
+           "theme": "dark-theme",
+           "preload": true
+          }
+         }
+        ],
+        "embossed_stamp": false,
+        "heading": {
+         "kicker": "Cutting-edge technology",
+         "title": "Calibre 7190"
+        },
+        "horizontal_align": "start",
+        "horizontal_align_mobile": "start",
+        "media": [
+         {
+          "image_cld": {
+           "alt": "Calibre 7190",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 3840,
+            "height": 2160,
+            "portraitWidth": 1560,
+            "portraitHeight": 2773,
+            "id": "rolexcom/049e3b0b345c/new-watches/padellone/features/calibre/rolex-new-watches-2026-padellone-calibre-7190"
+           }
+          }
+         }
+        ],
+        "text_justify": "start",
+        "text_justify_mobile": "start",
+        "text_width": "s",
+        "theme": {
+         "theme": "light-theme"
+        },
+        "title": "watches:new-watches-2026:padellone:features:card-vertical-carousel:calibre-7190:card",
+        "vertical_align": "end",
+        "vertical_align_mobile": "end",
+        "video_launcher": {
+         "no_captions": false,
+         "has_closed_captions": false,
+         "adaptive_bitrate": false
+        }
+       }
+      ],
+      "heading": {
+       "title": "Features of the Perpetual Padellone"
+      },
+      "reveal": true,
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watches:new-watches-2026:padellone:features:card-vertical-carousel",
+      "title_gradient": {
+       "colors": [
+        {
+         "color": "27 39 87",
+         "opacity": 1
+        },
+        {
+         "color": "68 97 188",
+         "opacity": 1
+        }
+       ],
+       "angle": 45
+      }
+     }
+    ]
+   }
+  },
+  {
+   "intros": {
+    "component": [
+     {
+      "uid": "blt783654ba2bcc9802",
+      "_content_type_uid": "watch_drag",
+      "box_spacing": {
+       "margin_top": "margin-top-m-pos"
+      },
+      "heading": {
+       "gradient": {
+        "colors": [
+         {
+          "color": "233 59 51",
+          "opacity": 1
+         },
+         {
+          "color": "111 16 24",
+          "opacity": 1
+         }
+        ],
+        "angle": 45
+       }
+      },
+      "image": {
+       "start_frame": "0",
+       "end_frame": "249",
+       "first_frame": {
+        "alt": "Padellone",
+        "media": {
+         "src": "/images/new-watches-2026-padellone-ballerine-0000.avif",
+         "portraitSrc": "/images/new-watches-2026-padellone-ballerine-0000.avif",
+         "width": 600,
+         "height": 740,
+         "portraitWidth": 600,
+         "portraitHeight": 740,
+         "id": "rolexcom/049e3b0b345c/new-watches/padellone/watch-drag/m53505-0003/new-watches-2026-padellone-ballerine-0000"
+        }
+       }
+      },
+      "labels": {
+       "pointer": "Drag to explore",
+       "keyboard": "Use arrow to explore",
+       "focus": "3D watch image: use left and right arrow keys to rotate the watch",
+       "play": "Play the 3D watch rotation",
+       "pause": "Pause the 3D watch rotation"
+      },
+      "text": {
+       "facet_case_title": "Oyster, 39mm, Everose gold",
+       "newmodelselection": true,
+       "title": "Perpetual Padellone"
+      },
+      "title": "watches:new-watches-2026:padellone:watch-drag"
+     }
+    ]
+   }
+  },
+  {
+   "hubs": {
+    "component": [
+     {
+      "uid": "blt1a3c6136f1d20034",
+      "_content_type_uid": "dual_grid",
+      "column": [
+       {
+        "card": [
+         {
+          "_content_type_uid": "dual_grid_card",
+          "uid": 0,
+          "button": {
+           "preload": false
+          },
+          "cta": [
+           {
+            "link": {
+             "label": "Discover more",
+             "aria_label": "Discover more - Rolex moon calendar",
+             "href": "/rolex-moon-calendar",
+             "icon": "chevron",
+             "style": "inline"
+            }
+           }
+          ],
+          "heading": {
+           "title": "Perpetual Padellone<br>Rolex moon calendar"
+          },
+          "media": [
+           {
+            "image_cld": {
+             "alt": "Rolex moon calendar",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1920,
+              "height": 2304,
+              "portraitWidth": 1920,
+              "portraitHeight": 2304,
+              "id": "rolexcom/049e3b0b345c/new-watches/padellone/dual-grid/rolex-new-watches-2026-padellone-moon-calendar"
+             }
+            }
+           }
+          ],
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "title": "watches:new-watches:padellone:dual-grid:moon-calendar-card",
+          "index": 0,
+          "waid": "1:1",
+          "videotype": false
+         }
+        ]
+       },
+       {
+        "card": [
+         {
+          "_content_type_uid": "dual_grid_card",
+          "uid": 1,
+          "button": {
+           "preload": false
+          },
+          "cta": [
+           {
+            "link": {
+             "label": "Discover more",
+             "aria_label": "Discover more - New Superlative Chronometer certification",
+             "href": "/watches/new-watches/superlative-chronometer",
+             "icon": "chevron",
+             "style": "inline"
+            }
+           }
+          ],
+          "heading": {
+           "title": "New Superlative Chronometer certification"
+          },
+          "media": [
+           {
+            "image_cld": {
+             "alt": "New Superlative Chronometer certification",
+             "media": {
+              "src": null,
+              "portraitSrc": null,
+              "width": 1920,
+              "height": 2304,
+              "portraitWidth": 1920,
+              "portraitHeight": 2304,
+              "id": "rolexcom/049e3b0b345c/new-watches/padellone/dual-grid/rolex-new-watches-2026-padellone-superlative-chronometer"
+             }
+            }
+           }
+          ],
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "title": "watches:new-watches:padellone:dual-grid:precious-lightness-card",
+          "index": 1,
+          "waid": "2:1",
+          "videotype": false
+         }
+        ]
+       }
+      ],
+      "dual_mobile": false,
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "watches:new-watches:padellone:dual-grid",
+      "video_mobile": false
+     }
+    ]
+   }
+  },
+  {
+   "pushes": {
+    "component": [
+     {
+      "uid": "bltaedad924896d13e2",
+      "_content_type_uid": "next_chapter",
+      "box_spacing": {
+       "margin_top": "margin-top-m-pos",
+       "margin_bottom": "margin-bot-m-pos"
+      },
+      "jump_line": "Oyster Perpetual 41",
+      "label": "Next",
+      "link": {
+       "label": "Learn more",
+       "aria_label": "Learn more",
+       "href": "/watches/new-watches/oyster-perpetual-41",
+       "style": "filled opaque-green"
+      },
+      "title": "watches:new-watches-2026:padellone:next-chapter"
+     }
+    ]
+   }
+  }
+ ],
+ "controlslayout": false,
+ "is_reading_info": false,
+ "meta": {
+  "title": "New Perpetual Padellone | New watches 2026 | Rolex®",
+  "description": "Rolex expands the Perpetual collection through the addition of a watch with an instantaneous complete annual calendar: the Perpetual Padellone. More.",
+  "title_og": "New Perpetual Padellone | New watches 2026 | Rolex®",
+  "description_og": "Rolex expands the Perpetual collection through the addition of a watch with an instantaneous complete annual calendar: the Perpetual Padellone. More.",
+  "image_og_cld": "/rolexcom/049e3b0b345c/new-watches/padellone/new-watches-2026-perpetual-padellone-share_m53505-0003.jpg",
+  "searchimage_og_cld": "/rolexcom/049e3b0b345c/new-watches/padellone/new-watches-2026-perpetual-padellone-search_m53505-0003.jpg",
+  "search_title": "New Padellone",
+  "search_section": "New watches 2026",
+  "noindexing": false
+ },
+ "nofooter": false,
+ "page_type": "family page",
+ "title": "page:watches:new-watches-2026:padellone",
+ "preload": [
+  "CoverParallaxFullscreen",
+  "Fragainer",
+  "ArticleImageScrolling",
+  "RollerGallery",
+  "VideoPlayer",
+  "CardVerticalCarousel",
+  "WatchDrag",
+  "DualGrid",
+  "NextChapter"
+ ],
+ "sub_navigation": {
+  "uid": "blt3b382a1d0799a746",
+  "back": {
+   "label": "New watches 2026",
+   "aria_label": "Rolex watches - Back",
+   "url": "/watches/new-watches"
+  },
+  "module": [
+   {
+    "bento": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "blta646f1be77188ff0",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "2",
+          "pattern": "xyxz"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "Perpetual Padellone ",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Perpetual Padellone",
+          "href": "/watches/new-watches/perpetual-padellone",
+          "assets": {
+           "alt": "Padellone",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/049e3b0b345c/navigation/2026/new-watches/new-watches-2026-perpetual-padellone-navigation_m53505-0003-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Oyster Perpetual 41",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Oyster Perpetual 41",
+          "href": "/watches/new-watches/oyster-perpetual-41",
+          "assets": {
+           "alt": "Oyster Perpetual 41",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 1446,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/watches/navigation/new-watches-2026-oyster-perpetual-41-navigation_m134303-0001-square"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Oyster Perpetual 36",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Oyster Perpetual 36",
+          "href": "/watches/new-watches/oyster-perpetual-36",
+          "assets": {
+           "alt": "Oyster Perpetual 36",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/watches/navigation/new-watches-2026-oyster-perpetual-36-navigation_m126000-0016-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Oyster Perpetual 28 & 34",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Oyster Perpetual 28 and 34",
+          "href": "/watches/new-watches/oyster-perpetual-28",
+          "assets": {
+           "alt": "Oyster Perpetual 28",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/watches/navigation/new-watches-2026-oyster-perpetual-28-navigation_m276208-0002-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Datejust 41",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Datejust 41",
+          "href": "/watches/new-watches/datejust-41",
+          "assets": {
+           "alt": "Datejust 41",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/watches/navigation/new-watches-2026-datejust-41-navigation_m126334-0033-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Yacht-Master II",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Yacht-Master II",
+          "href": "/watches/new-watches/yacht-master-ii",
+          "assets": {
+           "alt": "Yacht-Master II",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/watches/navigation/new-watches-2026-yacht-master-ii-navigation_m126680-0001-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Day-Date 40",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Day-Date 40",
+          "href": "/watches/new-watches/day-date-40",
+          "assets": {
+           "alt": "Day-Date 40",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 1446,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/049e3b0b345c/navigation/2026/new-watches/new-watches-2026-day-date-navigation_m228235jg-0001-square"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Cosmograph Daytona",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Cosmograph Daytona",
+          "href": "/watches/new-watches/cosmograph-daytona",
+          "assets": {
+           "alt": "Cosmograph Daytona",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/049e3b0b345c/navigation/2026/new-watches/new-watches-2026-cosmograph-daytona-navigation_m126502-0001-landscape"
+           }
+          }
+         }
+        }
+       ],
+       "title": "new-watches-2026:sub:bento"
+      }
+     ]
+    }
+   },
+   {
+    "action": {
+     "label": "View all models",
+     "aria_label": "View all models - New watches 2026",
+     "href": "/watches/new-watches/all-models"
+    }
+   }
+  ],
+  "pattern": "/watches/new-watches{/*pages}",
+  "subnav_heading": "New watches 2026",
+  "title": "new-watches-2026:sub",
+  "_content_type_uid": "navigation_sub"
+ }
+}

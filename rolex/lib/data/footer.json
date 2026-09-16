@@ -1,0 +1,728 @@
+{
+ "_content_type_uid": "footer",
+ "uid": "blt6c565ab93457e53d",
+ "accessibility": {
+  "label": "Accessibility",
+  "links": [
+   {
+    "label": "Read our statement"
+   }
+  ],
+  "modal": {
+   "heading": "Accessibility statement",
+   "text": "<p>We take website accessibility seriously for all users of our website. Our ongoing accessibility efforts work toward conforming to the Web Content Accessibility Guidelines (WCAG).</p>\n<p>We welcome any feedback you may have. When providing feedback as to accessibility, we ask that you provide us with as many specific details as possible so we may research your specific concerns.</p>\n<p>You can contact us via email at <a href=\"mailto:accessibility@rolex.com\">accessibility@rolex.com</a></p>"
+  },
+  "hide": false
+ },
+ "categories": [
+  {
+   "label": "Rolex watches and accessories",
+   "href": "/watches",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Air-King",
+     "target": "internal",
+     "href": "/watches/air-king"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Cosmograph Daytona",
+     "target": "internal",
+     "href": "/watches/cosmograph-daytona"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Datejust",
+     "target": "internal",
+     "href": "/watches/datejust"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Lady-Datejust",
+     "target": "internal",
+     "href": "/watches/lady-datejust"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Day-Date",
+     "target": "internal",
+     "href": "/watches/day-date"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Explorer",
+     "target": "internal",
+     "href": "/watches/explorer"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Explorer II",
+     "target": "internal",
+     "href": "/watches/explorer-ii"
+    },
+    {
+     "starts_new_group": false,
+     "label": "GMT-Master II",
+     "target": "internal",
+     "href": "/watches/gmt-master-ii"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Land-Dweller",
+     "target": "internal",
+     "href": "/watches/land-dweller"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Oyster Perpetual",
+     "target": "internal",
+     "href": "/watches/oyster-perpetual"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Sea-Dweller",
+     "target": "internal",
+     "href": "/watches/sea-dweller"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Deepsea",
+     "target": "internal",
+     "href": "/watches/deepsea"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Sky-Dweller",
+     "target": "internal",
+     "href": "/watches/sky-dweller"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Submariner",
+     "target": "internal",
+     "href": "/watches/submariner"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Yacht-Master",
+     "target": "internal",
+     "href": "/watches/yacht-master"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Yacht-Master II",
+     "target": "internal",
+     "href": "/watches/yacht-master-ii"
+    },
+    {
+     "starts_new_group": false,
+     "label": "1908",
+     "target": "internal",
+     "href": "/watches/1908"
+    },
+    {
+     "starts_new_group": true,
+     "label": "New watches 2026",
+     "target": "internal",
+     "href": "/watches/new-watches"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Find your Rolex",
+     "target": "internal",
+     "href": "/watches/find-rolex"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Configure your Rolex",
+     "target": "internal",
+     "href": "/watches/configure"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Men's watches",
+     "target": "internal",
+     "href": "/watches/find-rolex/man"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Women's watches",
+     "target": "internal",
+     "href": "/watches/find-rolex/woman"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Gold watches",
+     "target": "internal",
+     "href": "/watches/find-rolex/gold"
+    },
+    {
+     "starts_new_group": true,
+     "label": "Accessories",
+     "target": "internal",
+     "href": "/accessories"
+    }
+   ]
+  },
+  {
+   "label": "One-of-a-kind auction",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "28 September 2026",
+     "target": "internal",
+     "href": "/auctions/one-of-a-kind-auction"
+    }
+   ]
+  },
+  {
+   "label": "Watchmaking",
+   "href": "/watchmaking/a-unique-approach",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Rolex anatomy",
+     "target": "internal",
+     "href": "/watchmaking/features"
+    }
+   ]
+  },
+  {
+   "label": "Oyster Story",
+   "href": "/oyster-story",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "The film",
+     "target": "internal",
+     "href": "/oyster-story/oyster-film"
+    }
+   ]
+  },
+  {
+   "label": "About Rolex",
+   "href": "/about-rolex",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Sustainability",
+     "target": "internal",
+     "href": "/about-rolex/sustainable-development"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Behind the crown",
+     "target": "internal",
+     "href": "/about-rolex/behind-the-crown"
+    },
+    {
+     "starts_new_group": false,
+     "label": "History",
+     "target": "internal",
+     "href": "/about-rolex/history/1905-1919"
+    }
+   ]
+  },
+  {
+   "label": "Sports, Arts and Planet",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Rolex and sports",
+     "target": "internal",
+     "href": "/rolex-and-sports"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Perpetual Planet",
+     "target": "internal",
+     "href": "/perpetual-initiatives/perpetual-planet"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Perpetual Arts",
+     "target": "internal",
+     "href": "/perpetual-initiatives/perpetual-arts"
+    },
+    {
+     "starts_new_group": true,
+     "label": "The Rolex family",
+     "target": "internal",
+     "href": "/rolex-family"
+    }
+   ]
+  },
+  {
+   "label": "Buying and servicing",
+   "is_primary": true,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Buying a Rolex",
+     "target": "internal",
+     "href": "/buying-a-rolex/experiencing-a-rolex"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Rolex Certified Pre-Owned",
+     "target": "internal",
+     "href": "/buying-a-rolex/rolex-certified-pre-owned"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Servicing your Rolex",
+     "target": "internal",
+     "href": "/watch-care-and-service/our-servicing-philosophy"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Caring for your Rolex",
+     "target": "internal",
+     "href": "/watch-care-and-service/caring-for-your-rolex"
+    },
+    {
+     "starts_new_group": true,
+     "label": "Store locator",
+     "target": "internal",
+     "href": "/store-locator"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Service Centre locator",
+     "target": "internal",
+     "href": "/watch-care-and-service/service-locator"
+    }
+   ]
+  },
+  {
+   "label": "Help and support",
+   "is_primary": false,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Frequently asked questions",
+     "target": "internal",
+     "href": "/watch-care-and-service/faq"
+    },
+    {
+     "p13n": [
+      {
+       "type": "include",
+       "criteria": {
+        "name": {
+         "crit": [
+          {
+           "l": "signalEuropeEfta",
+           "op": "=",
+           "r": "100"
+          }
+         ]
+        }
+       }
+      }
+     ],
+     "starts_new_group": false,
+     "label": "List of EU importers",
+     "target": "external",
+     "href": "#",
+     "external": "#"
+    },
+    {
+     "p13n": [
+      {
+       "type": "exclude",
+       "criteria": {
+        "name": {
+         "crit": [
+          {
+           "l": "visitorAsia",
+           "op": "=",
+           "r": "100"
+          }
+         ]
+        }
+       }
+      },
+      {
+       "type": "exclude",
+       "criteria": {
+        "name": {
+         "crit": [
+          {
+           "l": "unitedstates",
+           "op": "=",
+           "r": "100"
+          }
+         ]
+        }
+       }
+      }
+     ],
+     "starts_new_group": false,
+     "label": "File a report",
+     "target": "internal",
+     "href": "/about-rolex/sustainable-development/file-a-report"
+    },
+    {
+     "p13n": [
+      {
+       "type": "include",
+       "criteria": {
+        "name": {
+         "crit": [
+          {
+           "l": "italy",
+           "op": "=",
+           "r": "100"
+          }
+         ]
+        }
+       }
+      }
+     ],
+     "starts_new_group": false,
+     "label": "Contact Rolex Italy",
+     "target": "internal",
+     "href": "#ContactForm",
+     "reference": [
+      {
+       "_content_type_uid": "popin_edito",
+       "uid": "bltae6174b8ea314c4f",
+       "components": [
+        {
+         "miscs": {
+          "component": [
+           {
+            "uid": "bltf2c5e854ae3f66f7",
+            "_content_type_uid": "contact_form"
+           }
+          ]
+         }
+        }
+       ],
+       "dark_close_icon": true,
+       "fullscreen": false,
+       "title": "footer:it:contact-form-italy:popin-edito"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Media",
+   "is_primary": false,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Wallpapers",
+     "target": "internal",
+     "href": "/media/wallpapers"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Brochures",
+     "target": "internal",
+     "href": "/media/brochures"
+    },
+    {
+     "starts_new_group": false,
+     "label": "User guides",
+     "target": "internal",
+     "href": "/media/user-guides"
+    }
+   ]
+  },
+  {
+   "label": "Our platforms",
+   "is_primary": false,
+   "links": [
+    {
+     "starts_new_group": false,
+     "label": "Newsroom",
+     "target": "external",
+     "href": "#"
+    },
+    {
+     "starts_new_group": false,
+     "label": "Rolex.org",
+     "target": "external",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "categories_aria_label": "Footer navigation",
+ "firstlinkicp": {
+  "external": "https://beian.miit.gov.cn/",
+  "label": "沪ICP备2023001797号-1"
+ },
+ "languages": {
+  "label": "Languages",
+  "title": "<em>Choose</em> your language"
+ },
+ "legal_links": [
+  {
+   "label": "Terms of use",
+   "href": "/legal-notices/terms-of-use",
+   "style": "inline"
+  },
+  {
+   "label": "Privacy notice",
+   "href": "/legal-notices/privacy-notice",
+   "style": "inline"
+  },
+  {
+   "label": "Cookies",
+   "href": "/legal-notices/cookies",
+   "style": "inline"
+  }
+ ],
+ "legal_links_p13n": [
+  {
+   "p13n": [
+    {
+     "type": "include"
+    }
+   ],
+   "link": {
+    "label": "Terms of use",
+    "aria_label": "Terms of use",
+    "href": "/legal-notices/terms-of-use",
+    "style": "inline"
+   }
+  },
+  {
+   "p13n": [
+    {
+     "type": "include"
+    }
+   ],
+   "link": {
+    "label": "Privacy notice",
+    "aria_label": "Privacy notice",
+    "href": "/legal-notices/privacy-notice",
+    "style": "inline"
+   }
+  },
+  {
+   "p13n": [
+    {
+     "type": "include"
+    }
+   ],
+   "link": {
+    "label": "Cookies",
+    "aria_label": "Cookies",
+    "href": "/legal-notices/cookies",
+    "style": "inline"
+   }
+  },
+  {
+   "p13n": [
+    {
+     "type": "include",
+     "criteria": {
+      "name": {
+       "crit": [
+        {
+         "l": "rolexde",
+         "op": "=",
+         "r": "100"
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "link": {
+    "label": "Impressum",
+    "aria_label": "Impressum",
+    "href": "/impressum",
+    "style": "inline"
+   }
+  },
+  {
+   "p13n": [
+    {
+     "type": "include",
+     "criteria": {
+      "name": {
+       "crit": [
+        {
+         "l": "visitorSpainStatic",
+         "op": "=",
+         "r": "100"
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "link": {
+    "label": "Información financiera",
+    "aria_label": "Información financiera",
+    "external": "#",
+    "icon": "none",
+    "style": "inline"
+   }
+  }
+ ],
+ "secondlinkicp": {
+  "external": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102004836",
+  "label": "沪公网安备31010102004836号"
+ },
+ "share": {
+  "label": "Share",
+  "text": "Share this page via %s",
+  "networks": [
+   {
+    "label": "Threads"
+   },
+   {
+    "label": "Facebook"
+   },
+   {
+    "label": "X"
+   },
+   {
+    "label": "LinkedIn"
+   },
+   {
+    "label": "Pinterest"
+   },
+   {
+    "label": "Weibo"
+   },
+   {
+    "label": "Qq"
+   },
+   {
+    "label": "Douban"
+   }
+  ]
+ },
+ "social": {
+  "label": "Official channels",
+  "links": [
+   {
+    "label": "YouTube",
+    "href": "https://www.youtube.com/rolex"
+   },
+   {
+    "label": "Instagram",
+    "href": "https://www.instagram.com/rolex"
+   },
+   {
+    "p13n": [
+     {
+      "type": "exclude",
+      "criteria": {
+       "name": {
+        "crit": [
+         {
+          "l": "visitorAsia",
+          "op": "=",
+          "r": "100"
+         }
+        ]
+       }
+      }
+     }
+    ],
+    "label": "Threads",
+    "href": "https://www.threads.com/@rolex"
+   },
+   {
+    "label": "Facebook",
+    "href": "https://www.facebook.com/rolex"
+   },
+   {
+    "label": "LinkedIn",
+    "name": "LinkedIn",
+    "href": "https://linkedin.com/company/rolex"
+   },
+   {
+    "label": "X",
+    "href": "https://x.com/ROLEX"
+   },
+   {
+    "label": "Pinterest",
+    "href": "https://www.pinterest.com/rolex"
+   },
+   {
+    "label": "Weibo",
+    "name": "Weibo",
+    "href": "https://weibo.com/rolex"
+   },
+   {
+    "label": "WeChat",
+    "name": "WeChat",
+    "href": "#weChat"
+   },
+   {
+    "label": "Douyin",
+    "name": "Douyin",
+    "href": "https://v.douyin.com/uo9k_ivcQTQ/"
+   },
+   {
+    "label": "Line",
+    "href": "https://lin.ee/uGN7jOr1"
+   }
+  ]
+ },
+ "title": "app:footer",
+ "wechat": {
+  "label": "Rolex on WeChat",
+  "text": "Follow Rolex on WeChat by scanning the QR code",
+  "alt": "Rolex WeChat QR code"
+ },
+ "push": [
+  {
+   "url": "/*",
+   "reference": [
+    {
+     "_content_type_uid": "push",
+     "uid": "blt00bfbefb80925637",
+     "heading": {
+      "title": "Get in touch",
+      "subtitle": "Contact an Official Rolex Retailer"
+     },
+     "link": {
+      "aria_label": "Get in touch",
+      "external": "/get-in-touch"
+     },
+     "marie_louise": false,
+     "marie_louise_biggie": false,
+     "parallax": false,
+     "poster": [
+      {
+       "image_cld": {
+        "alt": "Rolex.org",
+        "media": {
+         "src": "/images/rolex-com-footer-rolex-org-push-cc69-1587746.avif",
+         "portraitSrc": "/images/rolex-com-footer-rolex-org-push-cc69-1587746.avif",
+         "width": 3000,
+         "height": 703,
+         "portraitWidth": 780,
+         "portraitHeight": 900,
+         "id": "rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746"
+        }
+       }
+      }
+     ],
+     "theme": {
+      "theme": "dark-theme"
+     },
+     "title": "footer:push-default"
+    }
+   ]
+  }
+ ]
+}

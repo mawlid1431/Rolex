@@ -1,0 +1,312 @@
+{
+ "lang": "en",
+ "rmc": "m126688-0001",
+ "catalog_line": "yacht-master ii",
+ "reference_code": "126688",
+ "rank": 13249,
+ "rank_corners": 13799,
+ "flagship": false,
+ "collection": "OYSTER",
+ "newmodelselection": true,
+ "metatag_keywords": "size:large,gender:man,material:gold,bezel:cerachrom,bezel:professional,bracelet:oyster,dial:light",
+ "objectType": "model",
+ "has360": true,
+ "bracelet_id": "52644",
+ "case_id": "52638",
+ "editorial_mapping": {
+  "page": {
+   "color_set": "page-color-set-rolex-v7-color-005",
+   "objectType": "page"
+  },
+  "majesty": {
+   "watch_day_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/upright-c/m126688-0001\",\"policy\":\"t_v7-cover-majesty-landscape\"}]",
+   "watch_day_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/upright-c/m126688-0001\",\"policy\":\"t_v7-majesty\"}]",
+   "watch_night_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/luminescence/m126688-0001\",\"policy\":\"t_v7-cover-majesty-landscape\"}]",
+   "watch_night_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/luminescence/m126688-0001\",\"policy\":\"t_v7-majesty\"}]",
+   "watch_shadow_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/cover-shadow/shadow-yacht-master-ii-44\",\"policy\":\"t_v7-cover-majesty-landscape\"}]",
+   "watch_shadow_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/cover-shadow/shadow-yacht-master-ii-44\",\"policy\":\"t_v7-majesty\"}]",
+   "objectType": "majesty"
+  },
+  "cover": {
+   "lightbox_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/upright-c/m126688-0001\",\"policy\":\"t_v7\"}]",
+   "lightbox_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/upright-bba-with-shadow/m126688-0001\",\"policy\":\"t_v7-majesty\"}]",
+   "layer_1_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/reflection/glimmer-44\",\"policy\":\"t_v7-cover-glimmer-landscape\"}]",
+   "layer_1_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/reflection/glimmer-44\",\"policy\":\"t_v7-cover-glimmer-portrait\"}]",
+   "layer_2_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/reflection/glint-bracelet-44\",\"policy\":\"t_v7-cover-majesty-landscape\"}]",
+   "layer_2_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/reflection/glint-bracelet-44\",\"policy\":\"t_v7-majesty\"}]",
+   "objectType": "cover"
+  },
+  "intro_v7": {
+   "bg_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/model-intro/intro-background-yacht-master-ii\",\"policy\":\"\"}]",
+   "bg_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/model-intro/intro-background-yacht-master-ii-portrait\",\"policy\":\"\"}]",
+   "template_title": "Mastering\nthe start",
+   "template_text": "The Oyster Perpetual <em>Yacht-Master II</em> in <em>18 ct yellow gold</em> with <em>an Oyster</em> bracelet and a <em>bidirectional rotatable bezel with a blue Cerachrom insert</em>.",
+   "objectType": "intro"
+  },
+  "gallery": {
+   "path": "/rolexcom/model-page/gallery/",
+   "objectType": "gallery"
+  },
+  "userguide": {
+   "path_cl": "/rolexcom/094398bf1f99/media/user-guides/yacht-master-ii/rolex_yacht-master-ii_$lang",
+   "objectType": "userguide"
+  },
+  "store": {
+   "push_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/showcase/m126688-0001\",\"policy\":\"t_v7\"}]",
+   "push_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/showcase/m126688-0001\",\"policy\":\"t_v7\"}]",
+   "push_title": "Contact\nan Official Rolex Retailer",
+   "push_text": "Only official Rolex retailers are allowed to sell and maintain a Rolex watch. With the necessary skills, technical know-how and special equipment, they guarantee the authenticity of each and every part of your\nRolex and help you make the choice that will last a lifetime.",
+   "push_cta": "Contact a retailer",
+   "objectType": "store"
+  },
+  "editorial": {
+   "objectType": "editorial"
+  },
+  "textblockHowTo": {
+   "objectType": "textblockHowTo"
+  },
+  "objectType": "editorial_mapping",
+  "has_beauty_shot_cards": true,
+  "features": [
+   {
+    "topic_key": "bezel",
+    "image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/bezel-constant-size-with-shadow/m126688-0001\",\"policy\":\"t_v7-model-feature-landscape\"}]",
+    "image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/bezel-constant-size-with-shadow/m126688-0001\",\"policy\":\"t_v7-model-feature-portrait\"}]",
+    "pdf_image_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/bezel-constant-size-with-shadow/m126688-0001\",\"policy\":\"t_v7-model-feature-dial-bezel-pdf\"}]",
+    "bg_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-1-background\",\"policy\":\"\"}]",
+    "bg_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-1-background-portrait\",\"policy\":\"\"}]",
+    "title": "Cerachrom\nbezel insert",
+    "subtitle": "A concentration of high technology",
+    "text_part_1": "The Yacht-Master II features a bidirectional rotatable bezel fitted with a 60-minute graduated Cerachrom insert in blue ceramic. Extremely hard and virtually scratchproof, the\nhigh-technology ceramic used by Rolex requires special tools for its machining. Its stable colour is unaffected by ultraviolet rays, and thanks to its chemical composition, this ceramic is inert and cannot corrode.",
+    "text_part_2": "On this blue Cerachrom\ninsert, the moulded, recessed graduations and numerals are coated with platinum or yellow gold via PVD (Physical Vapour Deposition). The first half hour of the graduation is set out minute by minute. With the bezel in the neutral position, the final 30\nseconds of the countdown can be read in more detail via the chronograph centre seconds hand. The graduated bezel, whose knurled edge offers excellent grip, also allows the wearer to easily measure time intervals – for example, the sailing time between\ntwo buoys.",
+    "objectType": "feature",
+    "text": "The Yacht-Master II features a bidirectional rotatable bezel fitted with a 60-minute graduated Cerachrom insert in blue ceramic. Extremely hard and virtually scratchproof, the high-technology ceramic used by\nRolex requires special tools for its machining. Its stable colour is unaffected by ultraviolet rays, and thanks to its chemical composition, this ceramic is inert and cannot corrode. On this blue Cerachrom insert, the moulded, recessed graduations and\nnumerals are coated with platinum or yellow gold via PVD (Physical Vapour Deposition). The first half hour of the graduation is set out minute by minute. With the bezel in the neutral position, the final 30 seconds of the countdown can be read in more\ndetail via the chronograph centre seconds hand. The graduated bezel, whose knurled edge offers excellent grip, also allows the wearer to easily measure time intervals – for example, the sailing time between two buoys."
+   },
+   {
+    "topic_key": "dial",
+    "image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/raw-dial-constant-size-with-shadow/m126688-0001\",\"policy\":\"t_v7-model-feature-landscape\"}]",
+    "image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/raw-dial-constant-size-with-shadow/m126688-0001\",\"policy\":\"t_v7-model-feature-portrait\"}]",
+    "pdf_image_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/raw-dial-constant-size-with-shadow/m126688-0001\",\"policy\":\"t_v7-model-feature-dial-bezel-pdf\"}]",
+    "bg_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-1-background\",\"policy\":\"\"}]",
+    "bg_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-1-background-portrait\",\"policy\":\"\"}]",
+    "title": "White\ndial",
+    "subtitle": "Optimal legibility",
+    "text_part_1": "The display ensures clear readability of the various functions. The dial is coated with a new white lacquer – matt, to reduce reflections – and carries the applique index hour markers emblematic of\nProfessional category watches.",
+    "text_part_2": "A flange, dedicated to the countdown function, is positioned extremely precisely on the dial – an attribute for which a patent application was filed. It is graduated from 10 to 0 minutes, with the half minutes\nshown as triangles.",
+    "objectType": "feature",
+    "text": "The display ensures clear readability of the various functions. The dial is coated with a new white lacquer – matt, to reduce reflections – and carries the applique index hour markers emblematic of Professional\ncategory watches. A flange, dedicated to the countdown function, is positioned extremely precisely on the dial – an attribute for which a patent application was filed. It is graduated from 10 to 0 minutes, with the half minutes shown as triangles."
+   },
+   {
+    "topic_key": "material",
+    "anim_range_start": 0,
+    "anim_range_end": 52,
+    "image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/anim-bracelet-material/landscape-126688-78ka18/anim-bracelet-material-landscape-126688-78ka18--0000\",\"policy\":\"t_v7-model-feature-material-landscape\"}]",
+    "image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/anim-bracelet-material/portrait-126688-78ka18/anim-bracelet-material-portrait-126688-78ka18--0000\",\"policy\":\"t_v7\"}]",
+    "pdf_image_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/360/52638-52644/52638-52644--060\",\"policy\":\"t_v7-model-feature-material-pdf\"}]",
+    "bg_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-2-background\",\"policy\":\"\"}]",
+    "bg_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-2-background-portrait\",\"policy\":\"\"}]",
+    "title": "18\nct yellow gold",
+    "subtitle": "Commitment to excellence",
+    "text_part_1": "By operating its own exclusive foundry, Rolex has the unrivalled ability to cast the highest quality 18 ct gold alloys. According to the proportion of silver, copper, platinum or palladium\nadded, different types of 18 ct gold are obtained: yellow, pink or white.",
+    "text_part_2": "They are made with only the purest metals and meticulously inspected in an in-house laboratory with state-of-the-art equipment, before the gold is formed and shaped\nwith the same painstaking attention to quality. Rolex's commitment to excellence begins at the source.",
+    "objectType": "feature",
+    "text": "By operating its own exclusive foundry, Rolex has the unrivalled ability to cast the highest quality 18 ct gold alloys.\nAccording to the proportion of silver, copper, platinum or palladium added, different types of 18 ct gold are obtained: yellow, pink or white. They are made with only the purest metals and meticulously inspected in an in-house laboratory with state-of-the-art\nequipment, before the gold is formed and shaped with the same painstaking attention to quality. Rolex's commitment to excellence begins at the source."
+   },
+   {
+    "topic_key": "bracelet",
+    "anim_range_start": 53,
+    "anim_range_end": 104,
+    "image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/anim-bracelet-material/landscape-126688-78ka18/anim-bracelet-material-landscape-126688-78ka18--0104\",\"policy\":\"t_v7-model-feature-material-landscape\"}]",
+    "image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/anim-bracelet-material/portrait-126688-78ka18/anim-bracelet-material-portrait-126688-78ka18--0104\",\"policy\":\"t_v7\"}]",
+    "pdf_image_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026/anim-bracelet-material/landscape-126688-78ka18/anim-bracelet-material-landscape-126688-78ka18--0104\",\"policy\":\"t_v7-model-feature-bracelet-pdf\"}]",
+    "bg_image_landscape_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-2-background\",\"policy\":\"\"}]",
+    "bg_image_portrait_cl": "[{\"src\":\"a677b2c664f6/catalogue/2026//bg/feature/feature-2-background-portrait\",\"policy\":\"\"}]",
+    "title": "The\nOyster bracelet",
+    "subtitle": "Alchemy of form and function",
+    "text_part_1": "The Oyster bracelet is a perfect alchemy of form and function, aesthetics and technology, designed to be both robust and comfortable. It is equipped with an Oysterlock folding clasp,\nwhich prevents accidental opening and the Easylink comfort extension link, also exclusive to Rolex.",
+    "text_part_2": "This ingenious system allows the wearer to increase the bracelet length by approximately 5 mm, providing additional comfort in any circumstance.",
+    "objectType": "feature",
+    "text": "The\nOyster bracelet is a perfect alchemy of form and function, aesthetics and technology, designed to be both robust and comfortable. It is equipped with an Oysterlock folding clasp, which prevents accidental opening and the Easylink comfort extension link,\nalso exclusive to Rolex. This ingenious system allows the wearer to increase the bracelet length by approximately 5 mm, providing additional comfort in any circumstance."
+   }
+  ]
+ },
+ "movement": {
+  "objectType": "movement",
+  "id": "4162",
+  "specs": {
+   "collection": "OYSTER",
+   "precision": "1",
+   "oscillator": "BREG_PCHROM",
+   "display": "HMS_CRB",
+   "calendar": "SD",
+   "frequency": "28800",
+   "jewels": "47R.",
+   "movementType": "AUTOMAT",
+   "diameter": "31.39",
+   "autonomy": "72.000",
+   "autonomyUnit": "H",
+   "axesCal": "PARAFLEX,PERPETUAL",
+   "axesOsc": "CHRONERGY,PARACHROM"
+  },
+  "labels": {
+   "autonomy": "Approximately\n72 hours",
+   "calibre": "4162, Manufacture Rolex",
+   "certification": "Superlative Chronometer (official chronometer certification + Rolex certification after casing)",
+   "functions": "Centre hour and minute hands, small seconds hand at 6 o'clock. Programmable countdown\nwith mechanical memory and on-the-fly synchronization. Stop-seconds for precise time setting",
+   "oscillator": "Paramagnetic blue Parachrom hairspring. High-performance Paraflex shock absorbers",
+   "precision": "",
+   "precision_static": "-2/+2 sec/day, after casing",
+   "title": "Perpetual,\nmechanical, self-winding",
+   "winding": "Bidirectional self-winding via Perpetual rotor",
+   "tdr_movement_autonomy": ""
+  },
+  "facets": {},
+  "misc": {}
+ },
+ "dial": {
+  "objectType": "dial",
+  "id": "52641",
+  "specs": {
+   "color": "white",
+   "decor": "without",
+   "decor_key": "1",
+   "diameter": "0.0",
+   "gems": "without",
+   "hour_markers": "Hour-mark",
+   "material": "Brass"
+  },
+  "labels": {
+   "details": "Highly\nlegible Chromalight display with long-lasting blue luminescence",
+   "title": "White",
+   "title_alt": "a white",
+   "gem_settings": "",
+   "gem_settings_alt": "",
+   "tdr_dial": "",
+   "b2b_dial_description": "WHITE"
+  },
+  "facets": {
+   "dial_color": [
+    "Light dial"
+   ],
+   "indexes": [
+    "Index"
+   ]
+  },
+  "misc": {
+   "part_dial_file_name": "52641_y_44"
+  }
+ },
+ "bracelet": {
+  "objectType": "bracelet",
+  "id": "52644",
+  "specs": {
+   "catalog_line": "OYSTER",
+   "clasp_type": "Safety\nClasp Cover without Extension Link",
+   "width": "22",
+   "reference": "78KA18",
+   "color": "WITHOUT",
+   "gems": "false",
+   "material": "Gold 18 Carat Yellow",
+   "clasp": "EASYLINK,OYSTERLOCK"
+  },
+  "labels": {
+   "title": "Oyster, three-piece solid links",
+   "title_alt_text": "an Oyster",
+   "clasp_type_short": "Oysterlock,\nEasylink",
+   "bracelet_links": "",
+   "material": "18 ct yellow gold",
+   "material_short": "",
+   "title_short": "Oyster",
+   "bracelet_width": "22 mm",
+   "clasp_type": "Folding Oysterlock safety clasp with Easylink 5 mm comfort extension link",
+   "clasp_type_alt": "Folding Oysterlock\nsafety clasp with Easylink 5 mm comfort extension link",
+   "bracelet_extension": "",
+   "tdr_bracelet_title": ""
+  },
+  "facets": {
+   "bracelet_type": [
+    "Oyster"
+   ]
+  },
+  "misc": {}
+ },
+ "case": {
+  "objectType": "case",
+  "id": "52638",
+  "specs": {
+   "diameter": "44",
+   "bezel_type": "60 minutes",
+   "collection": "OYSTER",
+   "color": "Blue",
+   "gems": "true",
+   "gender": "Man",
+   "material": "Gold\n18 Carat Yellow",
+   "oyster_architecture": "oster_case",
+   "product_family": "PROFESSIONNEL",
+   "glass_thickness": "SAPHIR",
+   "winding_crown": "TRIPLOCK",
+   "bezel_features": "ROLEX RING COMMAND,TOURNANTE_BIDIRECTIONNELLE"
+  },
+  "labels": {
+   "bezel": "Bidirectional rotatable 60-minute\ngraduated bezel with blue Cerachrom insert in ceramic. Moulded, recessed graduations and numerals coated with gold",
+   "bezel_alt_text": "bidirectional rotatable bezel with a blue Cerachrom insert",
+   "bezel_short": "Blue ceramic",
+   "case_back": "",
+   "winding_crown": "Screw-down,\nTriplock triple waterproofness system",
+   "crystal": "Scratch-resistant sapphire",
+   "diameter": "44 mm",
+   "material": "18 ct yellow gold",
+   "material_alt": "18 ct yellow gold",
+   "title": "Oyster, 44 mm, yellow gold",
+   "oyster_architecture": "Monobloc middle case, screw-down\ncase back and winding crown",
+   "short_material": "Yellow gold",
+   "water_resistance": "Waterproof to 100 metres / 330 feet",
+   "tdr_case_water_resistance": ""
+  },
+  "facets": {
+   "bezel": [
+    "Cerachrom bezel",
+    "Professional bezel"
+   ],
+   "color_of_gold": [
+    "Yellow gold"
+   ],
+   "material": [
+    "Gold"
+   ],
+   "size": [
+    "Large\nsize"
+   ],
+   "diameter": [
+    "44 mm"
+   ],
+   "material_alt": [
+    "Yellow gold"
+   ],
+   "bezel_alt": [
+    "Cerachrom bezel"
+   ]
+  },
+  "misc": {}
+ },
+ "familyNode": {
+  "code": "yacht-master-ii",
+  "name": "Yacht-Master II",
+  "codeLabel": "yacht-master-ii#Yacht-Master II",
+  "objectType": "family"
+ },
+ "nameCode": "yacht-master-ii",
+ "name": "Yacht-Master\nII",
+ "suggestions_ymal_fallback": [
+  "m126508-0001",
+  "m136668lb-0001",
+  "m126718grnr-0001",
+  "m126618ln-0002",
+  "m226658-0001",
+  "m126621-0001"
+ ],
+ "variations": "",
+ "alt_material": "alt-18-ct-yellow-gold",
+ "alt": "Yacht-Master II, Oyster, 44 mm, yellow gold, Dial : White,\nRolex",
+ "label_material_title": "18 ct yellow gold"
+}

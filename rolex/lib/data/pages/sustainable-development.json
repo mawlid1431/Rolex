@@ -1,0 +1,1780 @@
+{
+ "uid": "blt6b95a60ac2b955a3",
+ "url": "/about-rolex/sustainable-development",
+ "back": false,
+ "breadcrumb": [
+  {
+   "title": "About Rolex",
+   "href": "/about-rolex"
+  },
+  {
+   "title": "Sustainability",
+   "href": "/about-rolex/sustainable-development"
+  }
+ ],
+ "components": [
+  {
+   "covers": {
+    "component": [
+     {
+      "uid": "bltfa22c42fd252929f",
+      "_content_type_uid": "cover_image",
+      "dark_theme": false,
+      "heading": {
+       "kicker": "A commitment to the future",
+       "title": "Sustainability"
+      },
+      "image_cld": {
+       "alt": "Globe",
+       "media": {
+        "src": "/images/about-rolex-sustainability-cover-v4_gettyimages-85758322.avif",
+        "portraitSrc": "/images/about-rolex-sustainability-cover-v4_gettyimages-85758322.avif",
+        "width": 3000,
+        "height": 1563,
+        "portraitWidth": 1170,
+        "portraitHeight": 1404,
+        "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-sustainability-cover-v4_gettyimages-85758322"
+       }
+      },
+      "link": {
+       "style": "inline"
+      },
+      "theme": {
+       "theme": "dark-theme"
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:cover-image"
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "blte7e6135b8d309754",
+      "_content_type_uid": "image_simple",
+      "fig_caption": {
+       "is_inner": false,
+       "is_dark_theme": false,
+       "horizontal_position": "start"
+      },
+      "image_cld": {
+       "alt": "CSR Logo",
+       "media": {
+        "src": "/images/about-rolex-sustainability-rolex-impact-and-sustainability-logo.avif",
+        "portraitSrc": "/images/about-rolex-sustainability-rolex-impact-and-sustainability-logo.avif",
+        "width": 3000,
+        "height": 498,
+        "portraitWidth": 1560,
+        "portraitHeight": 637,
+        "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-sustainability-rolex-impact-and-sustainability-logo"
+       }
+      },
+      "popin_button": {
+       "preload": false
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:csr-logo",
+      "width": "xl"
+     }
+    ]
+   }
+  },
+  {
+   "intros": {
+    "component": [
+     {
+      "uid": "blt2892a98ee29f1c36",
+      "_content_type_uid": "skyline",
+      "box_spacing": {
+       "margin_top": "margin-top-m-pos",
+       "margin_bottom": "margin-bot-m-pos"
+      },
+      "heading": "Our mission as a responsible company:",
+      "link": {
+       "style": "inline"
+      },
+      "paragraph_block": {
+       "block": [
+        {
+         "paragraph": "To put our high quality standards, sense of innovation and values of excellence at the heart of our sustainability commitments:",
+         "is_bold": false
+        },
+        {
+         "paragraph": "• by continuing to design and manufacture watches of exceptional quality that stand the test of time;<br>\n• by continually innovating to reduce the impact of our business; <br>\n• by ensuring that social and environmental responsibility is incorporated into our practices throughout our value chain; <br>\n• by integrating this mission into our company’s decisions and actions.",
+         "is_bold": false
+        }
+       ]
+      },
+      "reverse_order": false,
+      "title": "about-rolex-watches:csr:sustainable-development:skyline",
+      "title_gradient": {
+       "colors": [
+        {
+         "color": "16 99 61",
+         "opacity": 1
+        },
+        {
+         "color": "26 145 90",
+         "opacity": 1
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "pushes": {
+    "component": [
+     {
+      "uid": "bltff5525efa2d0940d",
+      "_content_type_uid": "push",
+      "heading": {
+       "title": "Our 2025<br>Sustainability Report"
+      },
+      "link": {
+       "label": "Download the 2025 sustainability report",
+       "aria_label": "Download our 2025 Sustainability report ",
+       "external": "#",
+       "icon": "download",
+       "style": "inline"
+      },
+      "marie_louise": false,
+      "marie_louise_biggie": false,
+      "paragraph": "In this new edition, we are reaffirming our commitment to being a responsible brand, driven by excellence, innovation and the mastery of our know-how. From sourcing to reducing our environmental impact, as well as the well-being of our employees and passing on our knowledge to future generations, we outline our actions, our progress and the concrete projects that guide our approach to sustainability.",
+      "parallax": true,
+      "poster": [
+       {
+        "image_cld": {
+         "alt": "Rolex prototype building",
+         "media": {
+          "src": "/images/about-rolex-sustainability-sustainability-report-push_ext05_office-entrance_b6.avif",
+          "portraitSrc": "/images/about-rolex-sustainability-sustainability-report-push_ext05_office-entrance_b6.avif",
+          "width": 3840,
+          "height": 2500,
+          "portraitWidth": 1560,
+          "portraitHeight": 3200,
+          "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-sustainability-sustainability-report-push_ext05_office-entrance_b6"
+         }
+        }
+       }
+      ],
+      "text_width": "medium",
+      "theme": {
+       "theme": "dark-theme"
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:2025-sustaibility-report:push"
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "blt4e571d6d1165b622",
+      "_content_type_uid": "article-simple",
+      "box_spacing": {
+       "margin_top": "margin-top-m-pos",
+       "margin_bottom": "margin-bot-m-pos"
+      },
+      "horizontal_align": {
+       "align": "center"
+      },
+      "text_justify": "start",
+      "text_width": {
+       "width": "s"
+      },
+      "texts": [
+       {
+        "heading": {
+         "title": "<em>Our carbon</em> footprint"
+        }
+       },
+       {
+        "paragraph": {
+         "text": "Through the Science Based Targets initiative, we have committed to reducing our absolute greenhouse gas emissions before 2030. Our objectives are aligned with the decarbonisation requirements necessary to limit global warming by 2050, in accordance with the Paris Agreement."
+        }
+       },
+       {
+        "popin_button": {
+         "reference": [
+          {
+           "_content_type_uid": "popin_edito",
+           "uid": "bltecabfa1da5b322a4",
+           "background": [
+            {
+             "color": {
+              "colors": [
+               {
+                "color": "255 255 255",
+                "opacity": 1
+               }
+              ]
+             }
+            }
+           ],
+           "components": [
+            {
+             "articles": {
+              "component": [
+               {
+                "_content_type_uid": "article-simple",
+                "uid": "blt9352316ecda23858",
+                "box_spacing": {
+                 "padding_top": "padding-top-l-pos",
+                 "padding_bottom": "padding-bot-l-pos"
+                },
+                "horizontal_align": {
+                 "align": "center"
+                },
+                "text_justify": "start",
+                "text_width": {
+                 "width": "s"
+                },
+                "texts": [
+                 {
+                  "heading": {
+                   "title": "<em>Our targets</em> for reducing greenhouse gas emissions"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "Through the Science Based Targets initiative, we have committed to reducing our absolute greenhouse gas emissions before 2030. Our objectives are aligned with the decarbonization requirements needed to limit global warming by 2050, in accordance with the Paris Agreement."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "The Science Based Targets initiative (SBTi) – launched in 2015 and globally recognized – encourages companies to set targets for reducing their greenhouse gas (GHG) emissions, helping to ensure that the rise in global temperatures does not exceed 2°C, or even, 1.5°C above pre-industrial levels."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "Together with TUDOR, we have submitted our GHG reduction targets to the SBTi. We have been measuring these emissions annually since 2019. Based on the results of our 2021 carbon footprint, we have set reduction targets and prioritized the most impactful actions."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "Based on our 2021 levels, our 2030 targets for reducing absolute emissions are as follows:<br>\n<b>Scopes 1 and 2: −42% and Scope 3: −25%</b>"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "The SBTi approved these targets in 2024, and they are published on the SBTi dashboard."
+                  }
+                 },
+                 {
+                  "link": {
+                   "label": "Discover more",
+                   "aria_label": "Discover more",
+                   "external": "https://sciencebasedtargets.org/target-dashboard",
+                   "style": "filled translucent-light"
+                  }
+                 }
+                ],
+                "theme": {
+                 "theme": "light-theme"
+                },
+                "title": "about-rolex-watches:csr:sustainable-development:our-targets:popin:article-simple"
+               }
+              ]
+             }
+            },
+            {
+             "articles": {
+              "component": [
+               {
+                "_content_type_uid": "text_image_vertical",
+                "uid": "blt291787ac49e732fd",
+                "box_spacing": {
+                 "margin_bottom": "margin-bot-l-pos"
+                },
+                "fig_caption": {
+                 "is_inner": false,
+                 "is_dark_theme": false,
+                 "horizontal_position": "start"
+                },
+                "image_width": {
+                 "width": "s"
+                },
+                "items": [
+                 {
+                  "paragraph": {
+                   "text": "<b>Rolex’s annual carbon footprint and SBTi targets (kt CO<sub>2</sub>e)</b>"
+                  }
+                 },
+                 {
+                  "image_cld": {
+                   "alt": "Carbon footprint",
+                   "media": {
+                    "src": null,
+                    "portraitSrc": null,
+                    "width": 3840,
+                    "height": 2252,
+                    "portraitWidth": 3840,
+                    "portraitHeight": 2252,
+                    "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/popins/our-targets/2026/en/about-rolex-sustainability-our-targets-pop-in-carbon-footprint-and-objectives-en"
+                   }
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "<i><b>The significant reductions in the carbon footprint are largely due to strategic decisions relating to gold sourcing. These include shifting part of the volume of mined gold purchased towards recycled gold, which has a lower environmental footprint, the shift in our portfolio of mines towards sources with a lower environmental impact, as well as a reduction in the total volume of gold purchased through the reduction of our gold stock, particularly in 2023 and 2024.</b></i>"
+                  }
+                 }
+                ],
+                "text_layout": {
+                 "width": "s",
+                 "horizontal_pos": "center"
+                },
+                "theme": {
+                 "theme": "light-theme"
+                },
+                "title": "about-rolex-watches:csr:sustainable-development:our-targets-popin:carbon-footprint:text-image-vertical"
+               }
+              ]
+             }
+            },
+            {
+             "articles": {
+              "component": [
+               {
+                "_content_type_uid": "text_image_vertical",
+                "uid": "blt35eb72b98693dc3c",
+                "box_spacing": {
+                 "padding_bottom": "padding-bot-m-pos"
+                },
+                "fig_caption": {
+                 "is_inner": false,
+                 "is_dark_theme": false,
+                 "horizontal_position": "start"
+                },
+                "image_width": {
+                 "width": "s"
+                },
+                "items": [
+                 {
+                  "chapo": {
+                   "text": "<em>Our carbon</em> footprint"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "Our carbon footprint is calculated in accordance with the internationally recognized Greenhouse Gas Protocol, which standardizes the measurement of greenhouse gas emissions and categorizes them into three ‘scopes’:"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "• <b>Scope 1</b> concerns direct GHG emissions from sources within the company and therefore under its direct control."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "• <b>Scope 2</b> covers indirect GHG emissions associated with the purchase of energy (in particular the purchase of electricity)."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "• <b>Scope 3</b> emissions include indirect GHG emissions associated with a company’s upstream and downstream activities, but which are not directly controlled or owned by the company. Scope 3 emissions generally account for the largest proportion of a company’s carbon footprint."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "<b>The three scopes included in our carbon footprint:</b>"
+                  }
+                 },
+                 {
+                  "image_cld": {
+                   "alt": "Three scopes",
+                   "media": {
+                    "src": null,
+                    "portraitSrc": null,
+                    "width": 3840,
+                    "height": 1640,
+                    "portraitWidth": 1560,
+                    "portraitHeight": 667,
+                    "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/popins/our-targets/2026/en/about-rolex-sustainability-our-targets-pop-in-scope-en"
+                   }
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "The extent of Rolex’s carbon footprint – and consequently its GHG reduction targets – includes Rolex SA, Manufacture des Montres Rolex SA, Roldeco SA, affiliated companies of the Rolex Group in Switzerland and service and distribution affiliates abroad. TUDOR will report its own carbon footprint for 2025 separately. Bucherer AG, which was acquired by Rolex in 2024, has not yet been included in the 2025 figures but will be at a later date."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "<br>In 2025, our total carbon footprint stood at 891 kt  CO<sub>2</sub>e, 98.6% of which was attributable to Scope 3 emissions. The sourcing of precious materials, particularly gold, accounts for the largest share of Scope 3 emissions."
+                  }
+                 }
+                ],
+                "text_layout": {
+                 "width": "s",
+                 "horizontal_pos": "center"
+                },
+                "theme": {
+                 "theme": "light-theme"
+                },
+                "title": "about-rolex-watches:csr:sustainable-development:our-targets-popin:carbon-footprint-scopes:text-image-vertical"
+               }
+              ]
+             }
+            },
+            {
+             "articles": {
+              "component": [
+               {
+                "_content_type_uid": "article-simple",
+                "uid": "bltdc55da0b283d2d3e",
+                "box_spacing": {
+                 "margin_bottom": "margin-bot-m-pos"
+                },
+                "chapo_gradient": {
+                 "colors": [
+                  {
+                   "color": "162 126 45",
+                   "opacity": 1
+                  }
+                 ]
+                },
+                "horizontal_align": {
+                 "align": "center"
+                },
+                "text_justify": "start",
+                "text_width": {
+                 "width": "s"
+                },
+                "texts": [
+                 {
+                  "chapo": {
+                   "text": "  Scope 1"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "Most direct emissions come from production sites located in Switzerland. These are mainly generated by the combustion of natural gas and account for 1.2% of the 2025 carbon footprint, or 10.3 kt CO<sub>2</sub>e."
+                  }
+                 }
+                ],
+                "theme": {
+                 "theme": "light-theme"
+                },
+                "title": "about-rolex-watches:csr:sustainable-development:our-targets-popin:scope-1"
+               }
+              ]
+             }
+            },
+            {
+             "articles": {
+              "component": [
+               {
+                "_content_type_uid": "article-simple",
+                "uid": "blt30aa4efff84f4a37",
+                "box_spacing": {
+                 "margin_bottom": "margin-bot-m-pos"
+                },
+                "chapo_gradient": {
+                 "colors": [
+                  {
+                   "color": "207 182 130",
+                   "opacity": 1
+                  }
+                 ]
+                },
+                "horizontal_align": {
+                 "align": "center"
+                },
+                "text_justify": "start",
+                "text_width": {
+                 "width": "s"
+                },
+                "texts": [
+                 {
+                  "chapo": {
+                   "text": "Scope 2"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "Indirect emissions from energy purchases (mainly electricity consumption) concern both Swiss sites and foreign subsidiaries and contribute 0.2% of the total carbon footprint, i.e. 2.1kt CO<sub>2</sub>e. The subsidiaries make a large contribution to the results (72% compared to 28% for the Swiss industrial park), as their energy mix often comes from non-renewable sources. In 2025, however, significant efforts were made by foreign subsidiaries, allowing a total reduction in scope 2 of 79% compared to 2023. Efforts will continue to be made to increase the share of renewable energy."
+                  }
+                 }
+                ],
+                "theme": {
+                 "theme": "light-theme"
+                },
+                "title": "about-rolex-watches:csr:sustainable-development:our-targets-popin:scope-2:article-simple"
+               }
+              ]
+             }
+            },
+            {
+             "articles": {
+              "component": [
+               {
+                "_content_type_uid": "text_image_vertical",
+                "uid": "blt5652de29c171a406",
+                "box_spacing": {
+                 "padding_bottom": "padding-bot-l-pos"
+                },
+                "chapo_gradient": {
+                 "colors": [
+                  {
+                   "color": "0 96 58",
+                   "opacity": 1
+                  }
+                 ]
+                },
+                "fig_caption": {
+                 "is_inner": false,
+                 "is_dark_theme": false,
+                 "horizontal_position": "start"
+                },
+                "image_width": {
+                 "width": "s"
+                },
+                "items": [
+                 {
+                  "chapo": {
+                   "text": "Scope 3"
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "The sourcing of precious materials, particularly gold, accounts for the largest share of Scope 3 emissions. Precious materials accounted for 75% of Rolex’s carbon footprint in 2025. Mined gold accounts for the largest share (51%), followed by platinum (14%), palladium (5%) and precious stones (2%). Other precious metals, such as silver and recycled gold, have a negligible impact. Indirect emissions excluding precious materials account for 23% of the total carbon footprint and include, in particular, purchases of goods and services, business travel and transport."
+                  }
+                 },
+                 {
+                  "paragraph": {
+                   "text": "<b>Breakdown of our greenhouse gas emissions by scope (2025):</b>"
+                  }
+                 },
+                 {
+                  "image_cld": {
+                   "alt": "Carbon footprint breakdown",
+                   "media": {
+                    "src": null,
+                    "portraitSrc": null,
+                    "width": 785,
+                    "height": 541,
+                    "portraitWidth": 785,
+                    "portraitHeight": 532,
+                    "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/popins/our-targets/2026/en/about-rolex-sustainability-our-targets-pop-in-gas-emissions-breakdown-en"
+                   }
+                  }
+                 }
+                ],
+                "text_layout": {
+                 "width": "s",
+                 "horizontal_pos": "center"
+                },
+                "theme": {
+                 "theme": "light-theme"
+                },
+                "title": "about-rolex-watches:csr:sustainable-development:our-targets-popin:scope-3:text-image-vertical"
+               }
+              ]
+             }
+            }
+           ],
+           "dark_close_icon": true,
+           "fullscreen": false,
+           "title": "about-rolex-watches:csr:sustainable-development:our-targets-popin"
+          }
+         ],
+         "label": "Our targets",
+         "aria_label": "Our targets",
+         "style": "filled translucent-light",
+         "theme": "light-theme",
+         "preload": true
+        }
+       }
+      ],
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:our-targets-article-simple"
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "blt80c5747a6b45e318",
+      "_content_type_uid": "image_simple",
+      "box_spacing": {
+       "margin_bottom": "margin-bot-m-pos"
+      },
+      "fig_caption": {
+       "is_dark_theme": false,
+       "is_inner": false
+      },
+      "image_cld": {
+       "alt": "Geneva Headquarters",
+       "media": {
+        "src": "/images/about-rolex-csr-sustainability-gas-emissions-v2.avif",
+        "portraitSrc": "/images/about-rolex-csr-sustainability-gas-emissions-v2.avif",
+        "width": 3840,
+        "height": 2688,
+        "portraitWidth": 1623,
+        "portraitHeight": 1136,
+        "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-csr-sustainability-gas-emissions-v2"
+       }
+      },
+      "popin_button": {
+       "preload": false
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:sustainability-report:image-simple",
+      "width": "m"
+     }
+    ]
+   }
+  },
+  {
+   "articles": {
+    "component": [
+     {
+      "uid": "bltdd7d23a7b7c3bf96",
+      "_content_type_uid": "article-simple",
+      "box_spacing": {
+       "margin_bottom": "margin-bot-l-pos"
+      },
+      "horizontal_align": {
+       "align": "center"
+      },
+      "text_justify": "start",
+      "text_width": {
+       "width": "s"
+      },
+      "texts": [
+       {
+        "heading": {
+         "title": "<em>Traceability and recycling</em> of our raw materials"
+        }
+       },
+       {
+        "paragraph": {
+         "text": "Being able to trace the entire life cycle of a material, from its source to its final use, is a major concern for us."
+        }
+       },
+       {
+        "link": {
+         "label": "Discover more",
+         "aria_label": "Discover more - Traceability and recycling of our raw materials",
+         "href": "/about-rolex/sustainable-development/traceability",
+         "icon": "chevron",
+         "style": "inline green"
+        }
+       }
+      ],
+      "theme": {
+       "theme": "light-theme"
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:traceability:article-simple"
+     }
+    ]
+   }
+  },
+  {
+   "pushes": {
+    "component": [
+     {
+      "uid": "blt2a0dc960647ec9f2",
+      "_content_type_uid": "push",
+      "heading": {
+       "title": "Our Perpetual Initiatives"
+      },
+      "link": {
+       "label": "Discover more",
+       "aria_label": "Discover more - Perpetual Initiatives",
+       "href": "/about-rolex/sustainable-development/perpetual-initiatives",
+       "icon": "chevron",
+       "style": "inline"
+      },
+      "marie_louise": false,
+      "marie_louise_biggie": false,
+      "paragraph": "As a committed company, we strive to protect the planet, perpetuate cultural heritage, promote innovation and inspire future generations.",
+      "parallax": true,
+      "poster": [
+       {
+        "image_cld": {
+         "alt": "Our Perpetual Initiatives",
+         "media": {
+          "src": "/images/about-rolex-sustainability-our-perpetual-initiatives-push-v2.avif",
+          "portraitSrc": "/images/about-rolex-sustainability-our-perpetual-initiatives-push-v2.avif",
+          "width": 3840,
+          "height": 1600,
+          "portraitWidth": 1560,
+          "portraitHeight": 2200,
+          "id": "rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-sustainability-our-perpetual-initiatives-push-v2"
+         }
+        }
+       }
+      ],
+      "text_width": "small",
+      "theme": {
+       "theme": "dark-theme"
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:perpetual-initiatives:push"
+     }
+    ]
+   }
+  },
+  {
+   "miscs": {
+    "component": [
+     {
+      "uid": "blt01e28ad017fa5b39",
+      "_content_type_uid": "p13n",
+      "title": "about-rolex-watches:csr:sustainable-development:alert-article-p13n",
+      "variations": [
+       {
+        "articles": {
+         "criteria": {
+          "name": {
+           "crit": [
+            {
+             "l": "china",
+             "op": "=",
+             "r": "100"
+            }
+           ]
+          }
+         },
+         "component": [
+          {
+           "_content_type_uid": "article-simple",
+           "uid": "blt66ddb0b680ae295e",
+           "horizontal_align": {
+            "align": "center"
+           },
+           "theme": {
+            "theme": "light-theme"
+           },
+           "title": "about-rolex-watches:csr:sustainable-development:alert-article-china",
+           "pz": {
+            "crit": [
+             {
+              "l": "china",
+              "op": "=",
+              "r": "100"
+             }
+            ]
+           },
+           "key": "blt01e28ad017fa5b39-0"
+          }
+         ]
+        }
+       },
+       {
+        "articles": {
+         "criteria": {
+          "name": {
+           "crit": [
+            {
+             "l": "unitedstates",
+             "op": "=",
+             "r": "100"
+            }
+           ]
+          }
+         },
+         "component": [
+          {
+           "_content_type_uid": "article-simple",
+           "uid": "blt66ddb0b680ae295e",
+           "horizontal_align": {
+            "align": "center"
+           },
+           "theme": {
+            "theme": "light-theme"
+           },
+           "title": "about-rolex-watches:csr:sustainable-development:alert-article-china",
+           "pz": {
+            "crit": [
+             {
+              "l": "unitedstates",
+              "op": "=",
+              "r": "100"
+             }
+            ]
+           },
+           "key": "blt01e28ad017fa5b39-1"
+          }
+         ]
+        }
+       },
+       {
+        "articles": {
+         "component": [
+          {
+           "_content_type_uid": "article-simple",
+           "uid": "blt88a2c34a0e51dd8e",
+           "background": {
+            "colors": [
+             {
+              "color": "157 156 145",
+              "opacity": 1
+             }
+            ]
+           },
+           "box_spacing": {
+            "padding_top": "padding-top-m-pos",
+            "padding_bottom": "padding-bot-m-pos"
+           },
+           "horizontal_align": {
+            "align": "center"
+           },
+           "texts": [
+            {
+             "heading": {
+              "kicker": "Alert system",
+              "title": "Make a report"
+             }
+            },
+            {
+             "paragraph": {
+              "text": "Our alert system enables you to report any justified doubt regarding potential or actual harmful effects related to the respect for human rights and fundamental freedoms, environmental protection and good governance."
+             }
+            },
+            {
+             "paragraph": {
+              "text": "You can submit your report securely and confidentially by following the instructions in the submission form."
+             }
+            },
+            {
+             "link": {
+              "label": "Submit an alert",
+              "aria_label": "Submit an alert - open in a new tab",
+              "external": "https://rolex.integrityline.io/?lang=en",
+              "style": "filled translucent-dark"
+             }
+            }
+           ],
+           "theme": {
+            "theme": "dark-theme"
+           },
+           "title": "about-rolex-watches:csr:sustainable-development:alert-article",
+           "key": "blt01e28ad017fa5b39-2"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "pushes": {
+    "component": [
+     {
+      "uid": "blt7dfa7cdd2e96ab06",
+      "_content_type_uid": "next_chapter",
+      "box_spacing": {
+       "margin_top": "margin-top-m-pos",
+       "margin_bottom": "margin-bot-m-pos"
+      },
+      "jump_line": "Sustainability at Rolex",
+      "label": "Next",
+      "link": {
+       "label": "Learn more",
+       "aria_label": "Learn more",
+       "href": "/about-rolex/sustainable-development/sustainability-at-rolex",
+       "style": "filled opaque-green"
+      },
+      "title": "about-rolex-watches:csr:sustainable-development:next-chapter"
+     }
+    ]
+   }
+  }
+ ],
+ "controlslayout": false,
+ "is_reading_info": false,
+ "meta": {
+  "title": "About Rolex - Sustainability",
+  "description": "As a responsible manufacturer of sustainable products, Rolex continuously strives to improve its environmental and social impact. More.",
+  "title_og": "About Rolex - Sustainability",
+  "description_og": "As a responsible manufacturer of sustainable products, Rolex continuously strives to improve its environmental and social impact. More.",
+  "search_title": "Sustainability",
+  "search_section": "About Rolex",
+  "image_og_cld": "/rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-sustainability-share-v4_gettyimages-85758322",
+  "searchimage_og_cld": "/rolexcom/about-rolex/corporate-social-responsibility/sustainable-development/about-rolex-sustainability-search-v4_gettyimages-85758322",
+  "noindexing": false
+ },
+ "nofooter": false,
+ "page_type": "content page",
+ "title": "page:about-rolex-watches:csr:sustainable-development",
+ "preload": [
+  "CoverImage",
+  "ImageSimple",
+  "Skyline",
+  "Push",
+  "ArticleSimple",
+  "P13n",
+  "NextChapter"
+ ],
+ "sub_navigation": {
+  "uid": "bltf91d2ea2842f3de3",
+  "back": {
+   "label": "About Rolex",
+   "aria_label": "About Rolex - Back",
+   "url": "/about-rolex"
+  },
+  "module": [
+   {
+    "bento_p13n": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "bltb68efca6d02c8635",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "2",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "3",
+          "pattern": "xyza"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "Sustainability",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability",
+          "href": "/about-rolex/sustainable-development",
+          "assets": {
+           "alt": "Sustainability",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-sustainability-navigation_gettyimages-85758322_extended2_landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Sustainability at Rolex",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability at Rolex",
+          "href": "/about-rolex/sustainable-development/sustainability-at-rolex",
+          "assets": {
+           "alt": "Sustainability at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-at-rolex-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our supply chain management",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more -  Our supply chain management",
+          "href": "/about-rolex/sustainable-development/supply-chain-management",
+          "assets": {
+           "alt": "Our supply chain management",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-areas-of-action-navigation_wmfinalassembly_2201fl_003_v2"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "The traceability and recycling of<br>our raw materials",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - The traceability and recycling of our raw materials",
+          "href": "/about-rolex/sustainable-development/traceability",
+          "assets": {
+           "alt": "The traceability of our raw materials",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-the-traceability-of-our-raw-materials-navigation_m228238-0042_2106jva_002-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "A unique model for gold",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - A unique model for gold",
+          "href": "/about-rolex/sustainable-development/unique-model-for-gold",
+          "assets": {
+           "alt": "A unique model for gold",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-a-unique-model-for-gold-navigation_wm_gold_2503fm_0010-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our Perpetual Initiatives",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Our Perpetual Initiatives",
+          "href": "/about-rolex/sustainable-development/perpetual-initiatives",
+          "assets": {
+           "alt": "Perpetual Initiatives",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-perpetual-inititatives-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Training at Rolex",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Training at Rolex",
+          "href": "/about-rolex/sustainable-development/training",
+          "assets": {
+           "alt": "Training at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-training-at-rolex-navigation_rolexapprentices_2210ra_0123_landscape"
+           }
+          }
+         }
+        }
+       ],
+       "title": "about-rolex:sustainability:sub:bento-china-usa"
+      }
+     ],
+     "criteria": {
+      "name": {
+       "crit": [
+        {
+         "l": "unitedstates",
+         "op": "=",
+         "r": "100"
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "bento_p13n": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "bltb68efca6d02c8635",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "2",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "3",
+          "pattern": "xyza"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "Sustainability",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability",
+          "href": "/about-rolex/sustainable-development",
+          "assets": {
+           "alt": "Sustainability",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-sustainability-navigation_gettyimages-85758322_extended2_landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Sustainability at Rolex",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability at Rolex",
+          "href": "/about-rolex/sustainable-development/sustainability-at-rolex",
+          "assets": {
+           "alt": "Sustainability at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-at-rolex-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our supply chain management",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more -  Our supply chain management",
+          "href": "/about-rolex/sustainable-development/supply-chain-management",
+          "assets": {
+           "alt": "Our supply chain management",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-areas-of-action-navigation_wmfinalassembly_2201fl_003_v2"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "The traceability and recycling of<br>our raw materials",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - The traceability and recycling of our raw materials",
+          "href": "/about-rolex/sustainable-development/traceability",
+          "assets": {
+           "alt": "The traceability of our raw materials",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-the-traceability-of-our-raw-materials-navigation_m228238-0042_2106jva_002-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "A unique model for gold",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - A unique model for gold",
+          "href": "/about-rolex/sustainable-development/unique-model-for-gold",
+          "assets": {
+           "alt": "A unique model for gold",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-a-unique-model-for-gold-navigation_wm_gold_2503fm_0010-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our Perpetual Initiatives",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Our Perpetual Initiatives",
+          "href": "/about-rolex/sustainable-development/perpetual-initiatives",
+          "assets": {
+           "alt": "Perpetual Initiatives",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-perpetual-inititatives-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Training at Rolex",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Training at Rolex",
+          "href": "/about-rolex/sustainable-development/training",
+          "assets": {
+           "alt": "Training at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-training-at-rolex-navigation_rolexapprentices_2210ra_0123_landscape"
+           }
+          }
+         }
+        }
+       ],
+       "title": "about-rolex:sustainability:sub:bento-china-usa"
+      }
+     ],
+     "criteria": {
+      "name": {
+       "crit": [
+        {
+         "l": "china",
+         "op": "=",
+         "r": "100"
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "bento_p13n": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "blt8f4e9197da05af3b",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "2",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "3",
+          "pattern": "xyza"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "Sustainability",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability",
+          "href": "/about-rolex/sustainable-development",
+          "assets": {
+           "alt": "Sustainability",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-sustainability-navigation_gettyimages-85758322_extended2_landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Sustainability at Rolex",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability at Rolex",
+          "href": "/about-rolex/sustainable-development/sustainability-at-rolex",
+          "assets": {
+           "alt": "Sustainability at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-at-rolex-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our supply chain management",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Our supply chain management",
+          "href": "/about-rolex/sustainable-development/supply-chain-management",
+          "assets": {
+           "alt": "Our supply chain management",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-areas-of-action-navigation_wmfinalassembly_2201fl_003_v2"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "The traceability and recycling of<br>our raw materials",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - The traceability and recycling of our raw materials",
+          "href": "/about-rolex/sustainable-development/traceability",
+          "assets": {
+           "alt": "The traceability of our raw materials",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-the-traceability-of-our-raw-materials-navigation_m228238-0042_2106jva_002"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "A unique model for gold",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - A unique model for gold",
+          "href": "/about-rolex/sustainable-development/unique-model-for-gold",
+          "assets": {
+           "alt": "A unique model for gold",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-a-unique-model-for-gold-navigation_wm_gold_2503fm_0010"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our Perpetual Initiatives",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Our Perpetual Initiatives",
+          "href": "/about-rolex/sustainable-development/perpetual-initiatives",
+          "assets": {
+           "alt": "Perpetual Initiatives",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-perpetual-inititatives-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Training at Rolex",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Training at Rolex",
+          "href": "/about-rolex/sustainable-development/training",
+          "assets": {
+           "alt": "Training at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-training-at-rolex-navigation_rolexapprentices_2210ra_0123_landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "File a report",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - File a report",
+          "href": "/about-rolex/sustainable-development/file-a-report",
+          "assets": {
+           "alt": "File a report",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-file-a-report-navigation_centreformation_18ra_276-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Packaging disposal",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Packaging disposal",
+          "href": "/about-rolex/sustainable-development/packaging-disposal-italy",
+          "assets": {
+           "alt": "Packaging disposal",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-italy-packaging-disposal-navigation_rolexapprentices_2210ra_0326r-landscape"
+           }
+          }
+         }
+        }
+       ],
+       "title": "about-rolex:sustainability:sub:bento-italy"
+      }
+     ],
+     "criteria": {
+      "name": {
+       "crit": [
+        {
+         "l": "italy",
+         "op": "=",
+         "r": "100"
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "bento_p13n": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "blt48a45adb654d748b",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "2",
+          "pattern": "xyxz"
+         }
+        },
+        {
+         "grid": {
+          "label": "3",
+          "pattern": "xyza"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "Sustainability",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability",
+          "href": "/about-rolex/sustainable-development",
+          "assets": {
+           "alt": "Sustainability",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-sustainability-navigation_gettyimages-85758322_extended2_landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Sustainability at Rolex ",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Sustainability at Rolex ",
+          "href": "/about-rolex/sustainable-development/sustainability-at-rolex",
+          "assets": {
+           "alt": "Sustainability at Rolex ",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-at-rolex-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our supply chain management",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more -  Our supply chain management",
+          "href": "/about-rolex/sustainable-development/supply-chain-management",
+          "assets": {
+           "alt": "Our supply chain management",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-areas-of-action-navigation_wmfinalassembly_2201fl_003_v2"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "The traceability and recycling of<br>our raw materials",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - The traceability of our raw materials",
+          "href": "/about-rolex/sustainable-development/traceability",
+          "assets": {
+           "alt": "The traceability of our raw materials",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-the-traceability-of-our-raw-materials-navigation_m228238-0042_2106jva_002"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "A unique model for gold",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - A unique model for gold",
+          "href": "/about-rolex/sustainable-development/unique-model-for-gold",
+          "assets": {
+           "alt": "A unique model for gold",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 1446,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-a-unique-model-for-gold-navigation_wm_gold_2503fm_0010-2"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Our Perpetual Initiatives",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Our Perpetual Initiatives",
+          "href": "/about-rolex/sustainable-development/perpetual-initiatives",
+          "assets": {
+           "alt": "Perpetual Initiatives",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-our-perpetual-inititatives-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Training at Rolex",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Training at Rolex",
+          "href": "/about-rolex/sustainable-development/training",
+          "assets": {
+           "alt": "Training at Rolex",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-training-at-rolex-navigation_rolexapprentices_2210ra_0123_landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "File a report",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - File a report",
+          "href": "/about-rolex/sustainable-development/file-a-report",
+          "assets": {
+           "alt": "File a report",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/about-rolex/corporate-social-responsibility/navigation/2026/about-rolex-sustainability-file-a-report-navigation_centreformation_18ra_276-landscape"
+           }
+          }
+         }
+        }
+       ],
+       "title": "about-rolex:sustainability:sub:bento"
+      }
+     ]
+    }
+   }
+  ],
+  "pattern": "/about-rolex/sustainable-development{/*pages}",
+  "subnav_heading": "Sustainability",
+  "title": "about-rolex:sustainability:sub",
+  "_content_type_uid": "navigation_sub"
+ }
+}

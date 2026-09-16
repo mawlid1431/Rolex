@@ -1,0 +1,102 @@
+{
+ "uid": "blt826bb103a9d5e0ab",
+ "url": "/wishlist",
+ "breadcrumb": [
+  {
+   "title": "Favourites",
+   "href": "/wishlist"
+  }
+ ],
+ "components": [
+  {
+   "covers": {
+    "component": [
+     {
+      "uid": "blt070fe6bbb8b0f625",
+      "_content_type_uid": "page_heading",
+      "heading": [
+       {
+        "classic": {
+         "kicker": "Your",
+         "title": "Favourites"
+        }
+       }
+      ],
+      "title": "page-heading:wishlist"
+     }
+    ]
+   }
+  },
+  {
+   "specials": {
+    "component": [
+     {
+      "uid": "bltc0bb48fc32b57854",
+      "_content_type_uid": "wishlist",
+      "accessories_label": "Accessories",
+      "cover": {
+       "kicker": "Your",
+       "title": "favourite"
+      },
+      "cta": {
+       "aria_label": "Find your Rolex",
+       "href": "/watches/find-rolex",
+       "label": "Find your Rolex"
+      },
+      "cta_label": "Show QR code to share to a phone.",
+      "modal": {
+       "title": "Scan this QR Code",
+       "text": "Share your favourite Rolex watches and accessories to a phone."
+      },
+      "paragraph": "Edit, manage and share your selection of favourite Rolex watches and accessories.",
+      "paragraph_empty_state": "Browse the online catalogue of watches and accessories, and add your favourites to your wishlist here.",
+      "share_label": "Share your favourites",
+      "title": "wishlist:main-wishlist",
+      "watches_label": "Watches",
+      "ymal": [
+       {
+        "_content_type_uid": "ymal",
+        "uid": "bltc1b03c37778dcced",
+        "heading": "Watches you may like",
+        "paragraph": "These watches have been selected for you to add to your list of favourites.",
+        "personalized": true,
+        "rmcs": [
+         {
+          "rmc": "m124060-0001"
+         },
+         {
+          "rmc": "m126233-0039"
+         },
+         {
+          "rmc": "m279138rbr-0015"
+         }
+        ],
+        "title": "wishlist:ymal"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "controlslayout": false,
+ "meta": {
+  "title": "Rolex Wishlist - Your Selection | Rolex®",
+  "description": "Explore the Rolex collection of prestigious, high-precision timepieces and add your favourites to your wishlist.",
+  "title_og": "Rolex Wishlist - Your Selection | Rolex®",
+  "description_og": "Explore the Rolex collection of prestigious, high-precision timepieces and add your favourites to your wishlist.",
+  "image_og": "/v7/dam/homepage/rolex-share.jpg",
+  "searchimage_og": "/v7/dam/homepage/rolex-search.jpg",
+  "search_section": "Watches",
+  "search_title": "Rolex Wishlist - Your Selection",
+  "image_og_cld": "/image/upload/v1708383152/rolexcom/homepage/rolex-share.jpg",
+  "searchimage_og_cld": "/image/upload/v1708383153/rolexcom/homepage/rolex-search.jpg"
+ },
+ "nofooter": false,
+ "page_type": "wishlist page",
+ "title": "page:wishlist",
+ "preload": [
+  "PageHeading",
+  "Wishlist"
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "current": "Singapore",
+ "languagesHeading": "Languages available in",
+ "regionHeading": [
+  "Choose",
+  "another region"
+ ],
+ "located": "You are currently located in Singapore.",
+ "viewOther": "You can view the site in another country by making a selection below.",
+ "languages": [
+  {
+   "label": "English",
+   "lang": "en"
+  },
+  {
+   "label": "Français",
+   "lang": "fr"
+  },
+  {
+   "label": "Deutsch",
+   "lang": "de"
+  },
+  {
+   "label": "Italiano",
+   "lang": "it"
+  },
+  {
+   "label": "简体中文",
+   "lang": "zh-hans"
+  },
+  {
+   "label": "繁體中文",
+   "lang": "zh-hant"
+  },
+  {
+   "label": "日本語",
+   "lang": "ja"
+  },
+  {
+   "label": "Español",
+   "lang": "es"
+  },
+  {
+   "label": "Português (Brasil)",
+   "lang": "pt"
+  },
+  {
+   "label": "한국어",
+   "lang": "ko"
+  },
+  {
+   "label": "Русский",
+   "lang": "ru"
+  },
+  {
+   "label": "العربية",
+   "lang": "ar"
+  },
+  {
+   "label": "Türkçe",
+   "lang": "tr"
+  },
+  {
+   "label": "Bahasa Indonesia",
+   "lang": "id"
+  },
+  {
+   "label": "ภาษาไทย",
+   "lang": "th"
+  },
+  {
+   "label": "فارسی",
+   "lang": "fa"
+  },
+  {
+   "label": "Nederlands",
+   "lang": "nl"
+  },
+  {
+   "label": "Tiếng Việt",
+   "lang": "vi"
+  },
+  {
+   "label": "हिंदी",
+   "lang": "hi"
+  },
+  {
+   "label": "Polski",
+   "lang": "pl"
+  },
+  {
+   "label": "עברית",
+   "lang": "he"
+  },
+  {
+   "label": "Bahasa Malaysia",
+   "lang": "ms"
+  }
+ ],
+ "regions": [
+  {
+   "id": "america",
+   "label": "America",
+   "countries": [
+    {
+     "label": "Argentina",
+     "lang": "es-ar",
+     "href": "/es-ar/wishlist"
+    },
+    {
+     "label": "Brasil",
+     "lang": "pt-br",
+     "href": "/pt-br/wishlist"
+    },
+    {
+     "label": "Canada (EN)",
+     "lang": "en-ca",
+     "href": "/en-ca/wishlist"
+    },
+    {
+     "label": "Canada (FR)",
+     "lang": "fr-ca",
+     "href": "/fr-ca/wishlist"
+    },
+    {
+     "label": "México",
+     "lang": "es-mx",
+     "href": "/es-mx/wishlist"
+    },
+    {
+     "label": "United States",
+     "lang": "en-us",
+     "href": "/en-us/wishlist"
+    }
+   ]
+  },
+  {
+   "id": "asia",
+   "label": "Asia Pacific",
+   "countries": [
+    {
+     "label": "Australia",
+     "lang": "en-au",
+     "href": "/en-au/wishlist"
+    },
+    {
+     "label": "Hong-Kong",
+     "lang": "en-hk",
+     "href": "/en-hk/wishlist"
+    },
+    {
+     "label": "India",
+     "lang": "en-in",
+     "href": "/en-in/wishlist"
+    },
+    {
+     "label": "日本",
+     "lang": "ja-jp",
+     "href": "/ja-jp/wishlist"
+    },
+    {
+     "label": "Malaysia (EN)",
+     "lang": "en-my",
+     "href": "/en-my/wishlist"
+    },
+    {
+     "label": "Malaysia (MS)",
+     "lang": "ms-my",
+     "href": "/ms-my/wishlist"
+    },
+    {
+     "label": "Singapore",
+     "lang": "en-sg",
+     "href": "/en-sg/wishlist"
+    },
+    {
+     "label": "भारत",
+     "lang": "hi-in",
+     "href": "/hi-in/wishlist"
+    },
+    {
+     "label": "ไทย",
+     "lang": "th-th",
+     "href": "/th-th/wishlist"
+    },
+    {
+     "label": "대한민국",
+     "lang": "ko-kr",
+     "href": "/ko-kr/wishlist"
+    },
+    {
+     "label": "中国",
+     "lang": "zh-hans-cn",
+     "href": "#"
+    },
+    {
+     "label": "台灣",
+     "lang": "zh-hant-tw",
+     "href": "/zh-hant-tw/wishlist"
+    },
+    {
+     "label": "香港",
+     "lang": "zh-hant-hk",
+     "href": "/zh-hant-hk/wishlist"
+    }
+   ]
+  },
+  {
+   "id": "europe",
+   "label": "Europe",
+   "countries": [
+    {
+     "label": "België",
+     "lang": "nl-be",
+     "href": "/nl-be/wishlist"
+    },
+    {
+     "label": "Belgique",
+     "lang": "fr-be",
+     "href": "/fr-be/wishlist"
+    },
+    {
+     "label": "Deutschland",
+     "lang": "de-de",
+     "href": "/de-de/wishlist"
+    },
+    {
+     "label": "España",
+     "lang": "es-es",
+     "href": "/es-es/wishlist"
+    },
+    {
+     "label": "France",
+     "lang": "fr-fr",
+     "href": "/fr-fr/wishlist"
+    },
+    {
+     "label": "Ελλάδα",
+     "lang": "en-gr",
+     "href": "/en-gr/wishlist"
+    },
+    {
+     "label": "Italia",
+     "lang": "it-it",
+     "href": "/it-it/wishlist"
+    },
+    {
+     "label": "Nederland",
+     "lang": "nl-nl",
+     "href": "/nl-nl/wishlist"
+    },
+    {
+     "label": "Österreich",
+     "lang": "de-at",
+     "href": "/de-at/wishlist"
+    },
+    {
+     "label": "Schweiz",
+     "lang": "de-ch",
+     "href": "/de-ch/wishlist"
+    },
+    {
+     "label": "Suisse",
+     "lang": "fr-ch",
+     "href": "/fr-ch/wishlist"
+    },
+    {
+     "label": "Svizzera",
+     "lang": "it-ch",
+     "href": "/it-ch/wishlist"
+    },
+    {
+     "label": "United Kingdom",
+     "lang": "en-gb",
+     "href": "/en-gb/wishlist"
+    }
+   ]
+  },
+  {
+   "id": "africa",
+   "label": "Middle East",
+   "countries": [
+    {
+     "label": "الإمارات العربية المتحدة",
+     "lang": "ar-ae",
+     "href": "/ar-ae/wishlist"
+    },
+    {
+     "label": "المملكة العربية السعودية‎",
+     "lang": "ar-sa",
+     "href": "/ar-sa/wishlist"
+    }
+   ]
+  }
+ ]
+}

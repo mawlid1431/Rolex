@@ -1,0 +1,367 @@
+/* Navigation geometry reproduced from ref: components/nav-v2 (Main.js, Panes.js, Primary.js, bento/Bento.js, Sub.js). */
+
+.nav-panes {
+  --pane-width: 100vw;
+  --pane-inset: 1.8rem;
+}
+
+@media (min-width: 48rem) {
+  .nav-panes {
+    --pane-width: clamp(384px, 50vw, 1024px);
+    --primary-width: 384px;
+    --sub-width: calc(100vw - 384px);
+    --sub-start: 384px;
+  }
+}
+
+@media (min-width: 896px) {
+  .nav-panes {
+    --primary-width: calc(100vw - 512px);
+    --sub-width: 512px;
+    --sub-start: calc(100vw - 512px);
+  }
+}
+
+@media (min-width: 64.0625rem) {
+  .nav-panes {
+    --pane-width: clamp(512px, 33.3vw, 1280px);
+    --primary-width: var(--pane-width);
+    --sub-width: var(--pane-width);
+    --sub-start: var(--pane-width);
+  }
+}
+
+@media (min-width: 80rem) {
+  .nav-panes {
+    --pane-width: clamp(512px, 33.3vw, 960px);
+  }
+}
+
+/* ---------------------------------------------------------------- Bento */
+
+.bento-container {
+  position: relative;
+  width: calc(100% + var(--inset-inline, 0rem) * 2);
+  inset-inline-start: calc(var(--inset-inline, 0rem) * -1);
+  overflow: hidden;
+}
+
+.bento-deck {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  padding-block: 5px;
+  outline: none;
+}
+
+.bento-deck::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .bento-container[data-may-be-vertical="true"] {
+    --inset-inline: 0rem;
+  }
+
+  .bento-container[data-may-be-vertical="true"] .bento-deck {
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow: visible;
+  }
+
+  .bento-container[data-may-be-vertical="true"] .bento-nav {
+    display: none;
+  }
+}
+
+.bento-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.38rem;
+  flex: 0 0 calc(100% - var(--inset-inline, 0rem) * 2);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  padding-inline-start: var(--inset-inline, 0rem);
+  aspect-ratio: 21.9 / 17.4;
+  box-sizing: content-box;
+}
+
+.bento-grid:last-of-type {
+  margin-inline-end: var(--inset-inline, 0rem);
+}
+
+@media (min-width: 48rem) {
+  .bento-grid {
+    aspect-ratio: 37.8 / 30.1;
+    gap: 0.5rem;
+  }
+}
+
+.bento-grid > li {
+  min-height: 0;
+  display: grid;
+}
+
+.bento-cell {
+  container-name: bento-cell;
+  container-type: size;
+  display: block;
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 0.38rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.bento-cell * {
+  pointer-events: none;
+}
+
+.bento-figure {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.bento-asset {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: rgb(var(--another-light-grey));
+  transition: transform 0.6s var(--ease-out-quart);
+}
+
+.bento-asset-portrait {
+  display: none;
+}
+
+@container bento-cell (orientation: portrait) {
+  .bento-asset-landscape {
+    display: none;
+  }
+  .bento-asset-portrait {
+    display: block;
+  }
+}
+
+.bento-caption {
+  grid-area: 1 / 1;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 0.875rem;
+  width: calc(100% - (1.2rem + 0.38rem * 2));
+  color: rgb(var(--pure-white));
+  background: linear-gradient(231deg, rgba(255, 255, 255, 0) -3.16%, rgba(255, 255, 255, 0.2) 67.73%);
+  border: 0.75px solid rgb(var(--pure-white) / 0.1);
+  padding: 0.5rem 0.6rem;
+  height: fit-content;
+  margin: 0 auto 0.38rem;
+  align-self: end;
+  z-index: 2;
+  border-radius: 0.38rem;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-wrap: balance;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.bento-caption.light-theme {
+  color: rgb(var(--light-black));
+}
+
+@media (min-width: 48rem) {
+  .bento-caption {
+    font-size: 14px;
+  }
+}
+
+@media (any-hover: hover) and (any-pointer: fine) {
+  .bento-cell:hover .bento-caption {
+    background-color: rgb(var(--pure-white));
+    color: rgb(var(--green));
+  }
+}
+
+.bento-cell.active {
+  cursor: default;
+}
+
+.bento-cell.active .bento-caption {
+  background-color: rgb(var(--pure-white));
+  color: rgb(var(--green));
+}
+
+.bento-nav {
+  position: relative;
+  margin: 0 auto;
+  width: calc(100% - (var(--inset-inline, 0rem) * 2));
+  display: flex;
+  padding-block: 1.5rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .bento-nav {
+    padding-block: 0.95rem 0.75rem;
+  }
+}
+
+.bento-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bento-nav li {
+  display: contents;
+}
+
+.bento-nav li button {
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.bento-dot {
+  display: inline-block;
+  width: 0.875rem;
+  background: #d4d4d4;
+  height: 0.25rem;
+  transition:
+    width 0.3s ease-in-out,
+    background 0.4s ease-in-out;
+  border-radius: 9999px;
+  margin-inline: 5px;
+}
+
+.bento-nav li button[aria-current="true"] .bento-dot {
+  width: 1.5rem;
+  margin-inline: 0;
+  background: rgb(var(--green));
+}
+
+.bento-arrow {
+  position: absolute;
+  width: 2.25rem;
+  aspect-ratio: 1;
+  display: none;
+  border: 0;
+  border-radius: 9999px;
+  background-color: #ebebeb;
+  background-position: center;
+  background-size: 1.5rem;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.bento-arrow[data-dir="-1"] {
+  inset-inline-end: 3.25rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 15 15'%3E%3Cpath fill='%23212121' d='m9.48 15-7.91-7.5 7.91-7.5 1.95 1.95-5.83 5.55 5.83 5.55z'/%3E%3C/svg%3E");
+}
+
+.bento-arrow[data-dir="1"] {
+  inset-inline-end: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 15 15'%3E%3Cpath fill='%23212121' transform='rotate(180 7.5 7.5)' d='m9.48 15-7.91-7.5 7.91-7.5 1.95 1.95-5.83 5.55 5.83 5.55z'/%3E%3C/svg%3E");
+}
+
+.bento-arrow:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .bento-arrow {
+    display: grid;
+  }
+  .bento-arrow[data-dir="-1"]:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 15 15'%3E%3Cpath fill='%23127749' d='m9.48 15-7.91-7.5 7.91-7.5 1.95 1.95-5.83 5.55 5.83 5.55z'/%3E%3C/svg%3E");
+  }
+  .bento-arrow[data-dir="1"]:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 15 15'%3E%3Cpath fill='%23127749' transform='rotate(180 7.5 7.5)' d='m9.48 15-7.91-7.5 7.91-7.5 1.95 1.95-5.83 5.55 5.83 5.55z'/%3E%3C/svg%3E");
+  }
+}
+
+/* ------------------------------------------------------- Menu actions */
+
+.nav-action {
+  --sub-nav-back-height: 2.375rem;
+  height: var(--sub-nav-back-height);
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  width: calc(100% - 2rem);
+  text-decoration: none;
+  color: currentColor;
+  border: 1px solid rgb(var(--grey));
+  border-radius: 50px;
+  padding-inline: 1rem;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  text-align: center;
+  transition: color 300ms;
+}
+
+@media (min-width: 48rem) {
+  .nav-action {
+    --sub-nav-back-height: 2.75rem;
+    height: calc(var(--sub-nav-back-height) - 0.125rem);
+    font-size: 16px;
+  }
+}
+
+@media (any-hover: hover) and (any-pointer: fine) {
+  .nav-action:hover {
+    color: rgb(var(--green));
+  }
+}
+
+/* ---------------------------------------------------------------- Footer (ref: footer/Footer.js) */
+
+.footer-sections {
+  --baseline-font-size: clamp(0.875rem, 0.8125rem + 0.1563vw, 1rem);
+  --baseline: calc(1.79 * var(--baseline-font-size));
+}
+
+.footer-sections > li {
+  break-inside: avoid;
+  display: block;
+  line-height: var(--baseline);
+  margin-block-end: var(--baseline);
+  padding-inline-end: var(--grid-gap);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (min-width: 48rem) {
+  .footer-sections > li:nth-of-type(2),
+  .footer-sections > li:nth-of-type(7) {
+    break-before: column;
+  }
+}
+
+@media (min-width: 64.0625rem) {
+  .footer-sections > li {
+    width: calc(100% - var(--grid-col-unit));
+  }
+}

@@ -1,0 +1,366 @@
+{
+ "uid": "blt7584edea346eacfc",
+ "url": "/watches/:family(yacht-master-ii)/:rmc(m[a-z0-9]+\\-[a-z0-9]+)",
+ "back": false,
+ "breadcrumb": [
+  {
+   "title": "Watches",
+   "href": "/watches"
+  },
+  {
+   "title": "Yacht-Master II",
+   "href": "/watches/yacht-master-ii"
+  },
+  {
+   "title": "%rmc%",
+   "href": "/watches/yacht-master-ii/%rmc%"
+  }
+ ],
+ "components": [
+  {
+   "specials": {
+    "component": [
+     {
+      "uid": "blt06e31410d086f70c",
+      "_content_type_uid": "model",
+      "brochure": {
+       "link": {
+        "external": "#",
+        "label": "Download brochure",
+        "style": "inline green"
+       },
+       "title": "Brochure"
+      },
+      "dictionary": [
+       {
+        "translation": {
+         "key": "model_case",
+         "value": "Model case"
+        }
+       },
+       {
+        "translation": {
+         "key": "oyster_architecture",
+         "value": "Oyster architecture"
+        }
+       },
+       {
+        "translation": {
+         "key": "diameter",
+         "value": "Diameter"
+        }
+       },
+       {
+        "translation": {
+         "key": "material",
+         "value": "Material"
+        }
+       },
+       {
+        "translation": {
+         "key": "bezel",
+         "value": "Bezel"
+        }
+       },
+       {
+        "translation": {
+         "key": "winding_crown",
+         "value": "Winding crown"
+        }
+       },
+       {
+        "translation": {
+         "key": "crystal",
+         "value": "Crystal"
+        }
+       },
+       {
+        "translation": {
+         "key": "water_resistance",
+         "value": "Water resistance"
+        }
+       },
+       {
+        "translation": {
+         "key": "movement",
+         "value": "Movement"
+        }
+       },
+       {
+        "translation": {
+         "key": "calibre",
+         "value": "Calibre"
+        }
+       },
+       {
+        "translation": {
+         "key": "precision_static",
+         "value": "Precision"
+        }
+       },
+       {
+        "translation": {
+         "key": "functions",
+         "value": "Functions"
+        }
+       },
+       {
+        "translation": {
+         "key": "oscillator",
+         "value": "Oscillator"
+        }
+       },
+       {
+        "translation": {
+         "key": "winding",
+         "value": "Winding"
+        }
+       },
+       {
+        "translation": {
+         "key": "autonomy",
+         "value": "Power reserve"
+        }
+       },
+       {
+        "translation": {
+         "key": "bracelet",
+         "value": "Bracelet"
+        }
+       },
+       {
+        "translation": {
+         "key": "clasp_type",
+         "value": "Clasp"
+        }
+       },
+       {
+        "translation": {
+         "key": "dial",
+         "value": "Dial"
+        }
+       },
+       {
+        "translation": {
+         "key": "gem_settings",
+         "value": "Gem settings"
+        }
+       },
+       {
+        "translation": {
+         "key": "details",
+         "value": "Details"
+        }
+       },
+       {
+        "translation": {
+         "key": "certification",
+         "value": "Certification"
+        }
+       },
+       {
+        "translation": {
+         "key": "reference",
+         "value": "Reference"
+        }
+       },
+       {
+        "translation": {
+         "key": "specifications_title",
+         "value": "More {{1}} <span>technical details</span>"
+        }
+       },
+       {
+        "translation": {
+         "key": "case_back",
+         "value": "Case back"
+        }
+       }
+      ],
+      "legal_agec": [
+       {
+        "criteria": {
+         "name": {
+          "crit": [
+           {
+            "l": "france",
+            "op": "=",
+            "r": "100"
+           }
+          ]
+         }
+        }
+       }
+      ],
+      "title": "*:model",
+      "user_guides": {
+       "title": "User guide",
+       "user_guide_link": {
+        "aria_label": "Download the user guide",
+        "external": "#",
+        "label": "Download the user guide",
+        "style": "inline green"
+       },
+       "video_link": {
+        "aria_label": "Watch the video",
+        "label": "Watch the video",
+        "style": "inline green"
+       },
+       "text": "Learn how to set the time and other functions of your Rolex watch by consulting our user guides."
+      },
+      "ymal": [
+       {
+        "_content_type_uid": "ymal",
+        "uid": "blt5ec5b04484daf08b",
+        "heading": "Watches you may like",
+        "paragraph": "These watches have been selected for you. Add them with the heart icon to your favorites.",
+        "personalized": true,
+        "rmcs": [
+         "m268621-0004",
+         "m116503-0004",
+         "m226658-0001"
+        ],
+        "title": "modelpage:ymal"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "controlslayout": false,
+ "is_reading_info": false,
+ "meta": {
+  "title": "Rolex %name% watch: %material% - %rmc%",
+  "description": "Discover the %name% ref. %rmc% on Rolex.com. %diameter% %case% case in %material%, %bezel% bezel, %dial% dial. %bracelet% bracelet in %bracelet_material%",
+  "title_og": "Rolex %name% watch: %material% - %rmc%",
+  "description_og": "Discover the %name% ref. %rmc% on Rolex.com. %diameter% %case% case in %material%, %bezel% bezel, %dial% dial. %bracelet% bracelet in %bracelet_material%",
+  "search_title": "Rolex %name% watch",
+  "search_section": "Watches",
+  "noindexing": false
+ },
+ "nofooter": false,
+ "page_type": "model page",
+ "title": "page:modelpage:family:yacht-master-ii",
+ "preload": [
+  "Model",
+  "ModelLauncher",
+  "ModelShowVariations"
+ ],
+ "sub_navigation": {
+  "uid": "bltd4da70b364fc1eac",
+  "back": {
+   "label": "All Rolex watches",
+   "aria_label": "All Rolex watches - Back",
+   "url": "/watches"
+  },
+  "module": [
+   {
+    "bento": {
+     "reference": [
+      {
+       "_content_type_uid": "navigation_bento",
+       "uid": "blt6df2ba9540d56af2",
+       "grids": [
+        {
+         "grid": {
+          "label": "1",
+          "pattern": "xyxz"
+         }
+        }
+       ],
+       "items": [
+        {
+         "item": {
+          "label": "Yacht-Master II",
+          "theme": {
+           "theme": "dark-theme"
+          },
+          "aria_label": "Discover more - Yacht-Master II",
+          "href": "/watches/yacht-master-ii",
+          "assets": {
+           "alt": "Yacht-Master II",
+           "media": {
+            "src": "/images/professional-watches-yacht-master-ii-navigation-portrait.avif",
+            "portraitSrc": "/images/professional-watches-yacht-master-ii-navigation-portrait.avif",
+            "width": 1815,
+            "height": 708,
+            "portraitWidth": 891,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/navigation/professional-watches-yacht-master-ii-navigation-landscape"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Features",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Yacht-Master II Features",
+          "href": "/watches/yacht-master-ii/features",
+          "assets": {
+           "alt": "Yacht-Master Features",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 1446,
+            "portraitWidth": 1815,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/collection/professional-watches/yacht-master-ii/navigation/professional-watches-yacht-master-II-features-navigation__m126680-0001-square"
+           }
+          }
+         }
+        },
+        {
+         "item": {
+          "label": "Conquering open seas",
+          "theme": {
+           "theme": "light-theme"
+          },
+          "aria_label": "Discover more - Conquering open seas",
+          "href": "/watches/yacht-master-ii/conquering-open-seas",
+          "assets": {
+           "alt": " Broadening the horizon",
+           "media": {
+            "src": null,
+            "portraitSrc": null,
+            "width": 1815,
+            "height": 1446,
+            "portraitWidth": 1815,
+            "portraitHeight": 1446,
+            "id": "rolexcom/094398bf1f99/collection/professional-watches/yacht-master-ii/navigation/professional-watches-yacht-master-II-myth-navigation-square"
+           }
+          }
+         }
+        }
+       ],
+       "title": "professional-watches:yacht-master-ii:sub:bento"
+      }
+     ]
+    }
+   },
+   {
+    "config_launcher": {
+     "cta": {
+      "label": "Configure your model",
+      "param": "yacht-master-ii"
+     }
+    }
+   },
+   {
+    "action": {
+     "label": "Discover all models",
+     "aria_label": "Discover all models - Yacht-Master II",
+     "href": "/watches/yacht-master-ii/all-models"
+    }
+   }
+  ],
+  "pattern": "/watches/yacht-master-ii{/*pages}",
+  "subnav_heading": "Yacht-Master II",
+  "title": "professional-watches:yacht-master-ii:sub",
+  "_content_type_uid": "navigation_sub"
+ }
+}
