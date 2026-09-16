@@ -222,24 +222,34 @@ function Underfooter() {
   )
 }
 
-function withAppLinks(categories: Category[]): Category[] {
-  return categories.map((category) => {
-    if (category.label !== "Buying and servicing") return category
-    const links = [...(category.links ?? [])]
-    const hasGetInTouch = links.some((l) => l.href === "/get-in-touch" || l.label === "Get in touch")
-    const hasCart = links.some((l) => l.href === "/cart" || l.label === "Your cart")
-    if (!hasGetInTouch) {
-      links.push({ starts_new_group: true, label: "Get in touch", href: "/get-in-touch" })
-    }
-    if (!hasCart) {
-      links.push({ starts_new_group: false, label: "Your cart", href: "/cart" })
-    }
-    return { ...category, links }
-  })
+function slimFooterCategories(): Category[] {
+  const watchLinks = WATCH_COLLECTIONS.map((w, index) => ({
+    starts_new_group: index === 0,
+    label: w.name,
+    href: watchPath(w.slug),
+  }))
+
+  return [
+    {
+      label: "Rolex watches",
+      href: "/watches/submariner",
+      is_primary: true,
+      links: watchLinks,
+    },
+    {
+      label: "Contact",
+      is_primary: true,
+      links: [
+        { starts_new_group: false, label: "Get in touch", href: "/get-in-touch" },
+        { starts_new_group: false, label: "Your cart", href: "/cart" },
+        { starts_new_group: false, label: "Wishlist", href: "/wishlist" },
+      ],
+    },
+  ]
 }
 
 export function Footer({ breadcrumb }: { breadcrumb: BreadcrumbItem[] }) {
-  const categories = withAppLinks(footer.categories as Category[])
+  const categories = slimFooterCategories()
   return (
     <footer role="contentinfo" id="footer" className="w-full">
       <section className="flex justify-center pt-10 pb-[3.75rem] m:pb-10">
@@ -251,38 +261,18 @@ export function Footer({ breadcrumb }: { breadcrumb: BreadcrumbItem[] }) {
       <Breadcrumbs items={breadcrumb} />
       <FooterVisibility className="relative z-[1] bg-light-grey">
         <div className="full-grid pt-10 pb-6 m:pt-[3.75rem] m:pb-11">
-          <nav aria-label={footer.categories_aria_label} className="contents">
+          <nav aria-label="Footer navigation" className="contents">
             <ul className="footer-sections col-[main] columns-2 gap-x-[var(--grid-gap)] m:columns-3 xl:col-[col_3/span_9]">
               {categories.map((category, index) => (
-                <FooterFragment key={category.label} index={index} total={categories.length}>
+                <li key={category.label} className="footer-category break-inside-avoid">
                   <CategoryItem category={category} id={`footer-cat-${index}`} />
-                </FooterFragment>
+                </li>
               ))}
             </ul>
           </nav>
         </div>
         <div role="separator" className="mx-[var(--outer-margin)] h-px bg-grey" />
         <FooterControlPanel />
-        <section className="full-grid pt-[1.875rem] pb-[0.9375rem]">
-          <ul className="col-[main] flex flex-wrap justify-center gap-2.5">
-            {(footer.legal_links as { label: string; href: string }[]).map((link, index, all) => {
-              const target = resolveHref(link.href)
-              return (
-                <li
-                  key={link.href}
-                  className={cn(
-                    "legend100 flex items-center font-normal whitespace-nowrap text-light-black",
-                    index < all.length - 1 && "after:ms-2.5 after:content-['-']",
-                  )}
-                >
-                  <a href={target.href} rel="nofollow" target="_blank" className="text-inherit no-underline hover:text-green">
-                    {link.label}
-                  </a>
-                </li>
-              )
-            })}
-          </ul>
-        </section>
       </FooterVisibility>
       <Underfooter />
       <Link href="#main" className="sr-only">

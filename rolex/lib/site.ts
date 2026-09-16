@@ -5,11 +5,7 @@ export const SITE_NAME = "Rolex"
 
 /** App routes keyed by path (without locale). */
 export const ROUTES = {
-  padellone: "/watches/new-watches/perpetual-padellone",
-  watchmaking: "/watchmaking/a-unique-approach",
-  sustainability: "/about-rolex/sustainable-development",
   wishlist: "/wishlist",
-  yachtMasterII: "/watches/yacht-master-ii/m126688-0001",
   cart: "/cart",
   getInTouch: "/get-in-touch",
 } as const
@@ -26,15 +22,18 @@ function isOfficialUrl(href: string) {
   return OFFICIAL_HOST.test(href)
 }
 
-const KNOWN = new Set<string>([
+const WATCH_PATHS = new Set(WATCH_COLLECTIONS.map((w) => watchPath(w.slug)))
+
+const APP_PATHS = new Set<string>([
   ...Object.values(ROUTES),
-  ...WATCH_COLLECTIONS.map((w) => watchPath(w.slug)),
+  ...WATCH_PATHS,
+  "/watches",
 ])
 
 /**
  * Resolve CMS hrefs to stay inside this app.
- * Official Rolex / Rolex.org / media hosts are neutralized to `#`.
- * Other absolute URLs (mailto, tel, third-party) stay as-is.
+ * Only known app routes (watches, cart, get-in-touch, wishlist) stay live.
+ * Official Rolex / Rolex.org / media hosts and unknown CMS paths → `#`.
  */
 export function resolveHref(href?: string | null): ResolvedLink {
   if (!href || href === "#") return { href: "#", external: false }
@@ -42,19 +41,34 @@ export function resolveHref(href?: string | null): ResolvedLink {
 
   if (/^(https?:|mailto:|tel:)/.test(href)) {
     if (isOfficialUrl(href)) return { href: "#", external: false }
-    return { href, external: !href.startsWith("mailto:") && !href.startsWith("tel:") }
+    if (href.startsWith("mailto:") || href.startsWith("tel:")) {
+      return { href, external: false }
+    }
+    return { href: "#", external: false }
   }
 
   const path = href.replace(/^\/en-sg(?=\/|$)/, "") || "/"
   const clean = path.split(/[?#]/)[0].replace(/\/$/, "") || "/"
 
   if (clean === "/") {
-    return { href: path.startsWith("/en-sg") ? path : "/", external: false }
+    return { href: "/", external: false }
   }
 
-  // Prefer known rebuilt routes; still keep unknown paths local so the menu stays in-app.
-  void KNOWN
-  return { href: `/${LOCALE}${path.startsWith("/") ? path : `/${path}`}`, external: false }
+  // Collection watch → local watch page
+  const watchMatch = clean.match(/^\/watches\/([^/]+)/)
+  if (watchMatch) {
+    const slug = watchMatch[1]!
+    if (WATCH_PATHS.has(watchPath(slug))) {
+      return { href: localPath(watchPath(slug)), external: false }
+    }
+    return { href: "#", external: false }
+  }
+
+  if (APP_PATHS.has(clean)) {
+    return { href: localPath(clean), external: false }
+  }
+
+  return { href: "#", external: false }
 }
 
 export function localPath(path: string) {
