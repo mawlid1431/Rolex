@@ -1,35 +1,25 @@
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from "react"
-import {
-  motion,
-  useMotionValueEvent,
-  useReducedMotion,
-  useScroll,
-  useTransform,
-} from "framer-motion"
+import { motion, useMotionValue, useReducedMotion, useTransform } from "framer-motion"
 import Link from "next/link"
 import { resolveHref } from "@/lib/site"
 import { cn } from "@/lib/utils"
 
 /**
  * Sticky track length in viewport heights.
- * Long enough that the full Padellone film can scrub before the roller cards enter.
+ * Long enough that the full Padellone film scrubs before the roller cards enter.
  */
-const HERO_SCROLL_VH = 340
+const HERO_SCROLL_VH = 360
 
 /** Progress phases within the sticky track (0 → 1). */
 const PHASE = {
-  /** Title stays fully visible until here. */
-  fadeStart: 0.58,
-  /** Title + CTA fully gone; dark overlay fully on. */
-  fadeEnd: 0.74,
-  /** Roller cards appear only after the film has finished scrubbing. */
-  cardsEnter: 0.78,
-  /** Hide cards again when scrolling back up past this point. */
-  cardsReset: 0.7,
-  /** Film reaches its last frame here (before cards). */
-  scrubEnd: 0.72,
+  fadeStart: 0.62,
+  fadeEnd: 0.78,
+  /** Cards only after the film finishes (scrubEnd). */
+  cardsEnter: 0.82,
+  cardsReset: 0.76,
+  scrubEnd: 0.78,
 } as const
 
 export type HeroRollerItem = {
@@ -54,6 +44,12 @@ export type HeroMediaOverlayProps = {
   items: HeroRollerItem[]
 }
 
+function readHeroProgress(root: HTMLElement) {
+  const total = Math.max(1, root.offsetHeight - window.innerHeight)
+  const scrolled = Math.min(total, Math.max(0, -root.getBoundingClientRect().top))
+  return scrolled / total
+}
+
 /**
  * Homepage hero.
  * Sticky film scrubbed by scroll → title fades → dark overlay → featured roller cards.
@@ -76,56 +72,75 @@ export function HeroMediaOverlay({
   const reducedMotion = useReducedMotion()
   const [ready, setReady] = useState(false)
   const [installationVisible, setInstallationVisible] = useState(false)
-
-  const { scrollYProgress } = useScroll({
-    target: rootRef,
-    offset: ["start start", "end start"],
-  })
+  const progress = useMotionValue(0)
 
   const overlayOpacity = useTransform(
-    scrollYProgress,
+    progress,
     [0, PHASE.fadeStart, PHASE.fadeEnd, 1],
     [0, 0, 1, 1],
   )
   const textOpacity = useTransform(
-    scrollYProgress,
+    progress,
     [0, PHASE.fadeStart, PHASE.fadeEnd, 1],
     [1, 1, 0, 0],
   )
 
-  useMotionValueEvent(scrollYProgress, "change", (p) => {
-    if (reducedMotion) return
+  useEffect(() => {
+    const root = rootRef.current
+    if (!root || reducedMotion) {
+      setInstallationVisible(false)
+      return
+    }
 
-    setInstallationVisible((prev) => {
-      if (!prev && p >= PHASE.cardsEnter) return true
-      if (prev && p <= PHASE.cardsReset) return false
-      return prev
-    })
+    let raf = 0
+    const tick = () => {
+      const p = readHeroProgress(root)
+      progress.set(p)
 
-    const video = videoRef.current
-    if (!video) return
-    const duration = video.duration
-    if (!Number.isFinite(duration) || duration <= 0) return
+      setInstallationVisible((prev) => {
+        if (!prev && p >= PHASE.cardsEnter) return true
+        if (prev && p <= PHASE.cardsReset) return false
+        return prev
+      })
 
-    // Full film plays across 0 → scrubEnd; cards only after that.
-    const scrub = Math.min(1, Math.max(0, p / PHASE.scrubEnd))
-    const next = scrub * duration
-    if (Math.abs(video.currentTime - next) > 0.033) {
-      try {
-        video.currentTime = next
-      } catch {
-        /* ignore seek before metadata */
+      const video = videoRef.current
+      if (video) {
+        const duration = video.duration
+        if (Number.isFinite(duration) && duration > 0) {
+          const scrub = Math.min(1, Math.max(0, p / PHASE.scrubEnd))
+          const next = scrub * duration
+          if (Math.abs(video.currentTime - next) > 0.033) {
+            try {
+              video.currentTime = next
+            } catch {
+              /* ignore seek before metadata */
+            }
+          }
+          if (!video.paused) video.pause()
+        }
       }
     }
-    if (!video.paused) video.pause()
-  })
+
+    const onScroll = () => {
+      cancelAnimationFrame(raf)
+      raf = requestAnimationFrame(tick)
+    }
+
+    tick()
+    window.addEventListener("scroll", onScroll, { passive: true })
+    window.addEventListener("resize", onScroll, { passive: true })
+    return () => {
+      cancelAnimationFrame(raf)
+      window.removeEventListener("scroll", onScroll)
+      window.removeEventListener("resize", onScroll)
+    }
+  }, [progress, reducedMotion])
 
   useEffect(() => {
     const t = window.setTimeout(() => setReady(true), 80)
     return () => window.clearTimeout(t)
   }, [])
 
-  // Keep the film paused — scroll drives currentTime (down opens, up reverses).
   useEffect(() => {
     const video = videoRef.current
     if (!video) return
@@ -270,13 +285,14 @@ export function HeroMediaOverlay({
         </nav>
       </div>
 
-      <div
-        className="pointer-events-none absolute bottom-6 left-1/2 z-[4] -translate-x-1/2 text-white"
-        aria-hidden
-        style={{ opacity: showInstall ? 0 : 1 }}
-      >
-        <span className="block h-2 w-2 rotate-45 border-b border-r border-white/80" />
-      </div>
+      {!showInstall && (
+        <div
+          className="pointer-events-none absolute bottom-6 left-1/2 z-[4] -translate-x-1/2 text-white"
+          aria-hidden
+        >
+          <span className="block h-2 w-2 rotate-45 border-b border-r border-white/80" />
+        </div>
+      )}
     </div>
   )
 }
