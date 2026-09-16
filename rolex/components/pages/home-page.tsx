@@ -7,27 +7,27 @@ import { WATCH_COLLECTIONS, watchPath } from "@/lib/watches"
 const ROLLER = [
   {
     id: "new-watches",
-    href: "/watches/new-watches",
+    href: watchPath("new-watches"),
     kicker: "Where a new world begins",
     title: "New watches 2026",
     image: "/images/homepage/roller-new-watches-2026.avif",
     imageAlt: "New watches 2026 — Perpetual Padellone",
   },
   {
-    id: "sail-gp",
-    href: "#sail-gp",
-    kicker: "Rolex and yachting",
-    title: "Rolex Switzerland Sail Grand Prix Geneva",
-    image: "/images/homepage/roller-sailgp-geneva.avif",
-    imageAlt: "Rolex Switzerland Sail Grand Prix Geneva",
+    id: "submariner",
+    href: watchPath("submariner"),
+    kicker: "Professional watches",
+    title: "Submariner",
+    image: "/images/professional-watches-submariner-navigation-square.avif",
+    imageAlt: "Submariner",
   },
   {
-    id: "tom-slingsby",
-    href: "#tom-slingsby",
-    kicker: "The Rolex family",
-    title: "Tom Slingsby",
-    image: "/images/homepage/roller-tom-slingsby.avif",
-    imageAlt: "Tom Slingsby",
+    id: "daytona",
+    href: watchPath("cosmograph-daytona"),
+    kicker: "Professional watches",
+    title: "Cosmograph Daytona",
+    image: "/images/professional-watches-cosmograph-daytona-naviguation-square.avif",
+    imageAlt: "Cosmograph Daytona",
   },
 ] as const
 
@@ -42,10 +42,10 @@ const SCROLL_CHAPTERS = ["submariner", "cosmograph-daytona", "gmt-master-ii"]
   .filter(Boolean)
 
 /**
- * Rolex.com homepage: sticky hero film scrubbed by scroll + featured roller + more scroll chapters.
+ * Homepage: sticky hero film scrub + watch collection chapters + get in touch.
  */
 export function HomePage() {
-  const padellone = resolveHref(ROUTES.padellone)
+  const newWatches = resolveHref(watchPath("new-watches"))
 
   return (
     <main id="main">
@@ -53,7 +53,7 @@ export function HomePage() {
         kicker="WHEN TIMES ALIGN"
         title="The new Perpetual Padellone"
         ctaLabel="Discover more"
-        ctaHref={ROUTES.padellone}
+        ctaHref={watchPath("new-watches")}
         videoSrc="/videos/rolex-new-watches-2026-padellone-m53505-0003-film.mp4"
         videoPortraitSrc="/videos/rolex-new-watches-2026-padellone-m53505-0003-film-portrait.mp4"
         posterSrc="/images/homepage/film-posterframe.avif"
@@ -73,7 +73,7 @@ export function HomePage() {
               Continue exploring the collection, or discover the new Perpetual Padellone.
             </p>
             <Link
-              href={padellone.href}
+              href={newWatches.href}
               className="btn btn-filled inline-flex min-h-11 items-center rounded-full px-6 text-sm"
             >
               Continue
@@ -101,15 +101,7 @@ export function HomePage() {
               <p className="surtitle70 mb-1 uppercase text-dark-grey">{item.kicker}</p>
               <h2 className="headline50 mb-3">{item.title}</h2>
               <Link
-                href={
-                  item.id === "new-watches"
-                    ? localPath(ROUTES.padellone)
-                    : resolveHref(
-                        item.id === "sail-gp"
-                          ? "/rolex-event/yachting/rolex-switzerland-sail-grand-prix-geneva"
-                          : "/rolex-family/yachting/tom-slingsby",
-                      ).href
-                }
+                href={localPath(item.href)}
                 className="legend100 inline-flex items-center gap-1 text-green underline-offset-4 hover:underline"
               >
                 Discover more
@@ -119,7 +111,6 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Scroll chapters after hero + cards — same expand language as each watch page */}
       {SCROLL_CHAPTERS.map((watch, index) => (
         <div key={watch.slug}>
           {index === 1 && (
@@ -172,41 +163,14 @@ export function HomePage() {
       ))}
 
       <section
-        id="watchmaking"
-        className="full-grid scroll-mt-24 border-t border-black/5 bg-[rgb(var(--light-beige))] px-[var(--outer-margin)] py-[clamp(3rem,8vw,5rem)]"
-      >
-        <div className="col-[main] m:col-[col_2/span_10] grid gap-8 m:grid-cols-2 m:items-center">
-          <div>
-            <p className="surtitle70 mb-3 text-dark-grey">Excellence in the making</p>
-            <h2 className="headline50 mb-4">Watchmaking</h2>
-            <p className="body100 mb-6 max-w-md font-light text-dark-grey">
-              From design to assembly, every Rolex watch is the result of unmatched expertise.
-            </p>
-            <Link
-              href={localPath(ROUTES.watchmaking)}
-              className="btn btn-filled inline-flex min-h-11 items-center rounded-full px-6 text-sm"
-            >
-              Discover more
-            </Link>
-          </div>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/homepage/welcome-back-push.avif"
-            alt=""
-            className="w-full max-w-xl justify-self-center object-cover"
-          />
-        </div>
-      </section>
-
-      <section
         id="get-in-touch"
         className="full-grid scroll-mt-24 bg-[rgb(var(--light-black))] px-[var(--outer-margin)] py-[clamp(3rem,8vw,5rem)] text-white"
       >
         <div className="col-[main] m:col-[col_3/span_8] text-center m:text-start">
-          <p className="surtitle70 mb-3 opacity-80">Official Rolex Retailers</p>
+          <p className="surtitle70 mb-3 opacity-80">Contact</p>
           <h2 className="headline50 mb-4">Get in touch</h2>
           <p className="body100 mb-8 max-w-xl font-light opacity-90">
-            Ready to continue? Contact an Official Rolex Retailer about a watch from your cart.
+            Ready to continue? Reach out about a watch from your cart.
           </p>
           <div className="flex flex-wrap justify-center gap-3 m:justify-start">
             <Link

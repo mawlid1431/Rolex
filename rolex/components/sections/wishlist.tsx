@@ -5,7 +5,8 @@ import { Html } from "@/components/cms/text-blocks"
 import { CmsLink } from "@/components/ui/cms-link"
 import { useFavourites } from "@/lib/favourites"
 import type { CmsLinkData, HeadingData, ImageCld } from "@/lib/cms/types"
-import { localPath, ROUTES } from "@/lib/site"
+import { localPath } from "@/lib/site"
+import { watchPath } from "@/lib/watches"
 import { cn } from "@/lib/utils"
 
 type Props = {
@@ -53,7 +54,7 @@ export function Wishlist({
             )}
             {(cta || cta_label) && (
               <CmsLink
-                href={cta?.href ?? localPath(ROUTES.padellone)}
+                href={cta?.href ?? localPath(watchPath("submariner"))}
                 external={cta?.external}
                 label={cta?.label ?? cta_label ?? "Discover the collection"}
                 ariaLabel={cta?.aria_label}

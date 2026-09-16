@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import { Icon } from "@/components/icons/icon"
 import { useCart } from "@/lib/cart"
 import { useFavourites } from "@/lib/favourites"
-import { localPath, resolveHref, ROUTES } from "@/lib/site"
+import { localPath, ROUTES } from "@/lib/site"
 import { cn } from "@/lib/utils"
 import { useNav } from "./nav-context"
 
@@ -71,7 +71,6 @@ export function MainBar() {
   const { count: cartCount } = useCart()
   const anyOpen = nav.pane !== null && nav.pane !== "sub"
   const menuOpen = nav.pane === "menu" || nav.pane === "languages"
-  const storeLocator = resolveHref("/store-locator")
 
   return (
     <header
@@ -113,16 +112,14 @@ export function MainBar() {
               <Icon type="search" />
               <span className="max-m:visually-hidden">Search</span>
             </button>
-            <a
-              href={storeLocator.href}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href={localPath(ROUTES.getInTouch)}
               className={toolClass}
               tabIndex={anyOpen ? -1 : undefined}
             >
               <Icon type="storelocator" />
-              <span className="max-m:visually-hidden">Store locator</span>
-            </a>
+              <span className="max-m:visually-hidden">Get in touch</span>
+            </Link>
             <Link
               href={localPath(ROUTES.wishlist)}
               className={cn(toolClass, "m:pe-1")}

@@ -24,13 +24,6 @@ export function WatchCollectionPage({ watch }: Props) {
     (w) => w.family === watch.family && w.slug !== watch.slug,
   ).slice(0, 3)
 
-  const deepLink =
-    watch.slug === "yacht-master-ii"
-      ? localPath(ROUTES.yachtMasterII)
-      : watch.slug === "new-watches"
-        ? localPath(ROUTES.padellone)
-        : undefined
-
   return (
     <>
       <main id="main">
@@ -43,8 +36,8 @@ export function WatchCollectionPage({ watch }: Props) {
           videoSrc={watch.videoSrc}
           videoPortraitSrc={watch.videoPortraitSrc}
           posterSrc={watch.posterSrc}
-          ctaLabel={deepLink ? "View model" : "Explore details"}
-          ctaHref={deepLink ?? "#details"}
+          ctaLabel="Explore details"
+          ctaHref="#details"
           secondaryLabel={savedCart ? "In cart" : "Add to cart"}
           secondaryPressed={savedCart}
           onSecondaryClick={() => toggleCart(cartId)}
@@ -72,19 +65,17 @@ export function WatchCollectionPage({ watch }: Props) {
               >
                 {savedWish ? "In wishlist" : "Add to wishlist"}
               </button>
-              {deepLink && (
-                <Link
-                  href={deepLink}
-                  className="btn inline-flex min-h-11 items-center rounded-full border border-black/15 px-6 text-sm"
-                >
-                  Open full page
-                </Link>
-              )}
               <Link
                 href={localPath(ROUTES.cart)}
                 className="btn inline-flex min-h-11 items-center px-4 text-sm text-green underline-offset-4 hover:underline"
               >
                 View cart
+              </Link>
+              <Link
+                href={localPath(ROUTES.getInTouch)}
+                className="btn inline-flex min-h-11 items-center px-4 text-sm text-green underline-offset-4 hover:underline"
+              >
+                Get in touch
               </Link>
             </div>
           </div>

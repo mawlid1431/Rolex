@@ -60,7 +60,7 @@ export function HeroMediaOverlay({
   kicker = "WHEN TIMES ALIGN",
   title,
   ctaLabel = "Discover more",
-  ctaHref = "/watches/new-watches/perpetual-padellone",
+  ctaHref = "/watches/new-watches",
   videoSrc,
   videoPortraitSrc,
   posterSrc,

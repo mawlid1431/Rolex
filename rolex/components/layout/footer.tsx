@@ -3,21 +3,14 @@ import footer from "@/lib/data/footer.json"
 import type { Media } from "@/lib/media"
 import { resolveHref } from "@/lib/site"
 import { cn } from "@/lib/utils"
-import { Icon, type IconName } from "@/components/icons/icon"
 import { Picture } from "@/components/media/picture"
-import { FooterA11yLink, FooterControlPanel, FooterVisibility, FooterWeChatLink } from "./footer-client"
+import { FooterA11yLink, FooterControlPanel, FooterVisibility } from "./footer-client"
+import { WATCH_COLLECTIONS, watchPath } from "@/lib/watches"
 
 export type BreadcrumbItem = { title: string; href: string }
 
-type FooterLink = { label: string; href?: string; external?: string; name?: string; starts_new_group?: boolean; p13n?: unknown[] }
+type FooterLink = { label: string; href?: string; starts_new_group?: boolean }
 type Category = { label: string; href?: string; is_primary?: boolean; links?: FooterLink[] }
-
-/** Personalised links shown for the Singapore locale. */
-const SG_P13N_INCLUDED = new Set(["File a report"])
-
-function visible(link: FooterLink) {
-  return !link.p13n?.length || SG_P13N_INCLUDED.has(link.label)
-}
 
 function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
   const all = [{ title: "Home", href: "/" }, ...items]
@@ -39,11 +32,7 @@ function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
                     href={index === 0 ? "/" : target.href}
                     itemProp="item"
                     className="inline-flex text-inherit no-underline transition-colors duration-300 hover:text-green"
-                    {...(index === 0
-                      ? { rel: "home" }
-                      : target.external
-                        ? { target: "_blank", rel: "noopener noreferrer" }
-                        : {})}
+                    {...(index === 0 ? { rel: "home" } : {})}
                   >
                     <span itemProp="name">{item.title}</span>
                   </a>
@@ -63,97 +52,47 @@ function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
 
 const linkClass = "inline-flex items-baseline gap-2 text-light-black no-underline transition-colors duration-300 hover:text-green"
 
+function FooterAnchor({ href, className, children }: { href: string; className?: string; children: React.ReactNode }) {
+  const target = resolveHref(href)
+  if (target.href === "#") {
+    return <span className={className}>{children}</span>
+  }
+  return (
+    <a href={target.href} className={className}>
+      {children}
+    </a>
+  )
+}
+
 function CategoryItem({ category, id }: { category: Category; id: string }) {
   const headingClass = cn(
     "block font-bold",
-    category.is_primary ? "text-[clamp(1.125rem,0.875rem+0.625vw,1.625rem)] leading-[1.05]" : "text-[var(--baseline-font-size)]",
+    category.is_primary
+      ? "text-[clamp(1.125rem,0.875rem+0.625vw,1.625rem)] leading-[1.05]"
+      : "text-[var(--baseline-font-size)]",
   )
-  const target = category.href ? resolveHref(category.href) : null
   return (
-    <li className="footer-category">
-      {target ? (
-        <a
-          id={id}
-          href={target.href}
-          className={cn(headingClass, "text-inherit no-underline transition-colors duration-300 hover:text-green")}
-          {...(target.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-        >
+    <li className="footer-category break-inside-avoid">
+      {category.href ? (
+        <FooterAnchor href={category.href} className={cn(headingClass, "text-inherit")}>
           {category.label}
-        </a>
+        </FooterAnchor>
       ) : (
         <span id={id} className={headingClass}>
           {category.label}
         </span>
       )}
       <ul aria-labelledby={id}>
-        {(category.links ?? []).filter(visible).map((link) => {
-          const resolved = resolveHref(link.external ?? link.href)
-          const isExternalPlatform = !!link.href?.startsWith("http") || !!link.external
-          return (
-            <li key={link.label} className={cn("text-[var(--baseline-font-size)] font-normal", link.starts_new_group && "mt-[var(--baseline)]")}>
-              <a
-                href={resolved.href}
-                className={linkClass}
-                {...(resolved.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                aria-label={isExternalPlatform ? `${link.label} - Open in new tab` : undefined}
-              >
-                {link.label}
-                {isExternalPlatform && category.label === "Our platforms" && (
-                  <Icon type="externalLink" className="size-3 translate-y-[0.2ex]" />
-                )}
-              </a>
-            </li>
-          )
-        })}
-      </ul>
-    </li>
-  )
-}
-
-const SOCIAL_ICONS: Record<string, IconName> = {
-  youtube: "youtube",
-  instagram: "instagram",
-  threads: "threads",
-  facebook: "facebook",
-  linkedin: "linkedin",
-  x: "x",
-  pinterest: "pinterest",
-  weibo: "weibo",
-  wechat: "wechat",
-  douyin: "douyin",
-  line: "line",
-}
-
-function SocialCategory() {
-  const social = footer.social as { label: string; links: FooterLink[] }
-  return (
-    <li className="footer-category">
-      <span id="footer-social" className="block text-[var(--baseline-font-size)] font-bold">
-        {social.label}
-      </span>
-      <ul aria-labelledby="footer-social">
-        {social.links.map((link) => {
-          const icon = SOCIAL_ICONS[link.label.toLowerCase()]
-          const content = (
-            <>
-              {icon && <Icon type={icon} className="size-3.5 translate-y-[0.2ex]" />}
-              {link.name ?? link.label}
-            </>
-          )
-          return (
-            <li key={link.label} className="text-[var(--baseline-font-size)] font-normal">
-              {link.label === "WeChat" ? (
-                <FooterWeChatLink label={link.label} className={linkClass} modal={footer.wechat}>
-                  {content}
-                </FooterWeChatLink>
-              ) : (
-                <a href={link.href} target="_blank" rel="noopener noreferrer" aria-label={`${link.label} - Open in new tab`} className={linkClass}>
-                  {content}
-                </a>
-              )}
-            </li>
-          )
-        })}
+        {(category.links ?? []).map((link) => (
+          <li
+            key={link.label}
+            className={cn("text-[var(--baseline-font-size)] font-normal", link.starts_new_group && "mt-[var(--baseline)]")}
+          >
+            <FooterAnchor href={link.href ?? "#"} className={linkClass}>
+              {link.label}
+            </FooterAnchor>
+          </li>
+        ))}
       </ul>
     </li>
   )
@@ -162,13 +101,18 @@ function SocialCategory() {
 function A11yCategory() {
   const a11y = footer.accessibility
   return (
-    <li className="footer-category">
+    <li className="footer-category break-inside-avoid">
       <span id="footer-a11y" className="block text-[var(--baseline-font-size)] font-bold">
         {a11y.label}
       </span>
       <ul aria-labelledby="footer-a11y">
         <li className="text-[var(--baseline-font-size)] font-normal">
-          <FooterA11yLink label={a11y.links[0].label} heading={a11y.modal.heading} text={a11y.modal.text} className={linkClass} />
+          <FooterA11yLink
+            label={a11y.links[0].label}
+            heading={a11y.modal.heading}
+            text={a11y.modal.text}
+            className={linkClass}
+          />
         </li>
       </ul>
     </li>
@@ -181,7 +125,6 @@ type Push = {
   poster: { image_cld: { alt: string; media: Media } }[]
 }
 
-/** Underfooter push revealed from behind the page. */
 function Underfooter() {
   const push = (footer.push[0].reference as Push[])[0]
   const image = push.poster[0].image_cld
@@ -197,10 +140,7 @@ function Underfooter() {
             <div className="col-[main]">
               <p className="headline50 mb-2.5">{push.heading.title}</p>
               {target.href === "#" ? (
-                <span
-                  aria-label={push.link.aria_label}
-                  className="btn btn-text text-white hover:[--text:rgb(var(--grey))] [&_svg]:size-3 s:[&_svg]:size-3.5"
-                >
+                <span className="btn btn-text text-white [&_svg]:size-3 s:[&_svg]:size-3.5">
                   {push.heading.subtitle}
                 </span>
               ) : (
@@ -208,9 +148,7 @@ function Underfooter() {
                   href={target.href}
                   aria-label={push.link.aria_label}
                   className="btn btn-text text-white hover:[--text:rgb(var(--grey))] [&_svg]:size-3 s:[&_svg]:size-3.5"
-                  {...(target.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 >
-                  {target.external ? <Icon type="externalLink" /> : null}
                   {push.heading.subtitle}
                 </a>
               )}
@@ -223,26 +161,23 @@ function Underfooter() {
 }
 
 function slimFooterCategories(): Category[] {
-  const watchLinks = WATCH_COLLECTIONS.map((w, index) => ({
-    starts_new_group: index === 0,
-    label: w.name,
-    href: watchPath(w.slug),
-  }))
-
   return [
     {
       label: "Rolex watches",
-      href: "/watches/submariner",
+      href: watchPath("submariner"),
       is_primary: true,
-      links: watchLinks,
+      links: WATCH_COLLECTIONS.map((w) => ({
+        label: w.name,
+        href: watchPath(w.slug),
+      })),
     },
     {
       label: "Contact",
       is_primary: true,
       links: [
-        { starts_new_group: false, label: "Get in touch", href: "/get-in-touch" },
-        { starts_new_group: false, label: "Your cart", href: "/cart" },
-        { starts_new_group: false, label: "Wishlist", href: "/wishlist" },
+        { label: "Get in touch", href: "/get-in-touch" },
+        { label: "Your cart", href: "/cart" },
+        { label: "Wishlist", href: "/wishlist" },
       ],
     },
   ]
@@ -262,12 +197,11 @@ export function Footer({ breadcrumb }: { breadcrumb: BreadcrumbItem[] }) {
       <FooterVisibility className="relative z-[1] bg-light-grey">
         <div className="full-grid pt-10 pb-6 m:pt-[3.75rem] m:pb-11">
           <nav aria-label="Footer navigation" className="contents">
-            <ul className="footer-sections col-[main] columns-2 gap-x-[var(--grid-gap)] m:columns-3 xl:col-[col_3/span_9]">
+            <ul className="footer-sections col-[main] columns-2 gap-x-[var(--grid-gap)] m:columns-2 xl:col-[col_3/span_9]">
               {categories.map((category, index) => (
-                <li key={category.label} className="footer-category break-inside-avoid">
-                  <CategoryItem category={category} id={`footer-cat-${index}`} />
-                </li>
+                <CategoryItem key={category.label} category={category} id={`footer-cat-${index}`} />
               ))}
+              <A11yCategory />
             </ul>
           </nav>
         </div>
@@ -279,16 +213,5 @@ export function Footer({ breadcrumb }: { breadcrumb: BreadcrumbItem[] }) {
         Back to top
       </Link>
     </footer>
-  )
-}
-
-/** Inserts accessibility before the second-to-last category and social before the last. */
-function FooterFragment({ index, total, children }: { index: number; total: number; children: React.ReactNode }) {
-  return (
-    <>
-      {index === total - 2 && <A11yCategory />}
-      {index === total - 1 && <SocialCategory />}
-      {children}
-    </>
   )
 }
